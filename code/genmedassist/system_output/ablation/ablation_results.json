@@ -1,0 +1,193 @@
+{
+  "Full System": {
+    "macro_f1": 0.925,
+    "precision": 1.0,
+    "recall": 0.9003,
+    "per_stratum": {
+      "S0": {
+        "name": "Safe",
+        "n": 398,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0
+      },
+      "S1": {
+        "name": "Categorical",
+        "n": 267,
+        "f1": 0.9981,
+        "recall": 0.9963
+      },
+      "S2": {
+        "name": "Numerical",
+        "n": 364,
+        "f1": 0.9875,
+        "recall": 0.9753
+      },
+      "S3": {
+        "name": "Multi-hop",
+        "n": 232,
+        "f1": 0.8041,
+        "recall": 0.6724
+      }
+    }
+  },
+  "No GraphRAG": {
+    "macro_f1": 0.6896,
+    "precision": 1.0,
+    "recall": 0.5481,
+    "per_stratum": {
+      "S0": {
+        "name": "Safe",
+        "n": 398,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0
+      },
+      "S1": {
+        "name": "Categorical",
+        "n": 267,
+        "f1": 0.0,
+        "recall": 0.0
+      },
+      "S2": {
+        "name": "Numerical",
+        "n": 364,
+        "f1": 0.931,
+        "recall": 0.8709
+      },
+      "S3": {
+        "name": "Multi-hop",
+        "n": 232,
+        "f1": 0.8041,
+        "recall": 0.6724
+      }
+    },
+    "delta_f1": -0.2354
+  },
+  "No NumDist": {
+    "macro_f1": 0.7882,
+    "precision": 1.0,
+    "recall": 0.6987,
+    "per_stratum": {
+      "S0": {
+        "name": "Safe",
+        "n": 398,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0
+      },
+      "S1": {
+        "name": "Categorical",
+        "n": 267,
+        "f1": 0.9981,
+        "recall": 0.9963
+      },
+      "S2": {
+        "name": "Numerical",
+        "n": 364,
+        "f1": 0.7744,
+        "recall": 0.6319
+      },
+      "S3": {
+        "name": "Multi-hop",
+        "n": 232,
+        "f1": 0.6313,
+        "recall": 0.4612
+      }
+    },
+    "delta_f1": -0.1368
+  },
+  "No VectorRAG": {
+    "macro_f1": 0.925,
+    "precision": 1.0,
+    "recall": 0.9003,
+    "per_stratum": {
+      "S0": {
+        "name": "Safe",
+        "n": 398,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0
+      },
+      "S1": {
+        "name": "Categorical",
+        "n": 267,
+        "f1": 0.9981,
+        "recall": 0.9963
+      },
+      "S2": {
+        "name": "Numerical",
+        "n": 364,
+        "f1": 0.9875,
+        "recall": 0.9753
+      },
+      "S3": {
+        "name": "Multi-hop",
+        "n": 232,
+        "f1": 0.8041,
+        "recall": 0.6724
+      }
+    },
+    "delta_f1": 0.0
+  },
+  "No Conformal": {
+    "macro_f1": 0.8387,
+    "precision": 1.0,
+    "recall": 0.7752,
+    "per_stratum": {
+      "S0": {
+        "name": "Safe",
+        "n": 398,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0
+      },
+      "S1": {
+        "name": "Categorical",
+        "n": 267,
+        "f1": 0.9981,
+        "recall": 0.9963
+      },
+      "S2": {
+        "name": "Numerical",
+        "n": 364,
+        "f1": 0.8607,
+        "recall": 0.7555
+      },
+      "S3": {
+        "name": "Multi-hop",
+        "n": 232,
+        "f1": 0.7111,
+        "recall": 0.5517
+      }
+    },
+    "delta_f1": -0.0863
+  },
+  "LLM Only": {
+    "macro_f1": 0.2399,
+    "precision": 0.0,
+    "recall": 0.0,
+    "per_stratum": {
+      "S0": {
+        "name": "Safe",
+        "n": 398,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0
+      },
+      "S1": {
+        "name": "Categorical",
+        "n": 267,
+        "f1": 0.0,
+        "recall": 0.0
+      },
+      "S2": {
+        "name": "Numerical",
+        "n": 364,
+        "f1": 0.0,
+        "recall": 0.0
+      },
+      "S3": {
+        "name": "Multi-hop",
+        "n": 232,
+        "f1": 0.0,
+        "recall": 0.0
+      }
+    },
+    "delta_f1": -0.6851
+  }
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "method": "conformal",
+    "alpha": 0.01,
+    "tau": 0.0028,
+    "coverage": 0.3838,
+    "sel_accuracy": 0.8223,
+    "recall": 0.9003,
+    "missed": 86
+  },
+  {
+    "method": "conformal",
+    "alpha": 0.05,
+    "tau": 0.0028,
+    "coverage": 0.3838,
+    "sel_accuracy": 0.8223,
+    "recall": 0.9003,
+    "missed": 86
+  },
+  {
+    "method": "conformal",
+    "alpha": 0.1,
+    "tau": 0.0028,
+    "coverage": 0.3838,
+    "sel_accuracy": 0.8223,
+    "recall": 0.9003,
+    "missed": 86
+  },
+  {
+    "method": "conformal",
+    "alpha": 0.2,
+    "tau": 0.0028,
+    "coverage": 0.3838,
+    "sel_accuracy": 0.8223,
+    "recall": 0.9003,
+    "missed": 86
+  },
+  {
+    "method": "fixed_0.1",
+    "tau": 0.1,
+    "coverage": 0.4568,
+    "sel_accuracy": 0.691,
+    "recall": 0.7937,
+    "missed": 178
+  },
+  {
+    "method": "fixed_0.2",
+    "tau": 0.2,
+    "coverage": 0.5075,
+    "sel_accuracy": 0.6219,
+    "recall": 0.7196,
+    "missed": 242
+  },
+  {
+    "method": "fixed_0.3",
+    "tau": 0.3,
+    "coverage": 0.6519,
+    "sel_accuracy": 0.4842,
+    "recall": 0.5087,
+    "missed": 424
+  },
+  {
+    "method": "fixed_0.5",
+    "tau": 0.5,
+    "coverage": 0.7399,
+    "sel_accuracy": 0.4266,
+    "recall": 0.3801,
+    "missed": 535
+  },
+  {
+    "method": "no_abstention",
+    "coverage": 1.0,
+    "sel_accuracy": 0.9318,
+    "recall": 0.9003,
+    "missed": 86
+  }
+]

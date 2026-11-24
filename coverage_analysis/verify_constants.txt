@@ -1,0 +1,140 @@
+==============================================================================
+CHECK A — itemid identity
+==============================================================================
+  scanning up to 40,000,000 lab rows for 70 candidate itemids...
+  scanned 40,000,000 rows, kept 6,937,854
+
+  CREATININE   (using [50912])
+        50912   1,093,256  Creatinine                         Blood   Chemistry <-- USED
+        51082      58,882  Creatinine, Urine                  Urine   Chemistry
+        51099      23,979  Protein/Creatinine Ratio           Urine   Chemistry
+        51070      18,402  Albumin/Creatinine, Urine          Urine   Chemistry
+        52024       3,880  Creatinine, Whole Blood            Blood   Blood Gas
+        51067       2,693  24 hr Creatinine                   Urine   Chemistry
+
+  POTASSIUM   (using [50971])
+        50971   1,049,643  Potassium                          Blood   Chemistry <-- USED
+        50822      84,469  Potassium, Whole Blood             Blood   Blood Gas
+        51097      11,977  Potassium, Urine                   Urine   Chemistry
+        52610         315  Potassium                          Blood   Chemistry
+        51064          55  Potassium, Stool                   Stool   Chemistry
+        50847          13  Potassium, Ascites                 Ascites Chemistry
+
+  INR   (using [51237])
+        51237     453,857  INR(PT)                            Blood   Hematology <-- USED
+        51675          21  INR(PT)                            Blood   Chemistry
+
+  ALT   (using [50861])
+        50861     460,723  Alanine Aminotransferase (ALT)     Blood   Chemistry <-- USED
+        53084          19  Alanine Aminotransferase           Blood   Chemistry
+
+  GLUCOSE   (using [50931])
+        50931     915,871  Glucose                            Blood   Chemistry <-- USED
+        51478     211,341  Glucose                            Urine   Hematology
+        50809      71,681  Glucose                            Blood   Blood Gas
+        51790       3,807  Glucose, CSF                       Cerebrospinal Fluid Chemistry
+        51053       2,300  Glucose, Pleural                   Pleural Chemistry
+        50842       1,720  Glucose, Ascites                   Ascites Chemistry
+
+  PLATELET COUNT   (using [51265])
+        51265   1,064,471  Platelet Count                     Blood   Hematology <-- USED
+        51266      79,805  Platelet Smear                     Blood   Hematology
+        51240       1,642  Large Platelets                    Blood   Hematology
+        51264          82  Platelet Clumps                    Blood   Hematology
+        53189           2  Platelet Count                     Blood   Chemistry
+        52105           0  Direct Antiplatelet Antibodies     Blood   Hematology
+
+  WBC   (using [51300, 51301])
+        51301   1,050,595  White Blood Cells                  Blood   Hematology <-- USED
+        51516     150,678  WBC                                Urine   Hematology
+        51300       7,105  WBC Count                          Blood   Hematology <-- USED
+        51518       5,917  WBC Clumps                         Urine   Hematology
+        52220       1,239  wbcp                               Blood   Hematology
+        51517         177  WBC Casts                          Urine   Hematology
+
+  TSH   (using [50993])
+        50993     103,818  Thyroid Stimulating Hormone        Blood   Chemistry <-- USED
+        52210           0  LeftShf                            Blood   Hematology
+
+==============================================================================
+CHECK B — units and value distributions
+==============================================================================
+  alt              n=  457,274  units=[('IU/L', 460723)]
+                   p01=     6.000 median=    24.000 p99=   773.000
+  creatinine       n=1,092,818  units=[('mg/dL', 1093255)]
+                   p01=     0.400 median=     0.900 p99=     7.700
+  glucose          n=  915,742  units=[('mg/dL', 915870)]
+                   p01=    63.000 median=   110.000 p99=   357.000
+  inr              n=  449,804  units=[]
+                   p01=     0.900 median=     1.300 p99=     4.900
+  platelet count   n=1,060,378  units=[('K/uL', 1064470)]
+                   p01=    16.000 median=   219.000 p99=   642.000
+  potassium        n=1,049,074  units=[('mEq/L', 1049642)]
+                   p01=     3.000 median=     4.100 p99=     6.100
+  tsh              n=  102,297  units=[('uIU/mL', 103786), ('uU/ML', 32)]
+                   p01=     0.053 median=     1.800 p99=    24.000
+  wbc              n=1,054,892  units=[('K/uL', 1057699)]
+                   p01=     0.700 median=     7.600 p99=    29.700
+  egfr (derived)   n=1,092,783  units=[('mL/min/1.73m2', 1092783)]
+                   p01=     6.719 median=    81.349 p99=   136.123
+
+==============================================================================
+CHECK C — threshold plausibility  (fires on what % of real values?)
+==============================================================================
+  rule           lab             op      thresh   fires on
+  MH-001         inr             >          3.5     3.47%
+  MH-002         inr             >          3.5     3.47%
+  MH-003         inr             >          3.5     3.47%
+  MH-004         potassium       <          3.5     7.53%
+  MH-005         potassium       >          5.5     2.52%
+  MH-007         creatinine      >          1.5    19.14%
+  MH-008         alt             >          120     7.44%
+  NUM-001        egfr            <           30    11.48%
+  NUM-002        egfr            <           45    20.48%
+  NUM-003        egfr            <           60    31.62%
+  NUM-004        egfr            <           30    11.48%
+  NUM-005        egfr            <           15     4.72%
+  NUM-006        potassium       <          3.5     7.53%
+  NUM-007        potassium       >            5     7.20%
+  NUM-008        potassium       >          5.5     2.52%
+  NUM-009        alt             >          120     7.44%
+  NUM-010        alt             >          120     7.44%
+  NUM-011        inr             >            4     2.06%
+  NUM-012        platelet count  <        1e+05   100.00%   <<< IMPLAUSIBLE
+  NUM-013        glucose         <           70     1.98%
+  NUM-014        glucose         <           54     0.37%
+  NUM-015        wbc             <         3000   100.00%   <<< IMPLAUSIBLE
+  NUM-016        egfr            <           30    11.48%
+  SAFE-NUM-001   egfr            <           30    11.48%
+  SAFE-NUM-002   egfr            <           45    20.48%
+  SAFE-NUM-003   egfr            <           60    31.62%
+  SAFE-NUM-004   egfr            <           30    11.48%
+  SAFE-NUM-005   egfr            <           15     4.72%
+  SAFE-NUM-006   potassium       <          3.5     7.53%
+  SAFE-NUM-007   potassium       >            5     7.20%
+  SAFE-NUM-008   potassium       >          5.5     2.52%
+
+  SUSPECT RULES — verify the unit before reporting anything that
+  depends on them:
+    NUM-012: threshold <100000 on platelet count, whose real values run 16..642
+      -> fires on 100.0% of the population. If the rule was
+         written in a different unit, it is always/never active.
+    NUM-015: threshold <3000 on wbc, whose real values run 0.7..29.7
+      -> fires on 100.0% of the population. If the rule was
+         written in a different unit, it is always/never active.
+
+==============================================================================
+CHECK D — drug near-misses
+==============================================================================
+  No near-misses: no unmatched string contains a rule ingredient.
+
+==============================================================================
+SUMMARY
+==============================================================================
+  itemid problems : 0
+  suspect rules   : 2
+      NUM-012 fires on 100.0% of real platelet count values
+      NUM-015 fires on 100.0% of real wbc values
+
+  Anything listed above is an unverified constant. Fix it or state
+  it as a limitation; do not report a number that depends on it.

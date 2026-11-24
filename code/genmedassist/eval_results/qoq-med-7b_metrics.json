@@ -1,0 +1,51 @@
+{
+  "overall": {
+    "model": "qoq-med-7b",
+    "n": 1261,
+    "accuracy": 0.8723,
+    "macro_f1": 0.8623,
+    "precision": 0.9756,
+    "recall": 0.8343,
+    "f1": 0.8994,
+    "tp": 720,
+    "fp": 18,
+    "tn": 380,
+    "fn": 143
+  },
+  "per_stratum": {
+    "0": {
+      "n": 398,
+      "accuracy": 0.9548,
+      "false_positive_rate": 0.0452,
+      "specificity": 0.9548
+    },
+    "1": {
+      "n": 267,
+      "accuracy": 0.8727,
+      "detection_rate": 0.8727,
+      "recall": 0.8727,
+      "f1": 0.932
+    },
+    "2": {
+      "n": 364,
+      "accuracy": 0.7033,
+      "detection_rate": 0.7033,
+      "recall": 0.7033,
+      "f1": 0.8258
+    },
+    "3": {
+      "n": 232,
+      "accuracy": 0.9957,
+      "detection_rate": 0.9957,
+      "recall": 0.9957,
+      "f1": 0.9978
+    }
+  },
+  "cliff": {
+    "s1_categorical": 0.8727,
+    "s2_numerical": 0.7033,
+    "absolute_drop": 0.1694,
+    "relative_drop_pct": 19.4,
+    "s3_multihop": 0.9957
+  }
+}

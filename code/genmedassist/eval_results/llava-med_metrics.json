@@ -1,0 +1,55 @@
+{
+  "overall": {
+    "model": "llava-med",
+    "n": 1261,
+    "accuracy": 0.5765,
+    "macro_f1": 0.576,
+    "precision": 0.9634,
+    "recall": 0.3963,
+    "f1": 0.5616,
+    "tp": 342,
+    "fp": 13,
+    "tn": 385,
+    "fn": 521
+  },
+  "per_stratum": {
+    "0": {
+      "name": "safe",
+      "n": 398,
+      "accuracy": 0.9673,
+      "specificity": 0.9673,
+      "false_positive_rate": 0.0327
+    },
+    "1": {
+      "name": "categorical",
+      "n": 267,
+      "accuracy": 0.9925,
+      "detection_rate": 0.9925,
+      "recall": 0.9925,
+      "f1": 0.9962
+    },
+    "2": {
+      "name": "numerical",
+      "n": 364,
+      "accuracy": 0.0687,
+      "detection_rate": 0.0687,
+      "recall": 0.0687,
+      "f1": 0.1285
+    },
+    "3": {
+      "name": "multi_hop",
+      "n": 232,
+      "accuracy": 0.2241,
+      "detection_rate": 0.2241,
+      "recall": 0.2241,
+      "f1": 0.3662
+    }
+  },
+  "cliff": {
+    "s1_categorical": 0.9925,
+    "s2_numerical": 0.0687,
+    "absolute_drop": 0.9238,
+    "relative_drop_pct": 93.1,
+    "s3_multihop": 0.2241
+  }
+}

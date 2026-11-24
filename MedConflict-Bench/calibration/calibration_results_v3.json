@@ -1,0 +1,120 @@
+{
+  "method": "split_conformal_v3_real_kg_scores",
+  "score_source": "kg_cscore",
+  "alphas": {
+    "0.01": {
+      "alpha": 0.01,
+      "tau": 0.14,
+      "test": {
+        "tau": 0.14,
+        "coverage": 0.3156,
+        "accuracy": 0.9975,
+        "error_rate": 0.0025,
+        "recall": 0.9988,
+        "precision": 0.9988,
+        "n_abstained": 863,
+        "n_safe_pred": 398,
+        "n_missed": 1,
+        "n_total": 1261
+      },
+      "cal": {
+        "tau": 0.14,
+        "coverage": 0.3111,
+        "accuracy": 1.0,
+        "error_rate": 0.0,
+        "recall": 1.0,
+        "precision": 1.0,
+        "n_abstained": 217,
+        "n_safe_pred": 98,
+        "n_missed": 0,
+        "n_total": 315
+      }
+    },
+    "0.05": {
+      "alpha": 0.05,
+      "tau": 0.14,
+      "test": {
+        "tau": 0.14,
+        "coverage": 0.3156,
+        "accuracy": 0.9975,
+        "error_rate": 0.0025,
+        "recall": 0.9988,
+        "precision": 0.9988,
+        "n_abstained": 863,
+        "n_safe_pred": 398,
+        "n_missed": 1,
+        "n_total": 1261
+      },
+      "cal": {
+        "tau": 0.14,
+        "coverage": 0.3111,
+        "accuracy": 1.0,
+        "error_rate": 0.0,
+        "recall": 1.0,
+        "precision": 1.0,
+        "n_abstained": 217,
+        "n_safe_pred": 98,
+        "n_missed": 0,
+        "n_total": 315
+      }
+    },
+    "0.1": {
+      "alpha": 0.1,
+      "tau": 0.2333,
+      "test": {
+        "tau": 0.2333,
+        "coverage": 0.3577,
+        "accuracy": 0.8803,
+        "error_rate": 0.1197,
+        "recall": 0.9374,
+        "precision": 0.9988,
+        "n_abstained": 810,
+        "n_safe_pred": 451,
+        "n_missed": 54,
+        "n_total": 1261
+      },
+      "cal": {
+        "tau": 0.2333,
+        "coverage": 0.3651,
+        "accuracy": 0.8522,
+        "error_rate": 0.1478,
+        "recall": 0.9217,
+        "precision": 1.0,
+        "n_abstained": 200,
+        "n_safe_pred": 115,
+        "n_missed": 17,
+        "n_total": 315
+      }
+    },
+    "0.2": {
+      "alpha": 0.2,
+      "tau": 0.38,
+      "test": {
+        "tau": 0.38,
+        "coverage": 0.4449,
+        "accuracy": 0.7094,
+        "error_rate": 0.2906,
+        "recall": 0.8111,
+        "precision": 1.0,
+        "n_abstained": 700,
+        "n_safe_pred": 561,
+        "n_missed": 163,
+        "n_total": 1261
+      },
+      "cal": {
+        "tau": 0.38,
+        "coverage": 0.4476,
+        "accuracy": 0.695,
+        "error_rate": 0.305,
+        "recall": 0.8018,
+        "precision": 1.0,
+        "n_abstained": 174,
+        "n_safe_pred": 141,
+        "n_missed": 43,
+        "n_total": 315
+      }
+    }
+  },
+  "n_cal": 315,
+  "n_test": 1261
+}

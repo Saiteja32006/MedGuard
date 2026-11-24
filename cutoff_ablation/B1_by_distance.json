@@ -1,0 +1,242 @@
+{
+  "gpt-4o|given": {
+    "recall_by_band": {
+      ">20%": {
+        "correct": 45,
+        "n": 45
+      },
+      "<5%": {
+        "correct": 20,
+        "n": 20
+      },
+      "5-10%": {
+        "correct": 20,
+        "n": 20
+      },
+      "10-20%": {
+        "correct": 15,
+        "n": 15
+      }
+    },
+    "specificity_by_band": {
+      ">20%": {
+        "correct": 89,
+        "n": 98
+      },
+      "10-20%": {
+        "correct": 2,
+        "n": 2
+      }
+    }
+  },
+  "gpt-4o|withheld": {
+    "recall_by_band": {
+      ">20%": {
+        "correct": 45,
+        "n": 45
+      },
+      "<5%": {
+        "correct": 20,
+        "n": 20
+      },
+      "5-10%": {
+        "correct": 20,
+        "n": 20
+      },
+      "10-20%": {
+        "correct": 15,
+        "n": 15
+      }
+    },
+    "specificity_by_band": {
+      ">20%": {
+        "correct": 77,
+        "n": 98
+      },
+      "10-20%": {
+        "correct": 2,
+        "n": 2
+      }
+    }
+  },
+  "gpt-5.4-mini|given": {
+    "recall_by_band": {
+      ">20%": {
+        "correct": 45,
+        "n": 45
+      },
+      "<5%": {
+        "correct": 20,
+        "n": 20
+      },
+      "5-10%": {
+        "correct": 20,
+        "n": 20
+      },
+      "10-20%": {
+        "correct": 15,
+        "n": 15
+      }
+    },
+    "specificity_by_band": {
+      ">20%": {
+        "correct": 93,
+        "n": 98
+      },
+      "10-20%": {
+        "correct": 2,
+        "n": 2
+      }
+    }
+  },
+  "gpt-5.4-mini|withheld": {
+    "recall_by_band": {
+      ">20%": {
+        "correct": 45,
+        "n": 45
+      },
+      "<5%": {
+        "correct": 20,
+        "n": 20
+      },
+      "5-10%": {
+        "correct": 20,
+        "n": 20
+      },
+      "10-20%": {
+        "correct": 15,
+        "n": 15
+      }
+    },
+    "specificity_by_band": {
+      ">20%": {
+        "correct": 70,
+        "n": 98
+      },
+      "10-20%": {
+        "correct": 0,
+        "n": 2
+      }
+    }
+  },
+  "gpt-5.6|given": {
+    "recall_by_band": {
+      ">20%": {
+        "correct": 45,
+        "n": 45
+      },
+      "<5%": {
+        "correct": 20,
+        "n": 20
+      },
+      "5-10%": {
+        "correct": 20,
+        "n": 20
+      },
+      "10-20%": {
+        "correct": 15,
+        "n": 15
+      }
+    },
+    "specificity_by_band": {
+      ">20%": {
+        "correct": 97,
+        "n": 98
+      },
+      "10-20%": {
+        "correct": 2,
+        "n": 2
+      }
+    }
+  },
+  "gpt-5.6|withheld": {
+    "recall_by_band": {
+      ">20%": {
+        "correct": 43,
+        "n": 45
+      },
+      "<5%": {
+        "correct": 18,
+        "n": 20
+      },
+      "5-10%": {
+        "correct": 19,
+        "n": 20
+      },
+      "10-20%": {
+        "correct": 12,
+        "n": 15
+      }
+    },
+    "specificity_by_band": {
+      ">20%": {
+        "correct": 66,
+        "n": 98
+      },
+      "10-20%": {
+        "correct": 0,
+        "n": 2
+      }
+    }
+  },
+  "o4-mini|given": {
+    "recall_by_band": {
+      ">20%": {
+        "correct": 45,
+        "n": 45
+      },
+      "<5%": {
+        "correct": 20,
+        "n": 20
+      },
+      "5-10%": {
+        "correct": 20,
+        "n": 20
+      },
+      "10-20%": {
+        "correct": 13,
+        "n": 15
+      }
+    },
+    "specificity_by_band": {
+      ">20%": {
+        "correct": 98,
+        "n": 98
+      },
+      "10-20%": {
+        "correct": 2,
+        "n": 2
+      }
+    }
+  },
+  "o4-mini|withheld": {
+    "recall_by_band": {
+      ">20%": {
+        "correct": 39,
+        "n": 45
+      },
+      "<5%": {
+        "correct": 17,
+        "n": 20
+      },
+      "5-10%": {
+        "correct": 18,
+        "n": 20
+      },
+      "10-20%": {
+        "correct": 7,
+        "n": 15
+      }
+    },
+    "specificity_by_band": {
+      ">20%": {
+        "correct": 83,
+        "n": 98
+      },
+      "10-20%": {
+        "correct": 2,
+        "n": 2
+      }
+    }
+  }
+}

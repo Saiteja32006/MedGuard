@@ -1,0 +1,24 @@
+{
+  "version": "2.0",
+  "created": "2026-04-26T12:19:07.887325",
+  "seed": 42,
+  "lab_window_hours": 48,
+  "total_examples": 1576,
+  "strata": {
+    "0_safe": 496,
+    "1_categorical": 332,
+    "2_numerical_threshold": 450,
+    "3_multi_hop_causal": 298
+  },
+  "splits": {
+    "calibration": 315,
+    "test": 1261
+  },
+  "rules_count": {
+    "categorical": 12,
+    "threshold": 16,
+    "multihop": 8
+  },
+  "mimic_iv_version": "3.1",
+  "egfr_formula": "CKD-EPI 2021 (race-free)"
+}

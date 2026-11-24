@@ -1,0 +1,48 @@
+{
+  "models": {
+    "gpt-4o": {
+      "id": "gpt-4o",
+      "provider": "OpenAI"
+    },
+    "o4-mini": {
+      "id": "o4-mini",
+      "provider": "OpenAI"
+    },
+    "claude-sonnet": {
+      "id": "claude-sonnet-4-20250514",
+      "provider": "Anthropic"
+    },
+    "qoq-med-7b": {
+      "id": "ddvd233/QoQ-Med-VL-7B",
+      "base": "Qwen2-VL-7B",
+      "quant": "4bit-NF4"
+    },
+    "medgemma-4b": {
+      "id": "google/medgemma-4b-it",
+      "base": "Gemma-3",
+      "quant": "4bit-NF4"
+    },
+    "med-r1-2b": {
+      "id": "yuxianglai117/Med-R1 (VQA_MRI)",
+      "base": "Qwen2-VL-2B",
+      "quant": "4bit-NF4"
+    },
+    "llava-med-7b": {
+      "id": "chaoyinshe/llava-med-v1.5-mistral-7b-hf",
+      "base": "Mistral-7B",
+      "quant": "4bit-NF4"
+    }
+  },
+  "system": {
+    "neo4j_drugs": 740135,
+    "chromadb_docs": 496,
+    "benchmark": 1576,
+    "w1": 0.6075,
+    "w2": 0.3925,
+    "tau": 0.0028
+  },
+  "hardware": {
+    "lab": "i7, 128GB, RTX A5000 24GB",
+    "colab": "T4, 12.7GB"
+  }
+}

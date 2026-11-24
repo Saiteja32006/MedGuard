@@ -1,0 +1,9 @@
+{
+  "dataset": "GBaker/MedQA-USMLE-4-options",
+  "total": 1273,
+  "pharma": 619,
+  "other": 654,
+  "kg_evaluated": 177,
+  "kg_contributed": 2,
+  "kg_accuracy": 0.0113
+}

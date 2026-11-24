@@ -1,0 +1,499 @@
+{
+  "benchmark": {
+    "total": 1576,
+    "calibration": 315,
+    "test": 1261,
+    "S0_safe": 496,
+    "S1_categorical": 332,
+    "S2_numerical": 450,
+    "S3_multihop": 298,
+    "conflict_count": 1080,
+    "safe_count": 496,
+    "positive_rate": 68.5,
+    "unique_drugs": 78,
+    "unique_lab_tests": 8,
+    "lab_tests": [
+      "ALT",
+      "Creatinine",
+      "Glucose",
+      "INR",
+      "Platelet Count",
+      "Potassium",
+      "WBC",
+      "eGFR (CKD-EPI 2021)"
+    ]
+  },
+  "baseline_results": {
+    "claude-sonnet": {
+      "n": 1261,
+      "f1": 0.937,
+      "macro_f1": 0.9089,
+      "S0_specificity": 0.9648,
+      "S1_detection": 0.8914,
+      "S2_detection": 0.8626,
+      "S3_detection": 0.9526,
+      "cliff": 0.0287
+    },
+    "gpt-4o": {
+      "n": 1261,
+      "f1": 0.9683,
+      "macro_f1": 0.9493,
+      "S0_specificity": 0.9221,
+      "S1_detection": 0.9925,
+      "S2_detection": 0.9396,
+      "S3_detection": 1.0,
+      "cliff": 0.0529
+    },
+    "llava-med": {
+      "n": 1261,
+      "f1": 0.5616,
+      "macro_f1": 0.576,
+      "S0_specificity": 0.9673,
+      "S1_detection": 0.9925,
+      "S2_detection": 0.0687,
+      "S3_detection": 0.2241,
+      "cliff": 0.9238
+    },
+    "med-r1": {
+      "n": 1261,
+      "f1": 0.5779,
+      "macro_f1": 0.5174,
+      "S0_specificity": 0.6332,
+      "S1_detection": 0.5094,
+      "S2_detection": 0.3242,
+      "S3_detection": 0.6724,
+      "cliff": 0.1852
+    },
+    "medgemma": {
+      "n": 1261,
+      "f1": 0.8345,
+      "macro_f1": 0.5859,
+      "S0_specificity": 0.2136,
+      "S1_detection": 1.0,
+      "S2_detection": 0.9423,
+      "S3_detection": 1.0,
+      "cliff": 0.0577
+    },
+    "o4-mini": {
+      "n": 1261,
+      "f1": 0.9402,
+      "macro_f1": 0.9146,
+      "S0_specificity": 0.9849,
+      "S1_detection": 0.9438,
+      "S2_detection": 0.7912,
+      "S3_detection": 0.9957,
+      "cliff": 0.1526
+    },
+    "qoq-med-7b": {
+      "n": 1261,
+      "f1": 0.8994,
+      "macro_f1": 0.8623,
+      "S0_specificity": 0.9548,
+      "S1_detection": 0.8727,
+      "S2_detection": 0.7033,
+      "S3_detection": 0.9957,
+      "cliff": 0.1694
+    }
+  },
+  "significance": {
+    "claude-sonnet": {
+      "cliff": 0.0287,
+      "z": 1.078,
+      "p_value": 0.280997,
+      "significant": "False",
+      "ci_95": [
+        -0.0242,
+        0.0797
+      ]
+    },
+    "gpt-4o": {
+      "cliff": 0.0529,
+      "z": 3.435,
+      "p_value": 0.000592,
+      "significant": "True",
+      "ci_95": [
+        0.027,
+        0.0797
+      ]
+    },
+    "llava-med": {
+      "cliff": 0.9238,
+      "z": 23.006,
+      "p_value": 0.0,
+      "significant": "True",
+      "ci_95": [
+        0.8946,
+        0.9505
+      ]
+    },
+    "med-r1": {
+      "cliff": 0.1852,
+      "z": 4.686,
+      "p_value": 3e-06,
+      "significant": "True",
+      "ci_95": [
+        0.1085,
+        0.2623
+      ]
+    },
+    "medgemma": {
+      "cliff": 0.0577,
+      "z": 3.992,
+      "p_value": 6.6e-05,
+      "significant": "True",
+      "ci_95": [
+        0.0357,
+        0.0824
+      ]
+    },
+    "o4-mini": {
+      "cliff": 0.1526,
+      "z": 5.391,
+      "p_value": 0.0,
+      "significant": "True",
+      "ci_95": [
+        0.1002,
+        0.2016
+      ]
+    },
+    "qoq-med-7b": {
+      "cliff": 0.1694,
+      "z": 5.033,
+      "p_value": 0.0,
+      "significant": "True",
+      "ci_95": [
+        0.1064,
+        0.2288
+      ]
+    }
+  },
+  "ablation": {
+    "Full System": {
+      "macro_f1": 0.925,
+      "precision": 1.0,
+      "recall": 0.9003,
+      "per_stratum": {
+        "S0": {
+          "name": "Safe",
+          "n": 398,
+          "specificity": 1.0,
+          "false_positive_rate": 0.0
+        },
+        "S1": {
+          "name": "Categorical",
+          "n": 267,
+          "f1": 0.9981,
+          "recall": 0.9963
+        },
+        "S2": {
+          "name": "Numerical",
+          "n": 364,
+          "f1": 0.9875,
+          "recall": 0.9753
+        },
+        "S3": {
+          "name": "Multi-hop",
+          "n": 232,
+          "f1": 0.8041,
+          "recall": 0.6724
+        }
+      }
+    },
+    "No GraphRAG": {
+      "macro_f1": 0.6896,
+      "precision": 1.0,
+      "recall": 0.5481,
+      "per_stratum": {
+        "S0": {
+          "name": "Safe",
+          "n": 398,
+          "specificity": 1.0,
+          "false_positive_rate": 0.0
+        },
+        "S1": {
+          "name": "Categorical",
+          "n": 267,
+          "f1": 0.0,
+          "recall": 0.0
+        },
+        "S2": {
+          "name": "Numerical",
+          "n": 364,
+          "f1": 0.931,
+          "recall": 0.8709
+        },
+        "S3": {
+          "name": "Multi-hop",
+          "n": 232,
+          "f1": 0.8041,
+          "recall": 0.6724
+        }
+      },
+      "delta_f1": -0.2354
+    },
+    "No NumDist": {
+      "macro_f1": 0.7882,
+      "precision": 1.0,
+      "recall": 0.6987,
+      "per_stratum": {
+        "S0": {
+          "name": "Safe",
+          "n": 398,
+          "specificity": 1.0,
+          "false_positive_rate": 0.0
+        },
+        "S1": {
+          "name": "Categorical",
+          "n": 267,
+          "f1": 0.9981,
+          "recall": 0.9963
+        },
+        "S2": {
+          "name": "Numerical",
+          "n": 364,
+          "f1": 0.7744,
+          "recall": 0.6319
+        },
+        "S3": {
+          "name": "Multi-hop",
+          "n": 232,
+          "f1": 0.6313,
+          "recall": 0.4612
+        }
+      },
+      "delta_f1": -0.1368
+    },
+    "No VectorRAG": {
+      "macro_f1": 0.925,
+      "precision": 1.0,
+      "recall": 0.9003,
+      "per_stratum": {
+        "S0": {
+          "name": "Safe",
+          "n": 398,
+          "specificity": 1.0,
+          "false_positive_rate": 0.0
+        },
+        "S1": {
+          "name": "Categorical",
+          "n": 267,
+          "f1": 0.9981,
+          "recall": 0.9963
+        },
+        "S2": {
+          "name": "Numerical",
+          "n": 364,
+          "f1": 0.9875,
+          "recall": 0.9753
+        },
+        "S3": {
+          "name": "Multi-hop",
+          "n": 232,
+          "f1": 0.8041,
+          "recall": 0.6724
+        }
+      },
+      "delta_f1": 0.0
+    },
+    "No Conformal": {
+      "macro_f1": 0.8387,
+      "precision": 1.0,
+      "recall": 0.7752,
+      "per_stratum": {
+        "S0": {
+          "name": "Safe",
+          "n": 398,
+          "specificity": 1.0,
+          "false_positive_rate": 0.0
+        },
+        "S1": {
+          "name": "Categorical",
+          "n": 267,
+          "f1": 0.9981,
+          "recall": 0.9963
+        },
+        "S2": {
+          "name": "Numerical",
+          "n": 364,
+          "f1": 0.8607,
+          "recall": 0.7555
+        },
+        "S3": {
+          "name": "Multi-hop",
+          "n": 232,
+          "f1": 0.7111,
+          "recall": 0.5517
+        }
+      },
+      "delta_f1": -0.0863
+    },
+    "LLM Only": {
+      "macro_f1": 0.2399,
+      "precision": 0.0,
+      "recall": 0.0,
+      "per_stratum": {
+        "S0": {
+          "name": "Safe",
+          "n": 398,
+          "specificity": 1.0,
+          "false_positive_rate": 0.0
+        },
+        "S1": {
+          "name": "Categorical",
+          "n": 267,
+          "f1": 0.0,
+          "recall": 0.0
+        },
+        "S2": {
+          "name": "Numerical",
+          "n": 364,
+          "f1": 0.0,
+          "recall": 0.0
+        },
+        "S3": {
+          "name": "Multi-hop",
+          "n": 232,
+          "f1": 0.0,
+          "recall": 0.0
+        }
+      },
+      "delta_f1": -0.6851
+    }
+  },
+  "coverage_accuracy": [
+    {
+      "method": "conformal",
+      "alpha": 0.01,
+      "tau": 0.0028,
+      "coverage": 0.3838,
+      "sel_accuracy": 0.8223,
+      "recall": 0.9003,
+      "missed": 86
+    },
+    {
+      "method": "conformal",
+      "alpha": 0.05,
+      "tau": 0.0028,
+      "coverage": 0.3838,
+      "sel_accuracy": 0.8223,
+      "recall": 0.9003,
+      "missed": 86
+    },
+    {
+      "method": "conformal",
+      "alpha": 0.1,
+      "tau": 0.0028,
+      "coverage": 0.3838,
+      "sel_accuracy": 0.8223,
+      "recall": 0.9003,
+      "missed": 86
+    },
+    {
+      "method": "conformal",
+      "alpha": 0.2,
+      "tau": 0.0028,
+      "coverage": 0.3838,
+      "sel_accuracy": 0.8223,
+      "recall": 0.9003,
+      "missed": 86
+    },
+    {
+      "method": "fixed_0.1",
+      "tau": 0.1,
+      "coverage": 0.4568,
+      "sel_accuracy": 0.691,
+      "recall": 0.7937,
+      "missed": 178
+    },
+    {
+      "method": "fixed_0.2",
+      "tau": 0.2,
+      "coverage": 0.5075,
+      "sel_accuracy": 0.6219,
+      "recall": 0.7196,
+      "missed": 242
+    },
+    {
+      "method": "fixed_0.3",
+      "tau": 0.3,
+      "coverage": 0.6519,
+      "sel_accuracy": 0.4842,
+      "recall": 0.5087,
+      "missed": 424
+    },
+    {
+      "method": "fixed_0.5",
+      "tau": 0.5,
+      "coverage": 0.7399,
+      "sel_accuracy": 0.4266,
+      "recall": 0.3801,
+      "missed": 535
+    },
+    {
+      "method": "no_abstention",
+      "coverage": 1.0,
+      "sel_accuracy": 0.9318,
+      "recall": 0.9003,
+      "missed": 86
+    }
+  ],
+  "medhalt": {
+    "hf_dataset_info": {},
+    "clinical_domain": {
+      "total": 100,
+      "correct": 100,
+      "accuracy": 1.0,
+      "per_category": {
+        "FCT": {
+          "correct": 35,
+          "total": 35,
+          "accuracy": 1.0
+        },
+        "FQT": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "NOTA": {
+          "correct": 35,
+          "total": 35,
+          "accuracy": 1.0
+        }
+      }
+    }
+  },
+  "medqa": {
+    "dataset": "GBaker/MedQA-USMLE-4-options",
+    "total": 1273,
+    "pharma": 619,
+    "other": 654,
+    "kg_evaluated": 177,
+    "kg_contributed": 2,
+    "kg_accuracy": 0.0113
+  },
+  "adversarial": {
+    "detected": 184,
+    "total": 200,
+    "robustness": 0.92,
+    "per_stratum": {
+      "1": {
+        "d": 63,
+        "n": 63
+      },
+      "2": {
+        "d": 89,
+        "n": 89
+      },
+      "3": {
+        "d": 32,
+        "n": 48
+      }
+    }
+  },
+  "computation": {
+    "mean_ms": 245.6,
+    "median_ms": 279.8,
+    "p95_ms": 477.5,
+    "total_cases": 1576
+  }
+}

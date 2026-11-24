@@ -1,0 +1,54 @@
+{
+  "overall": {
+    "model": "claude-sonnet",
+    "n": 1261,
+    "accuracy": 0.9175,
+    "macro_f1": 0.9089,
+    "precision": 0.9822,
+    "recall": 0.8957,
+    "f1": 0.937,
+    "tp": 773,
+    "fp": 14,
+    "tn": 384,
+    "fn": 90
+  },
+  "per_stratum": {
+    "0": {
+      "name": "safe",
+      "n": 398,
+      "accuracy": 0.9648,
+      "specificity": 0.9648
+    },
+    "1": {
+      "name": "categorical",
+      "n": 267,
+      "accuracy": 0.8914,
+      "detection_rate": 0.8914,
+      "recall": 0.8914,
+      "f1": 0.9426
+    },
+    "2": {
+      "name": "numerical",
+      "n": 364,
+      "accuracy": 0.8626,
+      "detection_rate": 0.8626,
+      "recall": 0.8626,
+      "f1": 0.9263
+    },
+    "3": {
+      "name": "multi_hop",
+      "n": 232,
+      "accuracy": 0.9526,
+      "detection_rate": 0.9526,
+      "recall": 0.9526,
+      "f1": 0.9757
+    }
+  },
+  "cliff": {
+    "s1_categorical": 0.8914,
+    "s2_numerical": 0.8626,
+    "absolute_drop": 0.0288,
+    "relative_drop_pct": 3.2,
+    "s3_multihop": 0.9526
+  }
+}

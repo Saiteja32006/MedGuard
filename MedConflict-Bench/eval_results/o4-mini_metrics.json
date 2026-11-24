@@ -1,0 +1,48 @@
+{
+  "overall": {
+    "model": "o4-mini",
+    "n": 1261,
+    "accuracy": 0.9223,
+    "macro_f1": 0.9146,
+    "precision": 0.9923,
+    "recall": 0.8934,
+    "f1": 0.9402,
+    "tp": 771,
+    "fp": 6,
+    "tn": 392,
+    "fn": 92
+  },
+  "per_stratum": {
+    "0": {
+      "n": 398,
+      "accuracy": 0.9849,
+      "specificity": 0.9849,
+      "false_positive_rate": 0.0151
+    },
+    "1": {
+      "n": 267,
+      "accuracy": 0.9438,
+      "detection_rate": 0.9438,
+      "recall": 0.9438,
+      "f1": 0.9711
+    },
+    "2": {
+      "n": 364,
+      "accuracy": 0.7912,
+      "detection_rate": 0.7912,
+      "recall": 0.7912,
+      "f1": 0.8834
+    },
+    "3": {
+      "n": 232,
+      "accuracy": 0.9957,
+      "detection_rate": 0.9957,
+      "recall": 0.9957,
+      "f1": 0.9978
+    }
+  },
+  "cliff": {
+    "absolute_drop": 0.1526,
+    "relative_drop_pct": 16.2
+  }
+}

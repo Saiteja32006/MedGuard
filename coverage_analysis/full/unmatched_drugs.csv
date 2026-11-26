@@ -1,3001 +1,1945 @@
 drug_norm,count
-"flush",673383
-"furosemide",446772
-"iso osmotic",380294
-"senna",340090
-"docusate",337217
-"hydromorphone dilaudid",333116
-"ondansetron",284515
-"lorazepam",256533
-"lactated ringers",248501
-"vancomycin",229844
-"bisacodyl",225932
-"morphine",173024
-"pantoprazole",153041
-"albuterol",142376
-"glucagon",141613
-"polyethylene glycol",135372
-"sw",126939
-"ns",116221
-"omeprazole",109272
-"replacement critical care and oncology",106841
-"glucose gel",106139
-"hydralazine",104524
-"mini plus",100876
-"prednisone",99463
-"d ns",95023
-"lidocaine",94535
-"levothyroxine",89548
-"influenza vaccine quadrivalent",89220
-"neutra phos",87577
-"diphenhydramine",85604
-"d w",82880
-"amlodipine",82609
-"trazodone",77919
-"fentanyl",76623
-"multivitamins",76057
-"famotidine",74878
-"cefepime",73881
-"ciprofloxacin",72239
-"vitamin d",71458
-"tacrolimus",70268
-"cefazolin",69095
-"propofol",68201
-"lactulose",63470
-"albumin g",62892
-"ketorolac",62280
-"influenza virus vaccine",61831
-"levetiracetam",61362
-"quetiapine",61072
-"milk of magnesia",60421
-"oxide",56349
-"simvastatin",56280
-"amiodarone",55680
-"folic acid",55182
-"dexamethasone",54791
-"diltiazem",53987
-"labetalol",52792
-"chl d ns",52543
-"simethicone",51994
-"haloperidol",51657
-"bicarbonate",51515
-"ranitidine",50589
-"thiamine",49484
-"clopidogrel",47649
-"torsemide",47420
-"metoclopramide",46678
-"lr",46678
-"prochlorperazine",46285
-"phenylephrine",45807
-"diazepam",45265
-"ramelteon",43195
-"ipratropium",40794
-"tamsulosin",39505
-"metronidazole flagyl",38129
-"carvedilol",38102
-"clonazepam",36133
-"pneumococcal vac polyvalent",35333
-"azithromycin",34791
-"nitroglycerin",34507
-"chlorhexidine rinse",34057
-"metronidazole",34018
-"norepinephrine",33955
-"ferrous",33184
-"losartan",32540
-"hydrochlorothiazide",31314
-"ipratropium albuterol",31201
-"methylprednisolone succ",30842
-"phytonadione",30568
-"lidocaine for picc midline insertions",30272
-"aluminum hydrox simethicone",30187
-"tramadol",29816
-"phosphorus",29373
-"allopurinol",29008
-"atenolol",28930
-"powder",28613
-"midazolam",28481
-"acyclovir",28413
-"zolpidem",28007
-"sertraline",27931
-"pneumococcal valent polysaccharide vaccine",27687
-"multivitamins w minerals",27393
-"tramadol ultram",27123
-"fluticasone salmeterol diskus",26976
-"meropenem",26665
-"hydromorphone",26502
-"apixaban",26297
-"guaifenesin",25922
-"olanzapine",25390
-"isosorbide mononitrate",25315
-"lidocaine jelly glydo",24477
-"nicotine",24110
-"fluticasone propionate nasal",23835
-"fluconazole",23073
-"alteplase catheter clearance",22800
-"loperamide",22720
-"cyanocobalamin",21947
-"citalopram",21835
-"mirtazapine",21633
-"methadone",21595
-"docusate liquid",20968
-"olanzapine disintegrating",20790
-"nystatin",20750
-"epoetin alfa",20643
-"nitroglycerin sl",20387
-"sarna lotion",20141
-"mycophenolate mofetil",19862
-"midodrine",19848
-"prismasate b k",19718
-"pravastatin",19468
-"replacement oncology",19290
-"sevelamer",19236
-"rosuvastatin",19177
-"phenytoin",19073
-"hydroxyzine",18991
-"sulfameth trimethoprim ss",18685
-"fluoxetine",18610
-"sulfameth trimethoprim ds",18251
-"dexmedetomidine",17938
-"lidocaine jelly urojet",17545
-"naloxone",17478
-"albumin",17050
-"tiotropium",16900
-"fluticasone propionate",16899
-"ampicillin sulbactam",16763
-"hydrocortisone na succ",16513
-"neomycin polymyxin bacitracin",16357
-"valsartan",16289
-"benzonatate",16274
-"clonidine",16156
-"duloxetine",15863
-"vancomycin liquid",15577
-"excel",15534
-"lamotrigine",15364
-"nifedipine",15070
-"pregabalin",15006
-"readi cat barium",14897
-"venlafaxine",14650
-"alprazolam",14295
-"finasteride",14186
-"morphine ms contin",14032
-"nasal",14000
-"acetylcysteine",13977
-"artificial tears",13873
-"latanoprost ophth",13827
-"lansoprazole disintegrating",13738
-"clindamycin",13713
-"risperidone",13665
-"bupivacaine",13601
-"glycopyrrolate",13462
-"amoxicillin clavulanic acid",13243
-"promethazine",13240
-"cyclobenzaprine",13039
-"moviprep",13021
-"valganciclovir",12845
-"ascorbic acid",12643
-"morphine ir",12630
-"chl ns",12571
-"metolazone",12497
-"ceftazidime",12478
-"nephrocaps",12273
-"isosorbide dinitrate",12235
-"divalproex",12179
-"miconazole powder",12118
-"sucralfate",11997
-"vasopressin",11996
-"montelukast",11871
-"rifaximin",11762
-"calcitriol",11412
-"bumetanide",11376
-"polystyrene sulfonate",11298
-"influenza vaccine high dose quadrivalent",11055
-"d lr",10993
-"escitalopram",10938
-"cephalexin",10880
-"doxycycline hyclate",10846
-"nicardipine",10816
-"bupropion sustained",10775
-"hydrocortisone",10684
-"ipratropium mdi",10559
-"mupirocin",10172
-"scopolamine",10166
-"octreotide",10005
-"ursodiol",9956
-"colchicine",9829
-"cepacol sore throat lozenge",9819
-"epinephrine",9762
-"ferric",9357
-"carbidopa levodopa",9318
-"baclofen",9313
-"maalox diphenhydramine lidocaine",9225
-"ns mini plus",9145
-"chloraseptic throat spray",8969
-"daptomycin",8940
-"yellow cadd cassette",8822
-"paroxetine",8757
-"tizanidine",8715
-"oxytocin",8675
-"hypertonic",8592
-"amitriptyline",8553
-"dibucaine",8509
-"aripiprazole",8508
-"linezolid",8499
-"cyclosporine neoral modified",8494
-"meperidine",8475
-"topiramate topamax",8363
-"guaifenesin dextromethorphan",8347
-"fexofenadine",8317
-"chlorothiazide",8281
-"verapamil",8245
-"propranolol",8224
-"gentamicin",8028
-"atropine",7979
-"loratadine",7752
-"citalopram hydrobromide",7748
-"nadolol",7721
-"lacosamide",7606
-"cetirizine",7605
-"ampicillin",7395
-"tetanus diphtox acellular pertuss adacel",7390
-"creon",7390
-"dermoplast spray",7223
-"donepezil",7185
-"doxercalciferol",7128
-"epoetin alfa epbx retacrit",7088
-"cefpodoxime proxetil",7020
-"codeine",6946
-"fish oil omega",6786
-"oxybutynin",6718
-"atovaquone",6531
-"cepacol menthol",6492
-"brimonidine ophth",6485
-"timolol",6485
-"leucovorin",6466
-"clozapine",6457
-"ezetimibe",6406
-"cisatracurium",6381
-"neostigmine",6335
-"phenobarbital alcohol withdrawal dose taper days",6232
-"oxcarbazepine",6095
-"doxazosin",5907
-"buspirone",5664
-"micafungin",5551
-"multivitamin",5548
-"triamcinolone acetonide",5530
-"lidocaine viscous",5399
-"artificial tear",5249
-"phenazopyridine",5223
-"naproxen",5171
-"guaifenesin codeine",5168
-"mouth care rinse",5125
-"benztropine",5110
-"acetazolamide",5065
-"vitamin d cholecalciferol",4966
-"prednisolone ophth susp",4923
-"fludrocortisone",4859
-"oxymetazoline",4857
-"gastroview diatrizoate meglumine",4730
-"tuberculin protein",4721
-"erythromycin ophth oint",4712
-"hydroxychloroquine",4671
-"bupropion",4637
-"artificial tears preserv",4634
-"filgrastim",4630
-"nortriptyline",4629
-"acd a crrt",4609
-"oseltamivir",4553
-"enalapril",4514
-"milrinone",4492
-"methylnaltrexone",4480
-"albuterol ipratropium",4388
-"inhalation",4323
-"golytely",4322
-"carbamazepine",4322
-"ketamine",4318
-"dicyclomine",4317
-"desmopressin",4314
-"valproic acid",4310
-"dorzolamide timolol ophth",4309
-"anti thymocyte globulin rabbit",4308
-"chlorthalidone",4299
-"nicotine polacrilex",4290
-"phenobarbital",4289
-"dobutamine",4200
-"meclizine",4189
-"fleet enema",4184
-"alteplase",4150
-"sumatriptan",4131
-"voriconazole",4123
-"valproate",4097
-"terazosin",4096
-"diphenoxylate atropine",4078
-"mannitol",4072
-"lactulose enema",4057
-"zonisamide",4057
-"clotrimazole",4045
-"bacitracin",4018
-"gammagard liquid",4013
-"clobetasol propionate",3999
-"dopamine",3948
-"cyclophosphamide",3947
-"chlorpromazine",3914
-"hydroxyurea",3853
-"psyllium wafer",3841
-"clonidine hr",3835
-"filgrastim sndz",3816
-"zinc",3814
-"bupropion xl once daily",3793
-"cinacalcet",3763
-"fosphenytoin",3748
-"diazepam ciwa protocol",3721
-"glyburide",3716
-"chemo",3664
-"nitrofurantoin monohyd macrobid",3607
-"mesalamine",3597
-"posaconazole",3571
-"alendronate",3551
-"lamivudine",3543
-"mupirocin nasal",3535
-"fleet enema saline",3517
-"ropinirole",3483
-"nafcillin",3439
-"cepastat phenol lozenge",3437
-"prenatal vitamins",3429
-"pyridoxine",3340
-"methylphenidate ritalin",3330
-"methylprednisolone",3329
-"mycophenolate",3308
-"emtricitabine tenofovir truvada",3304
-"prazosin",3304
-"etoposide",3287
-"doxorubicin",3282
-"hyoscyamine",3260
-"fosaprepitant",3257
-"pramipexole",3227
-"azathioprine",3209
-"dronabinol",3166
-"oxazepam",3121
-"iohexol omnipaque",3088
-"ticagrelor",3083
-"esmolol",3078
-"artificial tears gel",3074
-"nimodipine",3047
-"amoxicillin",3031
-"rocuronium",3030
-"excel viaflo",3015
-"sirolimus",2997
-"aztreonam",2948
-"sotalol",2944
-"methocarbamol",2890
-"cosyntropin",2857
-"vitamin b complex",2850
-"cholestyramine",2842
-"epoprostenol veletri",2838
-"lidocaine epinephrine",2826
-"argatroban",2812
-"valacyclovir",2767
-"caphosol",2748
-"memantine",2734
-"budesonide",2719
-"levalbuterol",2679
-"isotonic",2630
-"dexamethasone sod",2623
-"ziprasidone",2583
-"hydrocerin",2569
-"psyllium powder",2567
-"amino acids",2566
-"fenofibrate",2526
-"vincristine oncovin",2515
-"hydrocortisone rectal",2480
-"ritonavir",2472
-"erythromycin",2438
-"fleet enema mineral oil",2419
-"rituximab",2399
-"aquaphor",2395
-"epidural",2386
-"dorzolamide ophth",2325
-"sacubitril valsartan",2322
-"cyclosporine sandimmune",2319
-"amphetamine dextroamphetamine",2296
-"phenytoin infatab",2288
-"buprenorphine naloxone",2248
-"tobramycin",2234
-"cytarabine",2192
-"tolterodine",2167
-"tb",2167
-"pancrelipase",2158
-"nicotine lozenge",2156
-"sildenafil",2129
-"eptifibatide",2125
-"sulfameth trimethoprim",2120
-"vitamin e",2115
-"epinephrine epipen",2103
-"ropivacaine",2085
-"mesna",2071
-"psyllium",2064
-"methimazole",2016
-"tenofovir disoproxil viread",2016
-"clobazam",2014
-"d w excel",2009
-"bottle",2002
-"entecavir",2000
-"aluminum hydroxide",1996
-"miconazole",1994
-"lidocaine jelly",1980
-"chl d lr",1955
-"doxepin",1937
-"flecainide",1934
-"methylprednisolone na suc",1921
-"collagenase",1908
-"paricalcitol",1884
-"blue cadd cassette",1868
-"hydromorphone p f",1866
-"perphenazine",1842
-"buprenorphine naloxone film",1837
-"dexamethasone sod phos",1835
-"hydromorphone hp",1809
-"albuterol mdi",1796
-"gemfibrozil",1787
-"flush for crrt",1777
-"calcitonin salmon",1772
-"phenobarbital icu alcohol withdrawal initial load rescue dose",1767
-"indomethacin",1734
-"ranitidine liquid",1704
-"ketoconazole",1695
-"capsaicin",1689
-"fluticasone salmeterol",1680
-"ertapenem",1666
-"sliding scale critical care ionized",1656
-"niacin",1647
-"pyridostigmine",1644
-"dofetilide",1641
-"nitroprusside",1596
-"remdesivir",1592
-"raltegravir",1576
-"dapsone",1570
-"venetoclax",1565
-"modafinil",1549
-"ob",1536
-"dolutegravir",1526
-"megestrol",1523
-"glycerophosphate",1522
-"risperidone disintegrating",1521
-"triamterene hydrochlorothiazide",1515
-"quinapril",1503
-"darunavir",1501
-"bismuth subsalicylate",1487
-"aminocaproic acid",1478
-"ciprofloxacin ophth",1464
-"temazepam",1443
-"rifampin",1436
-"felodipine",1431
-"ranolazine",1417
-"succinylcholine",1411
-"ns intrapleural",1404
-"amantadine",1402
-"cilostazol",1398
-"ipratropium albuterol inhalation spray",1384
-"protamine",1382
-"medroxyprogesterone",1379
-"lidocaine prilocaine",1374
-"xopenex",1368
-"bivalirudin",1359
-"carboplatin",1334
-"mineral oil",1334
-"divalproex sod sprinkles",1326
-"salmeterol xinafoate diskus",1312
-"penicillin g",1301
-"ambisome",1300
-"sulfamethoxazole trimethoprim",1297
-"eplerenone",1294
-"diclofenac gel",1293
-"primidone",1286
-"anastrozole",1285
-"prasugrel",1279
-"pioglitazone",1273
-"tranexamic acid",1260
-"transplant self medication program",1242
-"abacavir",1231
-"lidocaine p f",1227
-"paliperidone",1222
-"ganciclovir",1207
-"bengay",1203
-"racepinephrine",1203
-"betamethasone na phos acet",1174
-"p f",1168
-"fluphenazine",1164
-"efavirenz",1159
-"glycerin supps",1138
-"esomeprazole",1121
-"atazanavir",1113
-"ramipril",1109
-"adenosine",1104
-"thiosulfate",1095
-"nf ertapenem",1084
-"fat emulsion",1078
-"triamterene hctz",1061
-"glimepiride",1057
-"pseudoephedrine",1045
-"adderall",1030
-"sulfasalazine",1023
-"febuxostat",1022
-"aerogen sw",1019
-"methylphenidate",1011
-"belladonna opium",1010
-"estrogens conjugated",1010
-"irbesartan",997
-"silver sulfadiazine",981
-"maalox lidocaine",978
-"misoprostol",974
-"pamidronate",971
-"lanthanum",971
-"pilocarpine",967
-"ns epidural",962
-"etomidate",959
-"vecuronium",949
-"vitamin a",945
-"dornase alfa",943
-"isoniazid",921
-"clarithromycin",920
-"fluorouracil",917
-"neomycin",907
-"paclitaxel taxol",907
-"dextromethorphan guaifenesin sugar",904
-"pantoprazole granules for",890
-"chl d w",887
-"hepatitis b vaccine",880
-"carbamide peroxide",880
-"minoxidil",875
-"opium tincture",875
-"ns irrigation bottle",869
-"namenda",867
-"fentanyl pca",862
-"intraperitoneal",862
-"dakins strength",855
-"trace elements",853
-"naltrexone",849
-"mercaptopurine",848
-"miconazole vag",847
-"nitrofurantoin macrodantin",845
-"enalaprilat",845
-"crrt",840
-"lamictal",834
-"vancomycin antibiotic lock",833
-"ferrous liquid",832
-"ifosfamide",827
-"imipenem cilastatin",814
-"fluocinonide",810
-"fluoride dental gel",807
-"vancomycin enema",800
-"clevidipine",799
-"clopidogrel bisulfate",793
-"fluvoxamine",790
-"methylene blue",787
-"pentamidine inhalation",785
-"tigecycline",778
-"oxaliplatin desensitization",765
-"amiloride",762
-"mexiletine",760
-"minocycline",755
-"alteplase clearance ie temp tlcl",755
-"emtricitabine tenofovir alafen descovy",750
-"gelclair",747
-"witch hazel pad",743
-"symbicort",737
-"opium tincture morphine",728
-"theophylline",727
-"moexipril",727
-"glutamine",722
-"viaflex",720
-"letrozole",713
-"emtricitabine",710
-"aerogen ns",710
-"syringes ns",700
-"vancomycin pharmacy to dose id consult only",692
-"vitamin b complex w c",691
-"tricor",691
-"bortezomib",690
-"measles mumps rubella vac",690
-"celecoxib",686
-"atropine ophth",682
-"cisplatin",682
-"ethacrynic acid",681
-"lopinavir ritonavir",677
-"liothyronine",674
-"hydrocortisone suppository",674
-"isavuconazonium",670
-"betamethasone dipro oint",669
-"betamethasone dipro",667
-"decitabine",662
-"chlordiazepoxide",662
-"diclofenac",657
-"glycopyrrolate cvicu reversal protocol",655
-"mirapex",652
-"fosfomycin tromethamine",651
-"vitamin d ergocalciferol",651
-"neostigmine cvicu reversal protocol",647
-"lovastatin",647
-"tamoxifen",633
-"tucks hemorrhoidal oint",632
-"desonide",630
-"lubiprostone",629
-"amikacin",628
-"lurasidone",624
-"aldesleukin",617
-"bictegrav emtricit tenofov ala",610
-"iohexol",607
-"imipramine",595
-"amoxicillin clavulanate susp",588
-"etravirine",587
-"acamprosate",584
-"chl yellow cadd",574
-"thrombin",569
-"ruxolitinib",567
-"dicloxacillin",565
-"amino acids w",563
-"latuda",563
-"ethanol catheter dwell",562
-"bicarbonate eff",560
-"phoxillum b k",552
-"repaglinide",551
-"estradiol",550
-"romiplostim",549
-"tuberculin ppd",547
-"pentoxifylline",547
-"caspofungin",547
-"dextromethorphan polistirex",546
-"bicitra",544
-"tolvaptan",536
-"mesalamine rectal",534
-"latex",529
-"ceftaroline",528
-"oxaliplatin",526
-"propafenone",519
-"hydrocortisone oint",510
-"mucinex",510
-"benzocaine spray",509
-"furosemide heart failure",508
-"infliximab",508
-"click change to choose a base",501
-"terbinafine",501
-"niacinamide",499
-"zirconium cyclosilicate",499
-"betamethasone phos acet",494
-"paliperidone palmitate",492
-"desipramine",490
-"thyroid",488
-"haemophilus b conj vaccine",486
-"iron dextran complex",485
-"hemorrhoidal suppository",484
-"empagliflozin",484
-"nexium",483
-"treprostinil",481
-"ivermectin",480
-"aprepitant",480
-"ribavirin",477
-"keppra",474
-"avapro",473
-"metronidazole gel",469
-"lactic acid lotion",466
-"n acetylcysteine",465
-"lyrica",463
-"cyclosporine ophth emulsion",463
-"entacapone",463
-"leflunomide",459
-"ethambutol",452
-"testosterone",451
-"inv thiamine",451
-"lumigan",446
-"covid vaccine pfizer",443
-"ketorolac ophth",443
-"dronedarone",440
-"bethanechol",437
-"restasis",436
-"melphalan",435
-"fat emulsion intralipid",434
-"multivitamins w minerals liquid",433
-"tirofiban",433
-"ketoconazole shampoo",430
-"desmopressin nasal",428
-"penicillin v",423
-"rasburicase",419
-"tretinoin atra all transretinoic acid",419
-"propoxyphene nap apap n",414
-"ethacrynate",412
-"iron polysaccharides complex",411
-"iron dextran test dose",408
-"covid vaccine moderna",408
-"meningococcal conj vaccine menactra",408
-"varicella virus vaccine",404
-"buprenorphine",399
-"bacitracin polymyxin b opht oint",399
-"busulfan",396
-"benazepril",396
-"triazolam",392
-"olmesartan",391
-"celebrex",384
-"lamivudine zidovudine combivir",384
-"brivaracetam",382
-"tacrolimus envarsus",382
-"myfortic",380
-"fluocinolone acetonide",379
-"calcipotriene",377
-"ranexa",376
-"moxifloxacin",375
-"fludarabine",374
-"risperidone long acting",374
-"pentobarbital",372
-"d w glass bottle",370
-"benzocaine menthol sore throat lozenge",369
-"quinidine e r",367
-"gemcitabine",363
-"rufinamide",362
-"dextroamphetamine",358
-"tetanus diphtox acellular pertuss tdap",357
-"benicar",356
-"probenecid",354
-"hepatitis a vaccine",350
-"disopyramide",350
-"phenaseptic throat spray",345
-"levocarnitine",341
-"leuprolide",337
-"glass bottle",331
-"trihexyphenidyl",330
-"epidural ns",326
-"provigil",322
-"nabumetone",321
-"exemestane",319
-"clomipramine",319
-"pneumococcal valent conjugate vaccine",318
-"viokase",317
-"miralax",316
-"methylergonovine",313
-"nystatin triamcinolone",313
-"prednisolone",310
-"rivastigmine",309
-"trandolapril",307
-"tetracycline",306
-"orabase w benzocaine paste",306
-"dextromethorphan poly complex",302
-"daunorubicin",297
-"miconazole combo pack",297
-"bisoprolol",296
-"talc",296
-"foscarnet",294
-"hydrocortisone na",294
-"basiliximab",293
-"humalog",293
-"plasma lyte a ph",293
-"adenosine liver flush",293
-"hydrocortisone enema",293
-"cyproheptadine",292
-"silver applicator",292
-"multiple vitamins liq",292
-"tocilizumab",289
-"methylprednisolone sod succ",289
-"advair diskus",286
-"ibrutinib",284
-"imatinib",282
-"tobramycin dexamethasone ophth oint",279
-"volumen barium",276
-"mesalamine enema",276
-"tresiba flextouch u",275
-"rasagiline",274
-"eltrombopag",274
-"tobramycin inhalation",273
-"gamunex gammaked",272
-"everolimus",268
-"hydrocortisone foam",264
-"palonosetron",264
-"felbamate",264
-"tretinoin",262
-"penicillin g k desensitization",262
-"rilpivirine",261
-"plasmalyte",258
-"ascorbic acid liquid",258
-"betamethasone valerate",256
-"peripheral nerve",255
-"betaxolol ophth susp",254
-"indapamide",254
-"pca",253
-"haloperidol decanoate",253
-"trace elements tralement",252
-"riboflavin vitamin b",252
-"travatan z",249
-"colistin",248
-"evista",248
-"carboplatin desensitization",247
-"hepatitis b immu glob hepagam b",247
-"zidovudine",246
-"dasatinib",245
-"meropenem desensitization",245
-"flucytosine",244
-"levobunolol",244
-"quinine",241
-"bacitracin polymyxin",240
-"clotrimazole vaginal",238
-"diluent for remodulin",238
-"irinotecan",236
-"methyldopa",236
-"caffeine benzoate",236
-"bicalutamide",235
-"lantus",235
-"cimetidine",230
-"naphazoline pheniramine ophth",229
-"lidocaine epi",229
-"tobramycin dexamethasone ophth susp",229
-"fluorometholone ophth susp",228
-"arimidex",225
-"nalbuphine",221
-"nafcillin desensitization",221
-"isosorbide",220
-"ceftazidime avibactam avycaz",220
-"vimpat",216
-"azopt",215
-"ampicillin desensitization",215
-"smoflipid emulsion",214
-"kcentra",213
-"erythromycin ethylsuccinate",213
-"nevirapine",213
-"dantrolene",211
-"bactrim desensitization",211
-"epoprostenol",211
-"rytary",211
-"diluent for flolan",211
-"testosterone cypionate",210
-"dipyridamole",208
-"pyrazinamide",207
-"cromolyn nasal inhalation",207
-"thiothixene",207
-"prograf",207
-"levemir",204
-"docetaxel taxotere",202
-"qvar",202
-"pangestyme ec",201
-"genvoya",201
-"pletal",201
-"dextran ns",200
-"travoprost",200
-"galantamine",199
-"liposomal doxorubicin doxil",199
-"dapagliflozin",196
-"fosamprenavir",195
-"haloperidol decanoate long acting",194
-"bromocriptine",193
-"januvia",192
-"betamethasone dipro augmented gel",191
-"loxapine",191
-"procainamide",189
-"valtrex",189
-"levetiracetam stat dose",188
-"flumazenil",188
-"acarbose",188
-"hespan",187
-"cromolyn",186
-"letermovir",185
-"trifluoperazine",184
-"carisoprodol",183
-"bacitracin oint",183
-"aliskiren",183
-"nefazodone",180
-"zoledronic acid",180
-"norethindrone estradiol",179
-"propylthiouracil",177
-"norepinephrine ns",177
-"inv remdesivir",175
-"gentamicin ophth",174
-"idarubicin",174
-"raloxifene",174
-"cyclosporine",173
-"cobicistat",172
-"balsalazide",172
-"selegiline",171
-"copper",170
-"rituximab desensitization",170
-"cyclopentolate",170
-"bimatoprost",170
-"combigan",167
-"asenapine",167
-"stribild",166
-"famciclovir",166
-"clorazepate dipotassium",165
-"cabergoline",164
-"ledipasvir sofosbuvir",164
-"beclomethasone dipropionate",164
-"neomycin polymyxin hc otic susp",164
-"melatonin",162
-"covid vaccine per pharmacy",161
-"azelastine",161
-"chlorpheniramine hydrocodone",161
-"fidaxomicin",161
-"linzess",160
-"acetylcysteine inhaled for interventional pulmonary use only",160
-"polymyxin b trimethoprim ophth",159
-"glucose",158
-"papain",158
-"temozolomide",158
-"dexamethasone susp",156
-"androgel",155
-"fluphenazine decanoate",154
-"neomycin polymyxin b",154
-"vigamox",153
-"vancomycin ophth",153
-"rosiglitazone",152
-"exelon",151
-"acebutolol",149
-"ofloxacin",149
-"rifabutin",149
-"guaifenesin dextromethorphan sugar",149
-"peginterferon alfa a",148
-"desitin",147
-"brimonidine",147
-"tobramycin ophth",147
-"angiotensin ii",146
-"zyrtec",146
-"fomepizole",145
-"salsalate",145
-"permethrin",144
-"progesterone micronized",143
-"cefepime desensitization",143
-"ns glass bottle",143
-"phenobarbital icu alcohol withdrawal loading dose and",142
-"ketamine for intubation",142
-"morphine comfort care guidelines",142
-"dimenhydrinate",141
-"gentamicin dosing by pharmacy",141
-"methazolamide",140
-"anoro ellipta",139
-"tegretol",139
-"amoxicillin susp",137
-"maraviroc",136
-"pindolol",135
-"pyrimethamine",135
-"blinatumomab",135
-"brinzolamide",135
-"triamterene",134
-"mitoxantrone",134
-"factor recombinant",134
-"chlorpheniramine",133
-"ticlopidine",133
-"ponatinib",133
-"phenylephrine nasal spray",132
-"acetazolamide s r",132
-"phenylephrine ophth",131
-"factor a recombinant",131
-"metronidazole gel vaginal",130
-"carmustine",130
-"phenobarbital icu alcohol withdrawal loading dose",128
-"tropicamide",127
-"alvimopan",127
-"testosterone gel",127
-"pulmicort flexhaler",127
-"gammagard s d",127
-"hyoscyamine so time",126
-"benzoyl peroxide gel",126
-"tiagabine",126
-"donnatol",125
-"fleet phospho soda",124
-"clonidine tts",123
-"intrapleural",123
-"isoproterenol",123
-"alteplase flush volume dialysis pheresis catheters",120
-"tranylcypromine",120
-"dextran d w",119
-"ambrisentan",119
-"inv go c",119
-"dacarbazine",118
-"claritin",117
-"coq",117
-"pulmicort",117
-"alprostadil",116
-"alfuzosin",116
-"anakinra",116
-"colestipol",116
-"soma",116
-"preservision areds",115
-"zofran",115
-"hydrocortisone val",115
-"arsenic trioxide",115
-"copaxone",114
-"comtan",114
-"tobramycin fortified ophth",114
-"domeboro",113
-"pancrease mt",113
-"tetanus diphtheria tox decavac",112
-"droperidol",112
-"inv ascorbic acid",112
-"rituximab abbs truxima",111
-"desvenlafaxine",110
-"polymyxin b",110
-"piroxicam",110
-"skelaxin",110
-"infliximab desensitization",110
-"penicillin g benzathine",109
-"sucralfate enema",109
-"alemtuzumab",109
-"vesicare",109
-"lenalidomide",109
-"fenofibrate nanocrystallized",109
-"proair hfa",108
-"cidofovir",108
-"atripla",108
-"meningococcal conj vaccine menactra menveo",107
-"fenofibrate micronized",107
-"femara",106
-"cefepime graded challenge",105
-"papain urea",105
-"selenium sulfide",105
-"stavudine",105
-"parcopa",104
-"etanercept",104
-"nirmatrelvir ritonavir eua",103
-"niaspan",102
-"phenelzine",101
-"itraconazole",101
-"norethindrone",101
-"multi",100
-"donnatal",100
-"clonidine day hr",100
-"inv bupivacaine",100
-"disulfiram",100
-"betamethasone dipro lot",99
-"inv hydrocortisone",99
-"revlimid",99
-"colesevelam",98
-"zenpep",97
-"povidone iodine strength",97
-"amphotericin b",97
-"inv sarilumab",96
-"felbatol",96
-"bleomycin",95
-"trastuzumab",95
-"linaclotide",95
-"tobramycin dosing by pharmacy",95
-"trimethoprim",94
-"sorbitol",94
-"dextran",93
-"iodide",93
-"trileptal",93
-"sofosbuvir",92
-"bevacizumab avastin",92
-"peridex",91
-"xopenex hfa",91
-"medium chain triglycerides",91
-"emla",90
-"avodart",90
-"metaxalone",89
-"inv dexmedetomidine",89
-"enzalutamide",89
-"budesonide formoterol",88
-"emtricitabine tenofovir disoproxil truvada",88
-"primaquine",88
-"atgam",88
-"econazole",87
-"levoleucovorin",87
-"dihydroergotamine",87
-"moxifloxacin ophth nf",86
-"vincristine",86
-"nebivolol",86
-"breo ellipta",86
-"apraclonidine",86
-"sargramostim",85
-"meningococcal group b vaccine trumenba",85
-"sulindac",85
-"pristiq",85
-"danazol",85
-"quinidine",84
-"welchol",83
-"carbidopa",83
-"cangrelor",83
-"candesartan",83
-"meloxicam",83
-"vinblastine velban",82
-"stalevo",82
-"capecitabine",82
-"anti inhibit coag comp feiba",82
-"lacosamide stat dose",81
-"lotemax",80
-"blistex lip",79
-"filgrastim neupogen",79
-"hepatitis b vaccine engerix b",79
-"midostaurin",79
-"humira",78
-"covid vaccine st dose by pharmacy",78
-"aminocaproic acid rinse",78
-"clobetasol propionate gel",77
-"fosinopril",77
-"paclitaxel desensitization",77
-"activated charcoal sorbitol",76
-"bendamustine",76
-"sulfadiazine",76
-"inv deferoxamine",76
-"bicarb",76
-"phenylephrine quva",75
-"bystolic",75
-"albendazole",75
-"intrathecal",75
-"trelegy ellipta",74
-"meropenem graded challenge",74
-"anagrelide",74
-"ferumoxytol",73
-"profend",73
-"sugammadex",73
-"nf imatinib",73
-"plerixafor",73
-"cadd cassette",73
-"phentolamine",73
-"charcoal aqueous activated",72
-"docusate sodiu",72
-"travatan",72
-"rizatriptan",72
-"coenzyme q",72
-"lialda",72
-"ferric desensitization",72
-"jakafi",71
-"sitagliptin",71
-"novolog",71
-"abiraterone",70
-"epinephrine for dilution",70
-"thioridazine",70
-"chantix",69
-"tetracaine ophth",68
-"cevimeline",68
-"dulera",68
-"nf temozolomide",68
-"terbutaline",68
-"envarsus",68
-"incruse ellipta",67
-"suvorexant",67
-"vortioxetine",67
-"banzel",67
-"covid vaccine janssen",66
-"azilect",66
-"strattera",66
-"vinorelbine navelbine",66
-"trospium",65
-"phenoxybenzamine",65
-"osimertinib",65
-"muro",65
-"byetta",65
-"isosorbide dinitrate sa",64
-"cetuximab",64
-"pd",64
-"requip xl",64
-"zafirlukast",64
-"pemetrexed",63
-"riluzole",63
-"arava",63
-"debrox",62
-"ammonium",62
-"atacand",61
-"tadalafil",61
-"docusat",61
-"adefovir",61
-"lepirudin",61
-"nilotinib",61
-"iloperidone",61
-"deferoxamine",61
-"urea",60
-"levemir flexpen",60
-"alum",60
-"nesiritide",60
-"wellbutrin xl",60
-"dutasteride",60
-"acetic acid irrig",60
-"gastrocrom",60
-"vancomycin desensitization",59
-"betaxolol",59
-"apri",59
-"methenamine hippurate",59
-"actonel",59
-"junel",59
-"vasopressin for dilution",59
-"nasonex",58
-"atomoxetine",58
-"hydroxyprogesterone caproate",58
-"azacitidine",58
-"nateglinide",58
-"zosyn desensitization",58
-"dactinomycin",58
-"infliximab remicade",57
-"epipen",57
-"cefazolin desensitization",57
-"antithrombin",57
-"chloroquine",57
-"zonegran",57
-"victoza pak",57
-"provera",56
-"lamotrigine rectal susp",56
-"scopolamine ophth",56
-"inv ruxolitinib",56
-"asparaginase",56
-"concerta",55
-"tetrabenazine",55
-"junel fe",55
-"intraventricular",55
-"nf capecitabine",55
-"domperidone",55
-"perampanel",55
-"dilantin",54
-"vemlidy",54
-"penicillamine",54
-"lansoprazole",54
-"rotigotine",54
-"norepinephri",54
-"inv regn",54
-"amoxicillin clavulanate desensitization",54
-"trimethobenzamide",53
-"l carnitine",53
-"norethindrone contraceptive",53
-"selexipag",53
-"baricitinib eua",53
-"myrbetriq",52
-"elmiron",52
-"liposomal cytarabine depocyt",52
-"aromasin",52
-"sinemet",52
-"berinert",52
-"bica",51
-"trifluridine ophth",51
-"humalog kwikpen",51
-"etonogestrel nexplanon",51
-"neomycin polymyxin dexameth ophth oint",51
-"astelin",51
-"fycompa",50
-"edoxaban",50
-"vilazodone",50
-"axitinib",50
-"prismasol bgk",50
-"complera",50
-"formoterol",50
-"excedrin migraine",50
-"cabozantinib",50
-"sulfacetamide ophth",50
-"biktarvy",50
-"inv terlipressin",50
-"spiriva respimat",50
-"zytiga",49
-"bic",49
-"naloxone nasal spray",49
-"lorazepam syr",49
-"aciphex",49
-"amikacin inhalation",49
-"hydrochloric acid",48
-"clofarabine",48
-"alphagan p",48
-"thiotepa",48
-"simbrinza",48
-"pulmozyme",48
-"macitentan",48
-"interferon alfacon",48
-"inv leronlimab",48
-"phenylephrine for dilution",47
-"acular",47
-"diluent for regn",47
-"zinc oxide",47
-"apriso",46
-"infliximab dyyb inflectra",46
-"dexilant",46
-"pegaspargase",46
-"pirfenidone",46
-"n",46
-"paclitaxel protein bound abraxane",46
-"descovy",46
-"progesterone",45
-"ustekinumab",45
-"imitrex",45
-"neomycin polymyxin dexameth ophth susp",45
-"ns excel",45
-"ambien",44
-"pomalidomide",44
-"terlipressin",43
-"rhopressa",43
-"non dehp",43
-"sorafenib",43
-"lactaid",43
-"salagen",43
-"enablex",43
-"telaprevir",43
-"dabrafenib",43
-"lunesta",42
-"risedronate",42
-"xeljanz",42
-"advair hfa",42
-"gamunex",42
-"prenatal gummy",42
-"tromethamine",41
-"voltaren",41
-"tofacitinib",41
-"carboprost tromethamine",41
-"mometasone",41
-"trintellix",41
-"theophylline uniphyl",40
-"tetanus diphtheria tox tenivac",40
-"augmentin",40
-"denosumab xgeva",40
-"pentamidine isethionate",40
-"valproic acid as salt",40
-"guanfacine",40
-"lacosamide nf",40
-"fluticasone",40
-"trametinib",40
-"carfilzomib",40
-"brexpiprazole",40
-"levemir flextouch",40
-"cefoxitin",40
-"glatiramer",40
-"doripenem nf",40
-"liraglutide",39
-"terconazole vag supp",39
-"carafate",39
-"colestid",39
-"dextroamphetamine amphetamine",39
-"tacrolimus self med",39
-"lipos daunorub cytara vyxeos",39
-"prometrium",39
-"odefsey",38
-"cannabidiol cbd epidiolex",38
-"kit",38
-"levonorgestrel ethinyl estrad",38
-"relpax",38
-"d w w albumin",38
-"probiotic",38
-"umeclidinium vilanterol",38
-"hepatitis b immun globulin hepagam b",38
-"dexamethason",38
-"mirabegron",38
-"nf erlotinib",38
-"pazopanib",38
-"solifenacin",38
-"isradipine",38
-"lindane shampoo",38
-"covid vaccine",37
-"durezol",37
-"razadyne",37
-"olopatadine",37
-"bromfenac",37
-"tecfidera",37
-"flovent hfa",37
-"roflumilast",37
-"daptomycin desensitization",37
-"neulasta",36
-"temodar",36
-"botox",36
-"inv convalescent plasma",36
-"oxtellar",36
-"tapentadol",36
-"malarone",36
-"povidone iodine",36
-"nf micafungin",36
-"depakote",36
-"glycolax",36
-"methadone pca",36
-"bumetanide desensitization",36
-"dalfampridine",35
-"tenofovir alafenamide",35
-"protopic",35
-"nitazoxanide",35
-"prempro",35
-"belatacept",35
-"interferon alfa b",35
-"yaz",35
-"bleomycin test dose",35
-"varicella virus",35
-"bicarbonat syr",35
-"tetanus immune globulin",35
-"atovaquone proguanil",35
-"daliresp",35
-"becaplermin gel",35
-"cyclosporine modified",35
-"epidiolex",35
-"paxil",34
-"palivizumab",34
-"ampicillin sulbact graded challenge",34
-"influenza a h n vaccine",34
-"clopidogrel desensitization",34
-"cellcept",34
-"nf rasburicase",34
-"sprintec",34
-"forteo",34
-"prilosec",34
-"promacta",34
-"alcohol dehydrated",34
-"phenylephrin ns",34
-"crizotinib",34
-"morphine rinse",34
-"evoxac",33
-"umeclidinium",33
-"d",33
-"gleevec",33
-"phenylephrine for",33
-"yasmin",33
-"valium",33
-"epclusa",33
-"novolog flexpen",33
-"brimonidine timolol",33
-"doravirine",33
-"inv alks",33
-"ivabradine",33
-"methylprednisolone na succ",32
-"granisetron",32
-"rubella virus vaccine",32
-"phenobarbital icu alcohol withdrawal dose taper for clinician use",32
-"sotrovimab eua",32
-"hepsera",32
-"carteolol ophth",32
-"vyvanse",32
-"tolcapone",32
-"maxalt",31
-"uroxatral",31
-"triumeq",31
-"erlotinib",31
-"dorzolamide timolol",31
-"tafamidis",31
-"diltiaz",31
-"inv hydroxychloroquine",31
-"carbatrol",31
-"sulf",31
-"janumet",31
-"pentostatin",31
-"didanosine ec",31
-"ketotifen",31
-"mult",31
-"florastor",31
-"teriparatide",31
-"cladribine",30
-"defibrotide nf",30
-"sulfacetamide prednisolone ophth susp",30
-"ergotamine caffeine",30
-"ibutilide",30
-"epoprostenol na",30
-"mechlorethamine",30
-"proparacaine opth",29
-"jardiance",29
-"ergocalciferol vitamin d",29
-"bicar",29
-"aviane",29
-"tropicamide ophth",29
-"furosemide rapid densitization",29
-"rabies vaccine",29
-"alemtuzumab campath",29
-"abciximab",29
-"epsom salt",29
-"fluvastatin",29
-"stiolto respimat",29
-"diazoxide",29
-"hizentra",29
-"inv venetoclax",28
-"estradiol transdermal",28
-"aveeno bath",28
-"propoxyphene",28
-"nucynta",28
-"latanoprost",28
-"zanamivir",28
-"cytomegalovirus immune glob",28
-"desmopressin nasal spray",28
-"enfuvirtide",28
-"atg horse desensitization",28
-"docusa",27
-"necon",27
-"tums",27
-"enbrel",27
-"gemtuzumab ozogamicin",27
-"sunitinib",27
-"viokace",27
-"fulvestrant",27
-"for irrigation",27
-"vivelle dot",27
-"droxidopa",27
-"azacitidine subcut",27
-"nf sorafenib",27
-"humalog mix",27
-"trulicity",27
-"morphine sulfat",26
-"saliva substitute",26
-"hyaluronidase",26
-"amphetamine salt combo",26
-"vitamin b",26
-"zomig",26
-"phenobarbital icu alcohol withdrawal loading dose and for pharmacy use only",26
-"rexulti",26
-"casodex",26
-"acitretin",26
-"testim",26
-"align",26
-"prenatal",26
-"zoledronic acid zometa",26
-"acalabrutinib",26
-"abilify maintena",26
-"ocella",26
-"apidra",26
-"r",26
-"ceftaroline desensitization",26
-"cortef",26
-"vraylar",25
-"orthopedic",25
-"lodosyn",25
-"movantik",25
-"procarbazine",25
-"neupro",25
-"ciprodex",25
-"alteplase clearance ie indwelling port",25
-"difluprednate",25
-"clofazimine",25
-"boceprevir",25
-"gilteritinib",25
-"cefadroxil",25
-"dalbavancin",25
-"arginine l arginine",25
-"vemurafenib",25
-"patiromer sorbitex",25
-"ciprofloxacin desensitization",25
-"mbl hcv",25
-"zegerid",24
-"phenobarbital icu alcohol withdrawal loading dose im for clinician use",24
-"flurbiprofen",24
-"dorzolamide",24
-"rilutek",24
-"patanol",24
-"systane ultra",24
-"nf bicalutamide",24
-"demeclocycline",24
-"microgestin",24
-"prolensa",24
-"chloral hydrate",24
-"ganciclovir ophth gel",24
-"abilify",24
-"accolate",24
-"vancocin",24
-"brintellix",24
-"adalimumab",23
-"hydroxocobalamin",23
-"brinzolamide ophth nf",23
-"lactaid fast act",23
-"sutent",23
-"terconazole vag",23
-"colazal",23
-"zymar",23
-"eribulin",23
-"bupr",23
-"thera tears",23
-"pheno",23
-"hydromorphone rectal",23
-"ampicillin graded challenge",23
-"topamax",23
-"influenza virus vaccine latex",23
-"nevanac",23
-"syr",23
-"xtandi",23
-"combivent respimat",23
-"zovia e",23
-"enasidenib",23
-"non deph",23
-"iloprost",23
-"indinavir",23
-"posaconazole desensitization",23
-"loteprednol etabonate",22
-"drospirenone ethinyl estradiol",22
-"morphin",22
-"microgestin fe",22
-"viibryd",22
-"inv alteplase",22
-"vedolizumab",22
-"cefuroxime axetil",22
-"acetic acid for irrigation",22
-"tasmar",22
-"aminocaproic",22
-"avonex",22
-"amlactin",22
-"inv bortezomib",22
-"bristojet",22
-"systane",22
-"pancreaze",22
-"ondan",22
-"xanax",22
-"vorinostat",22
-"treprostinil diolamine",22
-"inv opiranserin",22
-"toujeo max u solostar",22
-"toujeo solostar",21
-"qvar redihaler",21
-"salicylic acid sulfur",21
-"bactrim",21
-"prismasol b k",21
-"belsomra",21
-"topiramate",21
-"nelfinavir",21
-"ceftazidime graded challenge",21
-"ampyra",21
-"naphazoline ophth",21
-"buprop",21
-"levonorgestrel",21
-"dexlansoprazole",21
-"gatifloxacin",21
-"benz",21
-"multiv",21
-"citracal d",21
-"candida albicans",21
-"ondans",21
-"acetic acid otic",21
-"scopolamine hbr",21
-"tasigna",21
-"camila",21
-"tri sprintec",21
-"cetir",21
-"chloroprocaine mpf",21
-"humate p",21
-"nifedipine bulk",21
-"suboxone",21
-"harvoni",21
-"tirosint",20
-"propantheline",20
-"diltia",20
-"rimantadine",20
-"arformoterol",20
-"varenicline",20
-"bupro",20
-"pegfilgrastim",20
-"prenatal vitamin",20
-"doxylamine",20
-"tetradecyl",20
-"morphine syr",20
-"prevacid",20
-"mitomycin",20
-"humira pen",20
-"epinephrine for dil",20
-"wellbutrin",20
-"botulinum toxin type a",20
-"jolessa",20
-"icatibant",20
-"xalatan",20
-"hydromorphone comfort care guidelines",20
-"esmolol saline iso osm",20
-"dornase alfa nf",20
-"von willebrand fctr humate p",20
-"otezla",20
-"ceftazidime desensitization",20
-"klonopin",19
-"hydromorphone d syr",19
-"renagel",19
-"dilt",19
-"prenatal dha",19
-"albumi",19
-"encorafenib",19
-"verapa",19
-"zantac",19
-"neomycin polymyxin bacitracin ophth oint",19
-"cariprazine",19
-"bisacodyl rectal",19
-"symlinpen",19
-"rabeprazole",19
-"nitrofurantoin",19
-"trizivir",19
-"mometasone formoterol",19
-"cilos",19
-"streptomycin",19
-"orsythia",19
-"coal tar shampoo",19
-"r u conc kwikpen",19
-"axicabtagene ciloleucel",18
-"avelox",18
-"drotrecogin alfa xigris",18
-"olaparib",18
-"andexxa",18
-"unisom doxylamine",18
-"physostigmine salicylate",18
-"vasopressin for",18
-"cet",18
-"bupivacaine epinephrine",18
-"dexam",18
-"dexameth",18
-"nexium hr",18
-"pitavastatin",18
-"savella",18
-"tri previfem",18
-"cryselle",18
-"gentamicin intraventricular",18
-"motegrity",18
-"casirivimab imdevimab eua",18
-"preservision",18
-"praziquantel",18
-"orphenadrine",18
-"entocort ec",18
-"atg horse",18
-"omadacycline",18
-"pfns",18
-"acalabrutinib nf",18
-"nature throid",18
-"apremilast",17
-"xenazine",17
-"biotin",17
-"amikacin dosing by pharmacy",17
-"benzoyl peroxide",17
-"jakafi ruxolitinib",17
-"nysta",17
-"tyvaso",17
-"gaviscon extra strength",17
-"tarceva",17
-"nystat",17
-"c",17
-"lidocaine pf",17
-"norgestimate ethinyl estradiol",17
-"dexrazoxane",17
-"neut",17
-"rytary carbidopa levodopa",17
-"netarsudil",17
-"zioptan pf",17
-"asacol hd",17
-"inv lenalidomide",17
-"lo loestrin fe",17
-"chlorhexidine",17
-"aranesp polysorbate",17
-"lutein",17
-"fetzima",17
-"novopen junior",17
-"von willebrand factor",17
-"neutr",16
-"epzicom",16
-"xibrom",16
-"multivitamin without vit k",16
-"acidophilus",16
-"sulfameth",16
-"valganciclov",16
-"cycloserine",16
-"ioversol optiray",16
-"brentuximab vedotin",16
-"spiriva with handihaler",16
-"prenatal plus",16
-"percocet",16
-"nepafenac",16
-"cortrosyn",16
-"culturelle",16
-"nuplazid",16
-"exjade",16
-"iodine strong lugols",16
-"naratriptan",16
-"prozac",16
-"darifenacin",16
-"morphine pf",16
-"tadalafil pulm hypertension",16
-"nortrel",16
-"amphotericin b ophth",16
-"midrin",16
-"onfi",16
-"adcirca",16
-"peramivir",16
-"butrans",15
-"atropine sulfa syr",15
-"anidulafungin",15
-"kaopectate bismuth subsalicy",15
-"ondanset",15
-"verapam",15
-"acular ls",15
-"penicillin g k graded challenge",15
-"brovana",15
-"nf moxifloxacin",15
-"belbuca",15
-"lac hydrin",15
-"deferoxamine dfo",15
-"inv otl",15
-"kariva",15
-"klor con",15
-"daratumumab",15
-"capmatinib",15
-"brinzolamide brimonidine",15
-"ethyl",15
-"desogestrel ethinyl estradiol",15
-"remeron soltab",15
-"tacro",15
-"fish oil",15
-"zolmitriptan",15
-"saquinavir invirase",15
-"pembrolizumab",15
-"ethosuximide",15
-"zaditor",15
-"mobic",15
-"foradil aerolizer",15
-"cosopt",15
-"thalidomide",15
-"imiquimod",15
-"cyanocobalamin vitamin b",15
-"modaf",15
-"alternagel benadryl lidocaine visc",15
-"co q",15
-"nf ceftaroline",15
-"morphine for inhalation",15
-"zyflo",15
-"inv gilteritinib",15
-"prenatal complete",15
-"zemplar",15
-"phenob",15
-"lidocaine jelly glyd syr",15
-"balanced salt opth",15
-"xeloda",15
-"inv fludarabine",15
-"inv cyclophosphamide",15
-"tekturna",15
-"dolasetron",15
-"prenatal gummies",15
-"zarontin",15
-"xyrem",15
-"silodosin",15
-"asparaginase erwinia chrysan",15
-"nilotinib nf",15
-"ethanol catheter dwell tunneled access line",15
-"mysoline",15
-"linezolid desensitization",15
-"chloramphenicol na succ",14
-"prezcobix",14
-"nicotrol",14
-"hydromorphone pca",14
-"rhinocort aqua",14
-"hydroxypropyl meth ophth",14
-"triamterene hydrochlorothiazid",14
-"ketorolac tromethamine",14
-"ocuvite",14
-"atropine bristojet",14
-"trokendi",14
-"benzo",14
-"systane pf",14
-"eslicarbazepine",14
-"travoprost ophth nf",14
-"coq liquid",14
-"choline trisalicylate",14
-"cocaine",14
-"nasacort",14
-"flunisolide",14
-"betaseron",14
-"hepatitis b immune globulin nabi hb",14
-"inv azd",14
-"cardizem cd",14
-"secretin",14
-"klor con m",14
-"oxybutynin xl nf",14
-"biotene dry mouth rinse",14
-"oxacillin",14
-"zaleplon",14
-"gentamicin sulf ophth",14
-"isosorbid",14
-"qualaquin",14
+"flush",29331
+"furosemide",19414
+"iso osmotic",16963
+"senna",14759
+"docusate",14672
+"hydromorphone dilaudid",14338
+"ondansetron",12160
+"lorazepam",11035
+"lactated ringers",10927
+"vancomycin",10273
+"bisacodyl",9749
+"morphine",7277
+"pantoprazole",6606
+"glucagon",6267
+"albuterol",6114
+"polyethylene glycol",5720
+"sw",5431
+"ns",4948
+"omeprazole",4828
+"glucose gel",4640
+"replacement critical care and oncology",4639
+"mini plus",4495
+"hydralazine",4383
+"d ns",4336
+"prednisone",4295
+"lidocaine",4168
+"levothyroxine",3930
+"influenza vaccine quadrivalent",3823
+"neutra phos",3766
+"diphenhydramine",3626
+"d w",3621
+"amlodipine",3550
+"fentanyl",3419
+"multivitamins",3325
+"trazodone",3320
+"famotidine",3306
+"cefepime",3208
+"vitamin d",3125
+"cefazolin",3116
+"ciprofloxacin",3066
+"propofol",3052
+"tacrolimus",2963
+"albumin g",2732
+"quetiapine",2718
+"milk of magnesia",2670
+"influenza virus vaccine",2667
+"lactulose",2650
+"ketorolac",2574
+"levetiracetam",2548
+"simvastatin",2469
+"dexamethasone",2468
+"bicarbonate",2409
+"amiodarone",2393
+"folic acid",2376
+"oxide",2328
+"ranitidine",2306
+"haloperidol",2304
+"simethicone",2280
+"thiamine",2197
+"chl d ns",2189
+"clopidogrel",2184
+"labetalol",2130
+"diazepam",2033
+"torsemide",2021
+"phenylephrine",2003
+"diltiazem",1997
+"prochlorperazine",1953
+"metoclopramide",1950
+"lr",1941
+"ramelteon",1882
+"carvedilol",1733
+"ipratropium",1728
+"tamsulosin",1661
+"metronidazole flagyl",1597
+"pneumococcal vac polyvalent",1597
+"nitroglycerin",1596
+"azithromycin",1541
+"chlorhexidine rinse",1530
+"clonazepam",1515
+"norepinephrine",1488
+"metronidazole",1485
+"losartan",1445
+"ferrous",1416
+"ipratropium albuterol",1381
+"methylprednisolone succ",1367
+"phytonadione",1333
+"lidocaine for picc midline insertions",1319
+"midazolam",1308
+"hydrochlorothiazide",1305
+"atenolol",1299
+"powder",1282
+"allopurinol",1279
+"phosphorus",1264
+"aluminum hydrox simethicone",1261
+"pneumococcal valent polysaccharide vaccine",1255
+"tramadol",1244
+"zolpidem",1227
+"tramadol ultram",1217
+"acyclovir",1204
+"isosorbide mononitrate",1203
+"sertraline",1190
+"multivitamins w minerals",1187
+"olanzapine",1170
+"apixaban",1149
+"hydromorphone",1143
+"meropenem",1142
+"guaifenesin",1106
+"fluticasone salmeterol diskus",1099
+"lidocaine jelly glydo",1094
+"fluticasone propionate nasal",1034
+"epoetin alfa",1033
+"loperamide",1025
+"fluconazole",1003
+"alteplase catheter clearance",992
+"nicotine",989
+"methadone",983
+"citalopram",970
+"olanzapine disintegrating",954
+"mirtazapine",932
+"cyanocobalamin",930
+"docusate liquid",918
+"nitroglycerin sl",909
+"midodrine",900
+"prismasate b k",898
+"sarna lotion",879
+"nystatin",876
+"pravastatin",872
+"replacement oncology",857
+"mycophenolate mofetil",831
+"phenytoin",831
+"hydroxyzine",822
+"sulfameth trimethoprim ss",812
+"rosuvastatin",808
+"sevelamer",798
+"sulfameth trimethoprim ds",789
+"lidocaine jelly urojet",786
+"neomycin polymyxin bacitracin",781
+"fluoxetine",775
+"dexmedetomidine",763
+"naloxone",738
+"clonidine",729
+"albumin",716
+"fluticasone propionate",714
+"benzonatate",713
+"ampicillin sulbactam",709
+"duloxetine",701
+"morphine ms contin",698
+"valsartan",694
+"vancomycin liquid",693
+"lamotrigine",675
+"tiotropium",668
+"nifedipine",664
+"excel",659
+"alprazolam",657
+"pregabalin",655
+"readi cat barium",650
+"finasteride",643
+"acetylcysteine",639
+"latanoprost ophth",631
+"artificial tears",630
+"lansoprazole disintegrating",617
+"risperidone",614
+"bupivacaine",611
+"hydrocortisone na succ",608
+"glycopyrrolate",602
+"bumetanide",598
+"amoxicillin clavulanic acid",595
+"clindamycin",587
+"promethazine",586
+"venlafaxine",586
+"nasal",580
+"ascorbic acid",565
+"moviprep",560
+"ceftazidime",547
+"chl ns",544
+"nephrocaps",539
+"vasopressin",536
+"isosorbide dinitrate",536
+"miconazole powder",535
+"morphine ir",533
+"valganciclovir",530
+"cyclobenzaprine",527
+"sucralfate",520
+"mupirocin",514
+"polystyrene sulfonate",500
+"escitalopram",490
+"rifaximin",490
+"doxycycline hyclate",490
+"octreotide",487
+"influenza vaccine high dose quadrivalent",479
+"divalproex",473
+"calcitriol",468
+"metolazone",466
+"daptomycin",465
+"ursodiol",463
+"montelukast",460
+"ipratropium mdi",452
+"epinephrine",447
+"d lr",444
+"cephalexin",435
+"bupropion sustained",434
+"maalox diphenhydramine lidocaine",431
+"paroxetine",428
+"nicardipine",426
+"hydrocortisone",424
+"cepacol sore throat lozenge",423
+"chloraseptic throat spray",417
+"linezolid",412
+"carbidopa levodopa",409
+"ferric",407
+"baclofen",407
+"colchicine",406
+"yellow cadd cassette",399
+"scopolamine",396
+"doxercalciferol",394
+"tizanidine",382
+"oxytocin",377
+"lacosamide",376
+"ns mini plus",373
+"dibucaine",372
+"meperidine",372
+"aripiprazole",372
+"propranolol",368
+"amitriptyline",362
+"verapamil",362
+"creon",360
+"guaifenesin dextromethorphan",360
+"atropine",360
+"fexofenadine",354
+"loratadine",347
+"clozapine",345
+"citalopram hydrobromide",341
+"cetirizine",331
+"chlorothiazide",328
+"dermoplast spray",325
+"donepezil",324
+"fish oil omega",315
+"topiramate topamax",313
+"tetanus diphtox acellular pertuss adacel",309
+"cyclosporine neoral modified",308
+"nadolol",299
+"neostigmine",297
+"hypertonic",296
+"oxybutynin",293
+"ezetimibe",293
+"brimonidine ophth",290
+"leucovorin",290
+"cefpodoxime proxetil",288
+"timolol",287
+"atovaquone",287
+"codeine",283
+"buspirone",280
+"gentamicin",279
+"phenobarbital alcohol withdrawal dose taper days",269
+"ampicillin",265
+"lidocaine viscous",261
+"cepacol menthol",259
+"cisatracurium",259
+"oxcarbazepine",257
+"micafungin",253
+"multivitamin",241
+"triamcinolone acetonide",240
+"epoetin alfa epbx retacrit",239
+"methylnaltrexone",237
+"doxazosin",235
+"benztropine",232
+"phenazopyridine",226
+"acd a crrt",220
+"nortriptyline",220
+"gastroview diatrizoate meglumine",217
+"acetazolamide",216
+"tuberculin protein",215
+"golytely",212
+"vitamin d cholecalciferol",210
+"oseltamivir",210
+"artificial tear",209
+"oxymetazoline",209
+"enalapril",205
+"guaifenesin codeine",204
+"diphenoxylate atropine",203
+"fleet enema",202
+"hydroxychloroquine",199
+"prednisolone ophth susp",199
+"chlorthalidone",197
+"mouth care rinse",196
+"clobetasol propionate",195
+"dobutamine",194
+"erythromycin ophth oint",194
+"anti thymocyte globulin rabbit",194
+"dicyclomine",192
+"inhalation",192
+"cyclophosphamide",191
+"chlorpromazine",191
+"naproxen",190
+"bupropion",189
+"argatroban",188
+"nicotine polacrilex",186
+"valproic acid",185
+"desmopressin",184
+"ketamine",183
+"artificial tears preserv",178
+"clotrimazole",178
+"nitrofurantoin monohyd macrobid",177
+"cinacalcet",177
+"dopamine",176
+"milrinone",175
+"dronabinol",174
+"bupropion xl once daily",174
+"glyburide",173
+"filgrastim sndz",173
+"fludrocortisone",173
+"zinc",171
+"dorzolamide timolol ophth",171
+"meclizine",170
+"sumatriptan",170
+"chemo",168
+"carbamazepine",166
+"zonisamide",166
+"hydroxyurea",165
+"filgrastim",165
+"lactulose enema",164
+"gammagard liquid",164
+"diazepam ciwa protocol",163
+"alteplase",163
+"clonidine hr",161
+"mesalamine",161
+"cepastat phenol lozenge",160
+"fosphenytoin",158
+"psyllium wafer",156
+"voriconazole",156
+"valproate",156
+"lamivudine",155
+"azathioprine",154
+"fleet enema saline",153
+"valacyclovir",153
+"sirolimus",152
+"albuterol ipratropium",151
+"bacitracin",150
+"pyridoxine",149
+"oxazepam",149
+"terazosin",147
+"hyoscyamine",147
+"mupirocin nasal",147
+"alendronate",146
+"cholestyramine",145
+"prenatal vitamins",145
+"mannitol",141
+"nafcillin",140
+"ropinirole",139
+"epoprostenol veletri",138
+"fosaprepitant",137
+"mycophenolate",137
+"bivalirudin",137
+"excel viaflo",136
+"phenobarbital",134
+"rocuronium",133
+"erythromycin",132
+"methylphenidate ritalin",132
+"prazosin",131
+"esmolol",129
+"etoposide",127
+"artificial tears gel",127
+"memantine",126
+"pramipexole",126
+"tobramycin",126
+"amino acids",125
+"cosyntropin",125
+"amoxicillin",125
+"caphosol",124
+"ticagrelor",124
+"doxorubicin",123
+"methocarbamol",122
+"iohexol omnipaque",120
+"perphenazine",120
+"dexamethasone sod",118
+"emtricitabine tenofovir truvada",115
+"psyllium powder",115
+"hydrocortisone rectal",114
+"budesonide",113
+"lidocaine epinephrine",113
+"aquaphor",112
+"ziprasidone",112
+"posaconazole",112
+"vitamin b complex",111
+"aztreonam",110
+"hydrocerin",108
+"doxepin",107
+"buprenorphine naloxone",107
+"nimodipine",106
+"levalbuterol",106
+"d w excel",105
+"sacubitril valsartan",104
+"fenofibrate",103
+"sotalol",103
+"eptifibatide",102
+"isotonic",102
+"phenytoin infatab",102
+"vincristine oncovin",101
+"mesna",101
+"methimazole",99
+"pancrelipase",98
+"lidocaine jelly",96
+"aluminum hydroxide",96
+"dorzolamide ophth",96
+"entecavir",96
+"fleet enema mineral oil",95
+"hydromorphone hp",94
+"indomethacin",94
+"ritonavir",93
+"cyclosporine sandimmune",92
+"cytarabine",91
+"tolterodine",91
+"methylprednisolone",91
+"bottle",90
+"amphetamine dextroamphetamine",89
+"quinapril",88
+"vitamin e",87
+"paricalcitol",87
+"hydromorphone p f",87
+"flecainide",85
+"psyllium",84
+"collagenase",84
+"methylprednisolone na suc",84
+"paliperidone",84
+"glycerophosphate",83
+"phenobarbital icu alcohol withdrawal initial load rescue dose",82
+"dofetilide",81
+"miconazole",80
+"sliding scale critical care ionized",79
+"nicotine lozenge",79
+"epinephrine epipen",79
+"chl d lr",79
+"flush for crrt",79
+"tb",79
+"sildenafil",77
+"ketoconazole",77
+"pyridostigmine",77
+"prasugrel",76
+"gemfibrozil",76
+"rituximab",75
+"epidural",75
+"fat emulsion",75
+"ranitidine liquid",74
+"sulfameth trimethoprim",74
+"temazepam",74
+"niacin",73
+"risperidone disintegrating",72
+"bismuth subsalicylate",72
+"venetoclax",72
+"capsaicin",70
+"divalproex sod sprinkles",70
+"aerogen sw",69
+"amantadine",68
+"fluticasone salmeterol",68
+"dolutegravir",68
+"dapsone",67
+"tenofovir disoproxil viread",67
+"ns epidural",67
+"sulfamethoxazole trimethoprim",65
+"thiosulfate",65
+"tranexamic acid",64
+"buprenorphine naloxone film",64
+"ranolazine",63
+"rifampin",63
+"lidocaine prilocaine",62
+"ertapenem",62
+"triamterene hydrochlorothiazide",62
+"imipenem cilastatin",61
+"ropivacaine",61
+"albuterol mdi",61
+"darunavir",59
+"ipratropium albuterol inhalation spray",59
+"misoprostol",59
+"ob",58
+"carboplatin",58
+"ambisome",57
+"trace elements",57
+"triamterene hctz",56
+"cilostazol",56
+"transplant self medication program",56
+"felodipine",56
+"succinylcholine",56
+"fentanyl pca",56
+"megestrol",56
+"anastrozole",56
+"protamine",55
+"mineral oil",55
+"remdesivir",55
+"ns intrapleural",55
+"chl d w",54
+"nitroprusside",53
+"bengay",53
+"salmeterol xinafoate diskus",53
+"vancomycin antibiotic lock",53
+"modafinil",53
+"enalaprilat",52
+"raltegravir",52
+"aminocaproic acid",52
+"calcitonin salmon",51
+"dexamethasone sod phos",51
+"sulfasalazine",50
+"ciprofloxacin ophth",49
+"pilocarpine",49
+"opium tincture morphine",49
+"diclofenac gel",48
+"nf ertapenem",48
+"neomycin",48
+"opium tincture",48
+"fluorouracil",47
+"mirapex",47
+"crrt",47
+"betamethasone na phos acet",47
+"tigecycline",47
+"esomeprazole",46
+"silver sulfadiazine",46
+"estrogens conjugated",46
+"medroxyprogesterone",46
+"ns irrigation bottle",45
+"abacavir",45
+"isoniazid",45
+"ethacrynic acid",45
+"febuxostat",45
+"vancomycin enema",44
+"belladonna opium",44
+"pseudoephedrine",44
+"lanthanum",44
+"glimepiride",44
+"blue cadd cassette",44
+"fluvoxamine",44
+"atazanavir",44
+"pioglitazone",43
+"vecuronium",43
+"eplerenone",43
+"ramipril",42
+"racepinephrine",42
+"pantoprazole granules for",41
+"glycerin supps",41
+"methylphenidate",41
+"aerogen ns",40
+"mexiletine",40
+"carbamide peroxide",40
+"paclitaxel taxol",40
+"isavuconazonium",40
+"minocycline",39
+"lidocaine p f",39
+"primidone",39
+"vitamin d ergocalciferol",39
+"ethanol catheter dwell",39
+"miconazole vag",38
+"adenosine",38
+"intraperitoneal",38
+"vancomycin pharmacy to dose id consult only",38
+"pamidronate",38
+"emtricitabine tenofovir alafen descovy",38
+"clobazam",38
+"maalox lidocaine",38
+"hepatitis b vaccine",37
+"ceftaroline",37
+"glutamine",37
+"ganciclovir",37
+"vitamin a",37
+"penicillin g",37
+"aprepitant",37
+"witch hazel pad",37
+"loxapine",37
+"betamethasone dipro",37
+"tresiba flextouch u",37
+"atropine ophth",36
+"fluoride dental gel",36
+"foscarnet",36
+"efavirenz",36
+"ferrous liquid",35
+"amiloride",35
+"measles mumps rubella vac",35
+"nitrofurantoin macrodantin",35
+"etomidate",35
+"symbicort",35
+"methylene blue",35
+"bicarbonate eff",34
+"tricor",34
+"tucks hemorrhoidal oint",34
+"adderall",34
+"fluphenazine",34
+"dornase alfa",34
+"chlordiazepoxide",34
+"clarithromycin",33
+"clevidipine",33
+"moexipril",33
+"vitamin b complex w c",32
+"syringes ns",32
+"romiplostim",32
+"lopinavir ritonavir",32
+"irbesartan",32
+"betamethasone dipro oint",32
+"cisplatin",32
+"namenda",32
+"fluocinonide",32
+"iohexol",31
+"decitabine",31
+"dakins strength",31
+"mesalamine rectal",31
+"lamictal",31
+"lubiprostone",31
+"clopidogrel bisulfate",30
+"propafenone",30
+"ifosfamide",30
+"lumigan",30
+"dicloxacillin",30
+"fosfomycin tromethamine",30
+"dextromethorphan guaifenesin sugar",30
+"alteplase clearance ie temp tlcl",30
+"theophylline",29
+"tamoxifen",29
+"mercaptopurine",29
+"amoxicillin clavulanate susp",29
+"acamprosate",29
+"bicitra",29
+"liothyronine",28
+"repaglinide",28
+"desonide",28
+"thyroid",28
+"diclofenac",28
+"naltrexone",28
+"lovastatin",28
+"minoxidil",28
+"hydrocortisone oint",28
+"bictegrav emtricit tenofov ala",28
+"pentamidine inhalation",28
+"xopenex",28
+"multivitamins w minerals liquid",28
+"glycopyrrolate cvicu reversal protocol",28
+"gelclair",28
+"letrozole",27
+"thrombin",27
+"lamivudine zidovudine combivir",27
+"neostigmine cvicu reversal protocol",27
+"pentoxifylline",27
+"dextromethorphan polistirex",26
+"covid vaccine moderna",26
+"covid vaccine pfizer",26
+"iron polysaccharides complex",26
+"penicillin v",26
+"oxaliplatin desensitization",26
+"zirconium cyclosilicate",25
+"desipramine",25
+"terbinafine",25
+"hydrocortisone suppository",25
+"emtricitabine",25
+"dextromethorphan poly complex",25
+"haloperidol decanoate long acting",25
+"paliperidone palmitate",25
+"mucinex",25
+"nexium",24
+"aldesleukin",24
+"viaflex",24
+"betamethasone phos acet",24
+"iron dextran test dose",24
+"bortezomib",24
+"chl yellow cadd",23
+"melphalan",23
+"ivermectin",23
+"estradiol",23
+"p f",23
+"ribavirin",23
+"benzocaine spray",23
+"testosterone",23
+"tacrolimus envarsus",23
+"fludarabine",22
+"tirofiban",22
+"metronidazole gel",22
+"ethambutol",22
+"imipramine",22
+"ketorolac ophth",22
+"tolvaptan",22
+"caspofungin",22
+"avapro",22
+"haloperidol decanoate",22
+"furosemide heart failure",21
+"propoxyphene nap apap n",21
+"moxifloxacin",21
+"ruxolitinib",21
+"niacinamide",21
+"dronedarone",20
+"tuberculin ppd",20
+"leflunomide",20
+"infliximab",20
+"entacapone",20
+"click change to choose a base",20
+"oxaliplatin",20
+"glass bottle",20
+"pca",20
+"olmesartan",19
+"hydrocortisone enema",19
+"n acetylcysteine",19
+"lactic acid lotion",19
+"hydrocortisone na",19
+"hemorrhoidal suppository",19
+"buprenorphine",19
+"etravirine",18
+"multiple vitamins liq",18
+"amikacin",18
+"lurasidone",18
+"flucytosine",18
+"levemir",18
+"celecoxib",18
+"amino acids w",18
+"epidural ns",18
+"restasis",18
+"latuda",18
+"disopyramide",18
+"peripheral nerve",18
+"bethanechol",17
+"celebrex",17
+"advair diskus",17
+"talc",17
+"iron dextran complex",17
+"dextroamphetamine",17
+"phenaseptic throat spray",17
+"latex",17
+"provigil",17
+"hepatitis a vaccine",16
+"pletal",16
+"bicalutamide",16
+"lyrica",16
+"trandolapril",16
+"varicella virus vaccine",16
+"irinotecan",16
+"quinidine e r",16
+"bacitracin polymyxin b opht oint",16
+"empagliflozin",16
+"rasburicase",15
+"cyclosporine ophth emulsion",15
+"phoxillum b k",15
+"myfortic",15
+"fluocinolone acetonide",15
+"hespan",15
+"lidocaine epi",15
+"caffeine benzoate",15
+"tocilizumab",15
+"benicar",15
+"keppra",15
+"ticlopidine",15
+"letermovir",15
+"nystatin triamcinolone",15
+"methylergonovine",15
+"haemophilus b conj vaccine",15
+"benazepril",15
+"plasma lyte a ph",15
+"adenosine liver flush",15
+"palonosetron",15
+"tobramycin inhalation",15
+"ibrutinib",15
+"fat emulsion intralipid",15
+"tretinoin atra all transretinoic acid",15
+"cidofovir",14
+"volumen barium",14
+"nabumetone",14
+"trihexyphenidyl",14
+"rifabutin",14
+"levobunolol",14
 "ribavirin nf",14
-"multivit",14
-"inv nimodipine",14
-"ofev",14
-"bosentan",14
-"novolog mix flexpen",14
-"cortisone",14
-"aminophylline",14
-"nf hemin",14
-"perforomist",14
-"inv ganaxolone",14
-"butorphanol",14
-"lumigan bimatoprost",13
-"chloroprocaine",13
-"carbidopa levodopa entacapone",13
-"crinone",13
-"ibrutinib imbruvica",13
-"fentanyl pf",13
-"nf pegaspargase",13
-"levothyroxine levothyroxine",13
-"glyburide prestab",13
-"halobetasol propionate",13
-"clobetasol",13
-"systane balance",13
-"binimetinib",13
-"invokana",13
-"micardis",13
-"dimethyl",13
-"dexametha",13
-"polyvinyl alcohol",13
-"briviact",13
-"hemabate",13
-"lactase enzyme",13
-"gilteritinib nf",13
-"acd a for crrt",13
-"etodolac",13
-"albuter",13
-"benzon",13
-"omnipred",13
-"tretinoin chemotherapy",13
-"inv anakinra",13
-"mycophenolate mofetil self med",13
-"intrathecal pump",13
-"tradjenta",13
-"velphoro",13
-"ureacin",13
-"gengraf",13
-"docusate sodi",13
-"cytarabine liposome",13
-"protein c",13
-"dexamet",13
-"armour thyroid",13
-"lindane lotion",13
-"ultrase mt",13
-"edurant",13
-"letairis",13
-"suprep bowel prep kit",13
-"furosemide desensitization",13
-"liposomal irinotecan onivyde",13
-"rituximab abbs truxima desensitization",13
-"pyrimethamine desensitization",13
-"album",12
-"seroquel",12
-"azasite",12
-"polyvinyl alcohol povidone",12
-"seasonique",12
-"kaletra",12
-"denosumab prolia",12
-"cosopt pf",12
-"bupivacaine on q pump",12
-"morph",12
-"lipid emulsion",12
-"paromomycin",12
-"rabies immune globulin",12
-"preservision lutein",12
-"amphetamine",12
-"belumosudil",12
-"anzemet",12
-"lidocain",12
-"methad",12
-"humalog mix kwikpen",12
-"benazepril bulk",12
-"eszopiclone",12
-"valganciclo",12
-"ethyl spray",12
-"bupropion xl",12
-"nf sunitinib",12
-"epinephrine auto injector",12
-"depakene",12
-"sofosbuvir velpatasvir",12
-"niac",12
-"veltassa",12
-"neulumex barium",12
-"testosterone enanthate",12
-"albuterol inh",12
-"esbriet",12
-"caspofungin desensitization",12
-"neutra",12
-"hexavitamin",12
-"oxymorphone",12
-"loestrin fe",12
-"cefiderocol nf",12
-"dorzolamide timolol pf",12
-"altavera",12
-"nuedexta",12
-"eculizumab nf",12
-"soothe lubricant",12
-"inv apixaban",12
-"dexamethaso",12
-"methenamine mandelate",12
-"vancomycin intrathecal",12
-"chlordiazepoxide clidinium",12
-"asp",12
-"ceftazidime avibactam nf",12
-"gamunex c",12
-"procardia xl",11
-"levothy",11
-"bactroban",11
-"lifitegrast",11
-"xiidra",11
-"ortho tri cyclen lo",11
-"idelalisib",11
-"imipenem cilastatin relebactam recarbrio nf",11
-"norgestrel ethinyl estradiol",11
-"lantus solostar",11
-"prenatal one",11
-"toviaz",11
-"timoptic xe",11
-"genteal",11
-"lactobacillus acidophilus",11
-"bebtelovimab eua",11
-"valganciclovi",11
-"prucalopride",11
-"benadryl allergy",11
-"dexamethas",11
-"rozerem",11
-"trivora",11
-"tessalon",11
-"vancomycin pharmacy to dose id consult or icu only",11
-"oxandrolone",11
-"inv blinatumomab",11
-"albu",11
-"inv normal saline flush",11
-"ondanse",11
-"inv bl",11
-"inv pembrolizumab",11
-"estrace",11
-"cilo",11
-"pentosan polysulfate",11
-"revatio",11
-"excedrin extra strength",11
-"chlorambucil",11
-"inv prednisone",11
-"inv zinc",11
-"afrin",11
-"dilaudid",11
-"aminolevulinic acid",11
-"fioricet",11
-"teriflunomide",11
-"atrovent",11
-"armodafinil",11
-"coreg",11
-"linagliptin",11
-"darolutamide",11
-"lenvatinib",11
-"eculizumab",11
-"lamotrigine lamictal brand nf",11
-"ivosidenib nf",11
-"nf levalbuterol",11
-"docus",11
-"myrbetriq mirabegron",11
-"arsenic trioxide nf",11
-"neoral",11
-"phenytek",11
-"toprol xl",10
-"inv edoxaban",10
-"loryna",10
-"pkt",10
-"cortroysn",10
-"inv clofazimine",10
-"eletriptan hbr",10
-"enoxapari",10
-"midol complete",10
-"northera",10
-"clotrimazole betamethasone",10
-"minastrin fe",10
-"asmanex twisthaler",10
-"phyton",10
-"budesonide nasal",10
-"dupilumab",10
-"telmisartan",10
-"mannitol g",10
-"artificial",10
-"famvir",10
-"edrophonium",10
-"phenoba",10
-"imdur",10
-"sulfacetamide prednisolone ophth oint",10
-"apidra solostar",10
-"lunesta eszopiclone",10
-"milnacipran",10
-"mesalam",10
-"tudorza pressair",10
-"detrol",10
-"nf",10
-"vyndamax",10
-"metipranolol",10
-"nuvigil",10
-"ritalin",10
-"profilnine sd",10
-"nifed",10
-"immune globulin",10
-"epoetin",10
-"ephedrine",10
-"opsumit",10
-"isosorbide mononitra",10
-"valganc",10
-"flutamide",10
-"librax with clidinium",10
-"unisom",10
-"ativan",10
-"levocetirizine",10
-"uridine triacetate",10
-"mbl",10
-"ciclopirox",10
-"theratears gel",10
-"makena",10
-"meperidine pf",10
-"genteal gel",10
-"omnaris",10
-"shingrix pf",10
-"abreva",10
-"dilti",10
-"alectinib",10
-"amiodarone for dilution",10
-"bicarbonate nephron",10
-"isordil",10
-"loraze",10
-"epoprostenol nf",10
-"mavyret",10
-"rifampin desensitization",10
-"fuzeon",10
-"cil",10
-"apri desogestrel ethinyl estradiol",10
-"votrient",10
-"moda",10
-"baclofen intrathecal",10
-"flovent diskus",10
-"nf pramipexole",10
-"voriconazole ophth",10
-"inv trv",10
-"patanase",10
-"alpha lipoic acid",10
-"panitumumab",10
-"cephalexin desensitization",10
-"amitiza",10
-"nivolumab",10
-"perampanel nf",10
-"emsam",9
-"aclidinium",9
-"nitrofurantoin macrocrystal",9
-"critic aid",9
-"albut",9
-"sanctura",9
-"darbepoetin alfa polysorbat",9
-"fleet",9
-"aubagio",9
-"bromday",9
-"fentora",9
-"topotecan",9
-"dex",9
-"abatacept",9
-"zoloft",9
-"fluticasone umeclidin vilanter",9
-"dextromethorphan",9
-"b complex",9
-"vera",9
-"symbicort budesonide formoterol",9
-"emtricitabine tenofovir alafen",9
-"pepcid complete",9
-"ethanol ethyl alcohol",9
-"multivitamin with minerals",9
-"lactase",9
-"risperdal",9
-"alyacen",9
-"citracal d maximum",9
-"trametinib nf",9
-"levemir flextouch u insuln",9
-"nasacort aq",9
-"tecfidera dimethyl",9
-"nintedanib",9
-"enoxapar",9
-"nystatin powder",9
-"domperidone bulk",9
-"mebaral",9
-"gilenya",9
-"cabozantinib cabometyx",9
-"inv evicel fibrin sealant",9
-"lutera",9
-"palbociclib",9
-"citrucel",9
-"carnitor",9
-"fluorouracil continuous",9
-"vienva",9
-"os cal d",9
-"combigan brimonidine timolol",9
-"xeljanz tofacitinib",9
-"fluticasone vilanterol",9
-"travoprost benzalkonium",9
-"levodopa benserazide",9
-"diovan hct",9
-"gefitinib",9
-"nf carbidopa levodopa",9
-"cholecalciferol vitamin d",9
-"ozempic",9
-"vascepa",9
-"vytorin",9
-"doxil",9
-"hydromorphone intrathecal",9
-"with vitamin d",9
-"ortho tri cyclen",9
-"lidoc",9
-"olan",9
-"loper",9
-"requip",9
-"nystatin susp self med",9
-"kineret",9
-"symlin",9
-"slow fe",9
-"hydromorphone bupivacaine clonidine intrathecal",9
-"crlx",9
-"silibinin",8
-"maxair autohaler",8
-"singulair",8
-"imbruvica",8
-"kytril",8
-"biotene moisturizing mouth",8
-"riociguat",8
-"azopt ophth nf",8
-"exalgo",8
-"inv omeprazole",8
-"valbenazine",8
-"linzess linaclotide",8
-"imodium a d",8
-"mesal",8
-"mvi",8
-"adcirca tadalafil",8
-"inv pf",8
-"vagifem",8
-"nyst",8
-"lysine",8
-"benicar hct",8
-"estraderm",8
-"inv letermovir letermovir",8
-"isosorbide mono",8
-"docusate sod",8
-"sonata",8
-"ixazomib",8
-"anas",8
-"novolog mix flexpen u",8
-"benadryl",8
-"iron sucrose",8
-"hydromorphone pf",8
-"byetta exenatide",8
-"asacol",8
-"rifapentine",8
-"elidel",8
-"venclexta",8
-"systane nighttime",8
-"viorele",8
-"proglycem",8
-"morphine pca",8
-"cabometyx",8
-"pegfilgrastim onpro on body injector",8
-"alb",8
-"interferon beta a",8
-"phen",8
-"tetanus diphtheria toxoids td",8
-"aldara",8
-"neupogen",8
-"larissia",8
-"isosorbide mon",8
-"lialda mesalamine",8
-"papaverine",8
-"trinessa",8
-"dexame",8
-"creatine monohydrate",8
-"creatine monohydrate bulk",8
-"one a day womens prenatal",8
-"emtricitabine tenofovir",8
-"alrex",8
-"caffeine",8
-"phoslo",8
-"phenobar",8
-"bupropi",8
-"diclegis",8
-"infliximab abda renflexis",8
-"slow mag",8
-"timolol pf",8
-"ruxolitinib jakafi",8
-"tenofovir disoproxil viread powder",8
-"lidocaine bristojet",8
-"flomax",8
-"theratears",8
-"niacinamide g g",8
-"phenylephrine for priapism",8
-"muromonab cd",8
-"epinephrine emergency",8
-"nelarabine nf",8
-"mononessa",8
-"zeasorb af",8
-"azelaic acid",8
-"maxalt mlt",8
-"lisdexamfetamine",8
-"zytiga abiraterone",8
-"steglatro",8
-"catapres",8
-"obinutuzumab",8
-"colace",8
-"ninlaro",8
-"cresemba",8
-"nifedical xl",8
-"gaviscon",8
-"fluvastatin xl",8
-"claravis",8
-"aztreonam desensitization",8
-"inv abt",8
-"venlafaxin",7
-"vyzulta",7
-"zoledronic acid reclast",7
-"propecia",7
-"plus protein",7
-"zz",7
-"nexium packet",7
-"zantac maximum strength",7
-"enzalutamide xtandi",7
-"prolensa bromfenac",7
-"vinblastine",7
-"sronyx",7
-"gianvi",7
-"everolimus antineoplastic",7
-"glucosamine chondroitin",7
-"bisoprolol hydrochlorothiazide",7
-"xyzal",7
-"lidocai",7
-"lactinex",7
-"naloxegol",7
-"valgancicl",7
-"tetracaine",7
-"phytona",7
-"diflunisal",7
-"divigel",7
-"testosterone propionate",7
-"imuran",7
-"isoso",7
-"pred",7
-"clarinex",7
-"zyrtec d",7
-"protonix granules for",7
-"tafluprost pf",7
-"k dur",7
-"caspofungin nf",7
-"multivitami",7
-"excedrin tension headache",7
-"proctosol hc",7
-"revlimid lenalidomide",7
-"mestinon",7
-"defibrotide",7
-"milk thistle",7
-"phospholine iodide",7
-"tenofovir disoproxil fum",7
-"dexlansoprazole dexilant",7
-"salagen pilocarpine",7
-"inv abatacept",7
-"rocaltrol",7
-"cinryze",7
-"verap",7
-"aspiri",7
-"hydromorphone d",7
-"calcitrate vitamin d",7
-"amiodarone f",7
-"inv coq",7
-"lotrel",7
-"hydroxyprogesterone caproate nf",7
-"nifedip",7
-"mepivacaine",7
-"invega",7
-"hiprex",7
-"prenatal multi",7
-"relistor",7
-"venlafaxi",7
-"protonix",7
-"methado",7
-"benzocaine",7
-"anastr",7
-"lidocaine epinephrine p f",7
-"bupropio",7
-"divalp",7
-"nia",7
-"brexucabtagene autoleucel",7
-"agrylin",7
-"potas",7
-"vancomycin bulk",7
-"idecabtagene vicleucel",7
-"refresh optive",7
-"bexarotene",7
-"isosor",7
-"micardis hct",7
-"riboflavin",7
-"levora",7
-"endometrin",7
-"reyataz",7
-"clomiphene",7
-"maalox",7
-"semaglutide",7
-"trulicity dulaglutide",7
-"nafcillin graded challenge",7
-"thermotabs",7
-"oxycod",7
-"quinupristin dalfopristin",7
-"dimethyl sulfoxide",7
-"polytrim",7
-"scopolamine base",7
-"budes",7
-"advil liqui gel",7
-"acetyl",7
-"flurazepam",7
-"mucinex dm",7
-"biofreeze menthol",7
-"neomycin polymyxin gramicidin",7
-"critic aid clear",7
-"dulcolax bisacodyl",7
-"trientine",7
-"inv vorinostat",7
-"omegaven emulsion",7
-"tenormin",7
-"carac",7
-"humalog junior kwikpen",7
-"parnate",7
-"inv odronextamab",7
-"alka seltzer",7
-"benadryl itch stopping",6
-"imdu",6
-"lenalidomide revlimid",6
-"daclatasvir",6
-"proventil hfa",6
-"phyto",6
-"kayexalate",6
-"brilinta",6
-"rexulti brexpiprazole",6
-"tracleer",6
-"mometasone nasal spray nf",6
-"fesoterodine",6
-"inv vedolizumab",6
-"subq",6
-"chlori syr",6
-"exelon rivastigmine",6
-"pregabalin lyrica",6
-"actiq",6
-"vitamin",6
-"potass",6
-"istalol",6
-"liotrix",6
-"levoth",6
-"vicodin",6
-"multigen",6
-"dexa",6
-"velivet",6
-"robinul",6
-"proctozone hc",6
-"acet",6
-"prevpac",6
-"testos",6
-"tretinoin gel",6
-"focalin",6
-"cranberry",6
-"niaci",6
-"lidocaine mpf",6
-"vitron c",6
-"lexapro",6
-"prenatal multi dha",6
-"selzentry",6
-"dakins",6
-"bimatoprost ophth nf",6
-"asmanex hfa",6
-"prevnar pf",6
-"deplin",6
-"lamotr",6
-"zelboraf",6
-"gammagard liquid white",6
-"sulfameth trimethopri",6
-"tenofovir disoproxil",6
-"pred forte",6
-"prami",6
-"questran",6
-"allegra d hour",6
-"isosorbide mo",6
-"neupro rotigotine",6
-"aspi",6
-"fluconazole desensitization",6
-"cymbalta",6
-"nf pentostatin",6
-"dalfampridine aminopyridine",6
-"epirubicin",6
-"urocit k",6
-"megace",6
-"dabrafenib nf",6
-"tedizolid",6
-"gluco g",6
-"ceti",6
-"benzona",6
-"lamot",6
-"combi",6
-"rythmol",6
-"doxycycline monohydrate",6
-"slow iron",6
-"anoro ellipta umeclidinium vilanterol",6
-"ambrisentan letairis",6
-"prednis",6
-"lipase protease amylase",6
-"valganciclovir self med",6
-"fluconazole self med",6
-"genteal mild to moderate",6
-"premarin",6
-"bimatoprost lumigan",6
-"bup",6
-"pneumoc val conj dip pf",6
-"lefl",6
-"cimzia",6
-"simeprevir",6
-"metronidazole desensitization",6
-"alvesco",6
-"octreotide lar depot",6
-"aspercreme lidocaine",6
-"serevent diskus",6
-"ch",6
-"enpresse",6
-"homatropine hbr",6
-"ephedrine pressors",6
-"macitentan opsumit",6
-"epi",6
-"crrt pharmacy to dose medications",6
-"oxycontin",6
-"fingolimod",6
-"senna s",6
-"abaloparatide",6
-"mafenide",6
-"omega fatty acids",6
-"celontin",6
-"porfimer",6
-"morp",6
-"isotretinoin",6
-"aminosalicylic acid",6
-"xulane",6
-"cilosta",6
-"rocklatan",6
-"urelle",6
-"phenyleprhine ophth",6
-"wixela inhub",6
-"feraheme",6
-"streptozocin",6
-"centrum silver",6
-"nf arginine",6
-"camila norethindrone",6
-"refresh p m",6
-"linezolid antibiotic lock",6
-"chantix varenicline",6
-"tresiba",6
-"gentamicin antibiotic lock",6
-"halop",6
-"limbitrol",6
-"savella milnacipran",6
-"amoxicillin clavulanate",6
-"maribavir",6
-"tymlos",6
-"dipivefrin",6
-"avodart dutasteride",6
-"ezogabine",6
-"incassia",6
-"avinza",6
-"immune globulin igg",6
-"sildenaf",6
-"kogenate fs",6
-"genteal severe",6
-"ola",6
-"bisop",6
-"uloric",6
-"budeso",6
-"gattex one",6
-"bystolic nebivolol",6
-"maal",6
-"dhea",6
-"osmoprep",6
-"duvelisib",6
-"ampicillin sulbact desensitization",6
-"treprostinil patient own pump",6
-"buprenex",6
-"reserpine",6
-"theophyllin",5
-"tagrisso",5
-"cepacol",5
-"levothyr",5
-"imodium",5
-"bevacizumab awwb mvasi",5
-"travatan ophth nf",5
-"inv niacinamide",5
-"dulaglutide",5
-"inderal",5
-"deferasirox",5
-"eletriptan",5
-"dexilant dexlansoprazole",5
-"indigotindisulfonate",5
-"alirocumab",5
-"zelapar",5
-"sulfamylon",5
-"lo ovral",5
-"neilmed sinus rinse complete",5
-"truvada",5
-"dulera mometasone formoterol",5
-"azor",5
-"victoza",5
-"valgancic",5
-"aceta",5
-"inv nivolumab",5
-"cipro",5
-"tamiflu",5
-"anamorelin",5
-"pifeltro",5
-"pramoxine",5
-"natalizumab",5
-"thioguanine",5
-"lomustine",5
-"lipiodol",5
-"desvenlafaxine pristiq",5
-"glyco",5
-"ocuvite with lutein",5
-"isos",5
-"multivi",5
-"phenobarbi",5
-"vitamin k",5
-"autologous serum tears",5
-"tacroli",5
-"dexmethylphenidate",5
-"viactiv",5
-"ketotifen bulk",5
-"claritin d hour",5
-"anusol hc",5
-"nifedipi",5
-"azilect rasagiline",5
-"aminocapro",5
-"aminocap",5
-"theo",5
-"oxcarbaz",5
-"takhzyro",5
-"lithobid",5
-"multivita",5
-"mirabegron myrbetriq",5
-"cetiri",5
-"aspir",5
-"hydromorph",5
-"seasonale",5
-"wellb",5
-"octagam",5
-"metamucil",5
-"camphor menthol",5
-"morphine sulf",5
-"rebif",5
-"preparation h",5
-"fluorometholone",5
-"albuterol proair",5
-"amphe",5
-"humira cf pen",5
-"cefpodoxime",5
-"pomalyst",5
-"atrovent hfa",5
-"desoximetasone",5
-"doxycycline",5
-"nikki",5
-"chlor",5
-"lidocaine jell",5
-"sulfameth trimeth ss self med",5
-"pantoprazole self med",5
-"tofacitinib xeljanz",5
-"evotaz",5
-"nys",5
-"mephobarbital",5
-"cytomel",5
-"pristiq desvenlafaxine",5
-"guai",5
-"icosapent ethyl",5
-"enablex darifenacin",5
-"azmacort",5
-"pramlintide",5
-"adder",5
-"lisocabtagene maraleucel",5
-"sulfame",5
-"ketamine bulk",5
-"rifam",5
-"ondansetr",5
-"imd",5
-"dilantin infatabs",5
-"proprano",5
-"nizatidine",5
-"slynd",5
-"movantik naloxegol",5
-"stelara",5
-"vitamin c",5
-"flintstones multi vit gummies",5
-"povidone",5
-"folgard",5
-"cep",5
-"incruse ellipta umeclidinium",5
-"cyto q liposomal ubiquinol",5
-"amphotericin b bulk",5
-"madopar bulk levodopa benserazide",5
-"isosorb",5
-"aminocaproi",5
-"ocuflox",5
-"docusate s",5
-"opsumit macitentan",5
-"nf nilotinib",5
-"dantolene",5
-"fluzone trival",5
-"lamictal lamotrigine",5
-"climara",5
-"oxaprozin",5
-"genteal pm",5
-"anastro",5
-"isosorbide m",5
-"emtricitab rilpivirine tenofov",5
-"prepopik",5
-"lovaza",5
-"prevacid hr",5
-"isosorbide monon",5
-"r u insuln",5
-"nf tacrolimus",5
-"anast",5
-"camrese",5
-"nf eculizumab",5
-"clindagel",5
-"diltiaze",5
-"telavancin nf",5
-"beconase aq",5
-"intelence",5
-"fluorescein strip",5
-"ephedrin",5
-"dival",5
-"xylimelts xylitol",5
-"biscolax",5
-"add",5
-"lapatinib",5
-"loxitane",5
-"nf fenofibrate",5
-"ceftazidime antibiotic lock",5
-"vit d",5
-"predniso",5
-"magonate",5
-"tenecteplase",5
-"isosorbide mononitr",5
-"latuda lurasidone",5
-"granisetron nf",5
-"dexedrine spansule",5
-"valproic",5
-"nf iron sucrose",5
-"titralac",5
-"isosorbi",5
-"lasix",5
-"aminopyridine",5
-"belumosudil nf",5
-"mycophen",5
-"diphenhyd",5
-"pentasa",5
-"tipranavir",5
-"sulfa",5
-"tranxene t",5
-"vibegron",5
-"panobinostat nf",5
-"mesalamine apriso",5
-"humalog junior kwikpen u",5
-"epinephrin",5
-"lipram ul",5
-"rhopressa netarsudil",5
-"methadone liquid",5
-"ventolin hfa",5
-"benefiber guar gum",5
-"namzaric",5
-"xtandi enzalutamide",5
-"invega sustenna",5
-"syprine",5
-"voriconazole crush",5
-"uptravi",5
-"methadone intensol",5
-"soriatane",5
-"hepar",5
-"cidofovir paste",5
-"aricept",5
-"zirgan",5
-"nasonex nf",5
-"natacyn",5
-"santyl",5
-"fosamax",5
-"norepinephrine for dil kit",5
-"aptivus",5
-"humalog junior kwikpen non formulary",5
-"v c forte",5
-"farxiga",5
-"capreomycin nf",5
-"vigabatrin",5
-"hydroxytryptophan",5
-"zepatier",5
-"amnesteem",5
-"vitamin a palmitate",5
-"meprobamate",5
-"inhaled",5
-"fenofibric acid choline",5
-"nucynta tapentadol",5
-"gabitril",5
-"n pen",5
-"oxcarbazepine brand name",5
-"levomilnacipran",5
-"oxbryta",5
-"acp pimavanserin",5
-"westhroid",4
-"cod liver oil",4
-"voltaren diclofenac",4
-"tetrabenazine xenazine",4
-"keflex",4
-"gastrografin",4
-"emricasan",4
-"flonase",4
-"bulk",4
-"polymyxin b sul trimethoprim",4
-"phentermine",4
-"clofazamine",4
-"balziva",4
-"pralatrexate",4
-"vivitrol",4
-"epine",4
-"bude",4
-"guaif",4
-"belsomra suvorexant",4
-"iprat",4
-"amphetami",4
-"timoptic",4
-"tafamidis meglumine",4
-"docu",4
-"methadon",4
-"ciclesonide",4
-"larotrectinib",4
-"ciprofloxacin dexamethasone",4
-"indocin",4
-"thyroid pork",4
-"hepari",4
-"sprycel",4
-"modafin",4
-"concerta methylphenidate",4
-"chantix continuing month box",4
-"folic",4
-"bi",4
-"lybrel",4
-"verapami",4
-"focalin dexmethylphenidate",4
-"humira cf",4
-"blisovi fe",4
-"triam",4
-"vicodin es",4
-"mul",4
-"symtuza",4
-"aluminum",4
-"oritavancin nf",4
-"zeasorb",4
-"refresh liquigel",4
-"inv krn",4
-"simbrinza brinzolamide brimonidine",4
-"glycerin",4
-"effexor",4
-"beano",4
-"systane propylene glycol",4
-"inv filgrastim sndz",4
-"temsirolimus",4
-"glucosamine",4
-"quasense",4
-"cartia xt",4
-"refresh optive mega pf",4
-"alka seltzer original",4
-"b",4
-"tirosint levothyroxine",4
-"aciphex rabeprazole",4
-"pepcid",4
-"cortifoam",4
-"olanzapi",4
-"ond",4
-"norvir",4
-"epinephri",4
-"selenium",4
-"lurasidone latuda",4
-"gattex",4
-"uceris",4
-"optive",4
-"nf budesonide",4
-"hydrolatum",4
-"bevacizumab",4
-"ben",4
-"dymista",4
-"phenytoi",4
+"indapamide",14
+"rufinamide",14
+"benzocaine menthol sore throat lozenge",14
+"tetanus diphtox acellular pertuss tdap",14
+"procainamide",14
+"orabase w benzocaine paste",13
+"ns glass bottle",13
+"inv thiamine",13
+"ketoconazole shampoo",13
+"busulfan",13
+"dipyridamole",13
+"calcipotriene",13
+"hydrocortisone foam",13
+"cyproheptadine",13
+"nalbuphine",13
+"prograf",13
+"arimidex",13
+"rilpivirine",13
+"silver applicator",13
+"kcentra",13
+"miconazole combo pack",13
+"permethrin",12
+"chlorpheniramine",12
+"meningococcal conj vaccine menactra",12
+"rivastigmine",12
+"viokase",12
+"methyldopa",12
+"inv remdesivir",12
+"propylthiouracil",12
+"exemestane",12
+"risperidone long acting",12
+"infliximab desensitization",12
+"betaxolol ophth susp",12
+"ranexa",12
+"pentobarbital",12
+"bactrim desensitization",12
+"ampicillin desensitization",12
+"clorazepate dipotassium",11
+"rosiglitazone",11
+"qvar",11
+"tetracycline",11
+"ethacrynate",11
+"miralax",11
+"clopidogrel desensitization",11
+"zyrtec",11
+"pyrazinamide",11
+"levocarnitine",11
+"glucose",11
+"felbamate",11
+"skelaxin",11
+"iloperidone",11
+"carboplatin desensitization",11
+"linzess",11
+"idarubicin",10
+"colesevelam",10
+"erythromycin ethylsuccinate",10
+"brimonidine",10
+"sorbitol",10
+"imatinib",10
+"trace elements tralement",10
+"evista",10
+"cimetidine",10
+"anoro ellipta",10
+"carisoprodol",10
+"tretinoin",10
+"lorazepam syr",10
+"cabergoline",10
+"inv bupivacaine",10
+"isosorbide",10
+"bacitracin polymyxin",10
+"nirmatrelvir ritonavir eua",10
+"cromolyn nasal inhalation",10
+"triazolam",10
+"beclomethasone dipropionate",10
+"dextran",9
+"furosemide rapid densitization",9
+"metronidazole gel vaginal",9
+"betamethasone dipro augmented gel",9
+"bromocriptine",9
+"mesalamine enema",9
+"docetaxel taxotere",9
+"tobramycin dexamethasone ophth oint",9
+"rasagiline",9
+"desmopressin nasal",9
+"testosterone cypionate",9
+"norethindrone estradiol",9
+"mitoxantrone",9
+"travatan z",9
+"salsalate",9
+"asparaginase",9
+"famciclovir",9
+"peginterferon alfa a",9
+"proair hfa",9
+"basiliximab",9
+"rituximab desensitization",9
+"banzel",9
+"anti inhibit coag comp feiba",9
+"dantrolene",8
+"quinine",8
+"femara",8
+"raloxifene",8
+"neomycin polymyxin hc otic susp",8
+"bisoprolol",8
+"fosamprenavir",8
+"selegiline",8
+"dextran d w",8
+"pangestyme ec",8
+"azelastine",8
+"balsalazide",8
+"clomipramine",8
+"humalog",8
+"cromolyn",8
+"suvorexant",8
+"neomycin polymyxin b",8
+"nefazodone",8
+"pneumococcal valent conjugate vaccine",8
+"travoprost",8
+"zoledronic acid",8
+"gemcitabine",8
+"clotrimazole vaginal",8
+"phentolamine",8
+"probenecid",8
+"aliskiren",8
+"temozolomide",8
+"pemetrexed",8
+"treprostinil",8
+"desvenlafaxine",8
+"copper",8
+"dapagliflozin",8
+"envarsus",8
+"hepatitis b immu glob hepagam b",8
+"tobramycin ophth",7
+"dasatinib",7
+"humira",7
+"betamethasone valerate",7
+"ascorbic acid liquid",7
+"smoflipid emulsion",7
+"thiothixene",7
+"methylprednisolone sod succ",7
+"phenobarbital icu alcohol withdrawal loading dose",7
+"benzoyl peroxide gel",7
+"gammagard s d",7
+"anakinra",7
+"pyrimethamine",7
+"soma",7
+"bicarbonat syr",7
+"acarbose",7
+"januvia",7
+"arsenic trioxide",7
+"tiagabine",7
+"nf erlotinib",7
+"fidaxomicin",7
+"combigan",7
+"dihydroergotamine",7
+"cobicistat",7
+"dexamethasone susp",7
+"tobramycin fortified ophth",7
+"zenpep",7
+"gentamicin dosing by pharmacy",7
+"amoxicillin clavulanate desensitization",7
+"prismasol bgk",7
+"morphine comfort care guidelines",6
+"cyclosporine",6
+"myrbetriq",6
+"abiraterone",6
+"angiotensin ii",6
+"levetiracetam stat dose",6
+"sofosbuvir",6
+"alfuzosin",6
+"gentamicin ophth",6
+"norethindrone",6
+"copaxone",6
+"disulfiram",6
+"evoxac",6
+"sulfadiazine",6
+"comtan",6
+"pulmicort",6
+"inv bl",6
+"lacosamide stat dose",6
+"niaspan",6
+"alprostadil",6
+"inv coq",6
+"zofran",6
+"medium chain triglycerides",6
+"fluorometholone ophth susp",6
+"clobetasol propionate gel",6
+"valtrex",6
+"galantamine",6
+"zafirlukast",6
+"chlorpheniramine hydrocodone",6
+"testosterone gel",6
+"jakafi",6
+"cannabidiol cbd epidiolex",6
+"spiriva respimat",6
+"lindane shampoo",6
+"strattera",6
+"isoproterenol",6
+"primaquine",6
+"naphazoline pheniramine ophth",6
+"colistin",6
+"vancomycin ophth",6
+"salagen",6
+"alteplase flush volume dialysis pheresis catheters",6
+"ambrisentan",6
+"melatonin",6
+"phenob",6
+"linaclotide",6
+"ledipasvir sofosbuvir",6
+"meropenem desensitization",6
+"ceftazidime avibactam avycaz",5
+"blistex lip",5
+"clonidine tts",5
+"genvoya",5
+"d w glass bottle",5
+"arava",5
+"piroxicam",5
+"tetanus diphtheria tox decavac",5
+"everolimus",5
+"cadd cassette",5
+"pulmicort flexhaler",5
+"norepinephrine ns",5
+"lialda",5
+"guaifenesin dextromethorphan sugar",5
+"acebutolol",5
+"liposomal doxorubicin doxil",5
+"guanfacine",5
+"tegretol",5
+"phenobarbital icu alcohol withdrawal loading dose and",5
+"junel fe",5
+"ammonium",5
+"sucralfate enema",5
+"fomepizole",5
+"covid vaccine per pharmacy",5
+"eltrombopag",5
+"vedolizumab",5
+"covid vaccine st dose by pharmacy",5
+"gamunex gammaked",5
+"trifluridine ophth",5
+"brivaracetam",5
+"tobramycin dexamethasone ophth susp",5
+"victoza pak",5
+"pristiq",5
+"filgrastim neupogen",5
+"sulindac",5
+"nevirapine",5
+"leuprolide",5
+"povidone iodine",5
+"zidovudine",5
+"stribild",5
+"maraviroc",5
+"abilify",5
+"bimatoprost",5
+"tobramycin dosing by pharmacy",5
+"inv deferoxamine",5
+"advair hfa",5
+"flumazenil",5
+"atgam",5
+"exelon",5
+"vigamox",5
+"povidone iodine strength",5
+"profend",5
+"vinorelbine navelbine",5
+"tropicamide",5
+"granisetron",5
+"peridex",5
+"azopt",5
+"pheno",5
+"dactinomycin",5
+"selenium sulfide",5
+"phenylephrine ophth",5
+"carmustine",5
+"intrapleural",5
+"inv ruxolitinib",5
+"nf imatinib",5
+"zz",4
+"ponatinib",4
+"epipen",4
+"axicabtagene ciloleucel",4
+"dalfampridine",4
+"rytary",4
+"dextran ns",4
+"procarbazine",4
+"casodex",4
+"mirabegron",4
+"phenylephrine nasal spray",4
+"cyclopentolate",4
+"ustekinumab",4
 "abilify discmelt",4
-"nurtec",4
-"icaps mv",4
-"jalyn",4
-"aggrenox",4
-"januvia sitagliptin",4
-"menomune",4
-"methadone dispersible",4
-"cepa",4
-"diovan",4
-"ex lax maximum strength",4
-"cilost",4
-"morphine sulfa",4
-"amphotericin b deoxycholate",4
-"albute",4
-"morphi",4
-"docosanol",4
-"senna plus",4
-"capecitabine nf",4
-"balsa",4
-"meperidine syr",4
-"gas x",4
-"nf pregabalin",4
-"rasagiline azilect",4
-"inv abl",4
-"sovaldi",4
-"bume",4
-"cuvitru",4
-"genotropin miniquick",4
-"tobradex",4
-"caltrate plus vitamin d",4
-"zileuton",4
-"midostaurin nf",4
-"tafinlar",4
-"celexa",4
-"fluticasone propion salmeterol",4
-"exenatide",4
-"cholestyramine aspartame",4
-"flebogamma",4
-"abacavir lamivudine",4
-"sandostatin lar depot",4
-"orphenadrine compound",4
-"iron",4
-"ombitasvir paritaprevir ritonavir",4
-"morphine sul",4
-"linaclotide linzess",4
-"iron dextran",4
-"bisaco",4
-"loestrin",4
-"revefenacin",4
-"irb",4
-"medrol",4
-"zeasorb miconazole",4
+"androgel",4
+"metaxalone",4
+"epoprostenol",4
+"epinephrine for dilution",4
+"candesartan",4
+"donnatol",4
+"morphine sulfat",4
+"ofloxacin",4
+"theophylline uniphyl",4
+"methazolamide",4
+"daunorubicin",4
+"hydrocortisone val",4
+"zonegran",4
+"domeboro",4
+"epinephrine auto injector",4
+"polymyxin b",4
+"mavyret",4
 "brincidofovir",4
-"mytesi",4
-"nora be",4
-"carboxymethylcellulose",4
-"meningococcal poly vaccine menomune",4
-"aygestin",4
-"lansoprazole disintegrating nf",4
-"ana",4
-"pemetrexed pemfexy",4
-"nf adderall",4
-"tecovirimat expanded access",4
-"abemaciclib",4
-"lotemax loteprednol etabonate",4
-"l methylfolate",4
-"paxlovid eua",4
-"phenylephrine for dilu",4
-"phenobarb",4
-"cyto q",4
-"b dots",4
-"citracal",4
-"humira adalimumab",4
-"zyprexa zydis",4
-"refresh plus",4
-"bottle glass",4
-"arti",4
-"metha",4
-"alosetron",4
-"mesala",4
-"bacl",4
-"dehydrated alcohol",4
-"alecensa",4
-"rapaflo",4
-"tucks",4
-"femcon fe",4
-"dupixent",4
-"aygestin norethindrone",4
-"darunavir cobicistat",4
-"nf entacapone",4
-"pazeo",4
-"flaxseed oil",4
-"saccharomyces boulardii",4
-"venlafax",4
-"ipra",4
-"revatio sildenafil",4
-"cilostaz",4
-"nozin",4
-"nf creon",4
-"galzin",4
-"vsl",4
-"doxil liposomal doxorubicin",4
-"ribasphere",4
-"voltaren gel",4
-"bosulif",4
-"icaps",4
-"us atg f",4
-"phenobarbit",4
-"epinephr",4
-"prevacid solutab",4
-"tykerb",4
-"sulfam",4
-"nf pletal",4
-"prenatal formula",4
-"solu medrol",4
+"prednisolone",4
+"humate p",4
+"pindolol",4
+"nilotinib",4
+"sitagliptin",4
+"carboprost tromethamine",4
+"papain",4
+"riboflavin vitamin b",4
+"brinzolamide",4
+"charcoal aqueous activated",4
+"penicillin g benzathine",4
 "inv artesunate",4
-"iron plus vitamin c",4
-"budesonide formoterol symbicort",4
-"normal saline flush",4
-"uptravi selexipag",4
-"larin fe",4
-"amphotericin b nebulized",4
-"ingrezza",4
-"loseasonique",4
-"oxide aa chelate",4
-"pitavastatin pitavastatin",4
-"avandia",4
-"menthol",4
-"amitriptyline chlordiazepoxide",4
-"lumigan ophth nf",4
-"fluocinolone",4
-"nasonex mometasone",4
-"prednisol",4
-"adapalene",4
-"erdafitinib",4
-"hydromorphone bupivacaine intrathecal",4
+"travatan",4
+"fenofibrate nanocrystallized",4
+"depakote",4
+"acetylcysteine inhaled for interventional pulmonary use only",4
+"bacitracin oint",4
+"thioridazine",4
+"adefovir",4
+"meningococcal conj vaccine menactra menveo",4
+"hyoscyamine so time",4
+"baricitinib eua",4
+"colestipol",4
+"inv hydroxychloroquine",4
+"uroxatral",4
+"nivolumab",4
+"ns excel",4
+"stalevo",4
+"tacrolimus self med",4
+"patanase",4
+"prenatal complete",4
+"moxifloxacin ophth nf",3
+"cefepime graded challenge",3
+"bica",3
+"jardiance",3
+"dexilant",3
+"phenylephrine quva",3
+"glyburide prestab",3
+"odefsey",3
+"fleet phospho soda",3
+"actonel",3
+"bic",3
+"epsom salt",3
+"albumi",3
+"daliresp",3
+"byetta",3
+"trifluoperazine",3
+"micardis",3
+"norepinephri",3
+"felbatol",3
+"danazol",3
+"neulasta",3
+"betamethasone dipro lot",3
+"parcopa",3
+"benz",3
+"degarelix",3
+"ketamine for intubation",3
+"asenapine",3
+"abilify maintena",3
+"complera",3
+"itraconazole",3
+"viokace",3
+"tetracaine ophth",3
+"cangrelor",3
+"morphine syr",3
+"epinephrine for dil",3
+"levothy",3
+"vilazodone",3
+"estradiol transdermal",3
+"nateglinide",3
+"hydroxyprogesterone caproate",3
+"enzalutamide",3
+"paclitaxel desensitization",3
+"donnatal",3
+"fenofibrate micronized",3
+"dextroamphetamine amphetamine",3
+"urea",3
+"levemir flexpen",3
+"inv convalescent plasma",3
+"voltaren",3
+"fluphenazine decanoate",3
+"acetic acid irrig",3
+"tetrabenazine",3
+"capecitabine",3
+"glatiramer",3
+"inv terlipressin",3
+"blinatumomab",3
+"sorafenib",3
+"paxil",3
+"osimertinib",3
+"phenylephrine for",3
+"roflumilast",3
+"atg horse",3
+"hyaluronidase",3
+"dimenhydrinate",3
+"atovaquone proguanil",3
+"desmopressin nasal spray",3
+"novolog",3
+"fluticasone vilanterol",3
+"xeljanz",3
+"erlotinib",3
+"veltassa",3
+"nasonex",3
+"diluent for flolan",3
+"trastuzumab",3
+"atripla",3
+"vesicare",3
+"diazoxide",3
+"incruse ellipta",3
+"trintellix",3
+"amoxicillin clavulanate",3
+"ninlaro",3
+"claritin",3
+"emtricitabine tenofovir disoproxil truvada",3
+"phenobar",3
+"ketotifen",3
+"polymyxin b trimethoprim ophth",3
+"meloxicam",3
+"desitin",3
+"domperidone",3
+"yasmin",3
+"selexipag nf",3
+"econazole",3
+"clofarabine",3
+"tropicamide ophth",3
+"etonogestrel nexplanon",3
+"ferumoxytol",3
+"obinutuzumab",3
+"pancrease mt",3
+"augmentin",3
+"fosinopril",3
+"phenoxybenzamine",3
+"isosorbide dinitrate sa",3
+"vimpat",3
+"drotrecogin alfa xigris",3
+"symlin",3
+"iodide",3
+"bystolic",3
+"amoxicillin susp",3
+"apraclonidine",3
+"polyethyl glycol polyvinyl alc",3
+"nf temozolomide",3
+"meropenem graded challenge",2
+"etanercept",2
+"rizatriptan",2
+"l carnitine",2
+"apriso",2
+"amphetamine",2
+"alvimopan",2
+"loryna",2
+"toviaz",2
+"gleevec",2
+"mannitol g",2
+"vortioxetine",2
+"prenatal vitamin",2
+"vasopressin for dilution",2
+"benicar hct",2
+"infliximab remicade",2
+"isoso",2
+"selonsertib",2
+"dexmethylphenidate",2
+"dacarbazine",2
+"trivora",2
+"levothyroxine bulk",2
+"aciphex rabeprazole",2
+"carbidopa",2
+"asacol hd",2
+"saliva substitute",2
+"ganciclovir ophth gel",2
+"azacitidine",2
+"thalidomide",2
+"inv abatacept",2
+"systane nighttime",2
+"ex lax maximum strength",2
+"carteolol ophth",2
+"lantus",2
+"azacitidine subcut",2
+"trelegy ellipta",2
+"triam",2
+"casirivimab imdevimab eua",2
+"amiodarone f",2
+"coq",2
+"chlori syr",2
+"quinidine",2
+"cetuximab",2
+"plasmalyte",2
+"align",2
+"praziquantel",2
+"albendazole",2
+"chantix",2
+"ibrutinib imbruvica",2
+"sugammadex",2
+"lenalidomide",2
+"ondanset",2
+"tromethamine",2
+"hepatitis b vaccine engerix b",2
+"oxacillin",2
+"verapa",2
+"eletriptan hbr",2
+"inv anakinra",2
+"inv prednisone",2
+"inv zinc",2
+"microgestin fe",2
+"rasagiline azilect",2
+"inv azd",2
+"albu",2
+"ofev",2
+"liposomal cytarabine depocyt",2
+"bevacizumab avastin",2
+"lidocaine diltiazem oint",2
+"povidone",2
+"tenofovir alafenamide",2
+"isosorb",2
+"inv ascorbic acid",2
+"inv hydrocortisone",2
+"austedo deutetrabenazine",2
+"tedizolid",2
+"botox",2
+"gefitinib",2
+"hydromorphone pf",2
+"potass",2
+"riociguat",2
+"theophyllin",2
+"buprop",2
+"vyvanse",2
+"acular",2
+"nebivolol",2
+"lotemax",2
+"ondan",2
+"acetazolamide s r",2
+"pancreaze",2
+"brinzolamide ophth nf",2
+"culturelle",2
+"lactaid",2
+"alteplase clearance ie indwelling port",2
+"ergocalciferol vitamin d",2
+"astelin",2
+"probiotic",2
+"aviane",2
+"dorzolamide",2
+"morphine pf",2
+"covid vaccine janssen",2
+"xylimelts xylitol",2
+"omnaris",2
+"tadalafil pulm hypertension",2
+"pentosan polysulfate",2
+"vivelle dot",2
+"progesterone micronized",2
+"tacro",2
+"aclidinium",2
+"divalproe",2
+"ethyl",2
+"n",2
+"ara",2
+"phenylephrine for dilution",2
+"adcirca tadalafil",2
+"penicillamine",2
+"betaxolol",2
+"mometasone",2
+"nf bicalutamide",2
+"inv dexmedetomidine",2
+"nf pletal",2
+"symlinpen",2
+"prempro",2
+"depakene",2
+"us atg f",2
+"loraze",2
+"hydr",2
+"midostaurin",2
+"camila",2
+"brimonidine timolol",2
+"aveeno bath",2
+"phenobarbi",2
+"phenoba",2
+"ortho tri cyclen lo",2
+"non dehp",2
+"aspiri",2
+"patanol",2
+"ondanse",2
+"rituximab abbs truxima",2
+"avodart",2
+"glycolax",2
+"neomycin polymyxin dexameth ophth susp",2
+"alemtuzumab",2
+"nesiritide",2
+"rilutek",2
+"prenatal gummies",2
+"bupropio",2
+"lipos daunorub cytara vyxeos",2
+"cortisone",2
+"ibutilide",2
+"tiazac",2
+"docusat",2
+"azilect",2
+"nitrofurantoin",2
+"nystat",2
+"triamterene",2
+"elmiron",2
+"katerzia",2
+"aripiprazole lauroxil",2
+"inv go c",2
+"tadalafil",2
+"progesterone",2
+"benadryl allergy",2
+"excedrin extra strength",2
+"apri",2
+"inv tecovirimat",2
+"neomycin polymyxin dexameth ophth oint",2
+"dolasetron",2
+"bosentan",2
+"terbutaline",2
+"zanamivir",2
+"aciphex",2
+"idarucizumab",2
+"dilantin infatabs",2
+"tranylcypromine",2
+"syr",2
+"norepinephrine for dil kit",2
+"aptivus",2
+"suprep bowel prep kit",2
+"hydromorphone pca",2
+"junel",2
+"nifedical xl",2
+"inositol",2
+"shingrix pf",2
+"aminophylline",2
+"arformoterol",2
+"meprobamate",2
+"alinia",2
+"toujeo max solostar",2
+"toujeo",2
+"butorphanol",2
+"genteal tears severe gel",2
+"artificial tears pf genteal eye gel",2
+"artificial tears pf",2
+"gastrocrom",2
+"zytiga",2
+"docusa",2
+"urelle",2
+"palbociclib",2
+"nifedipine lidocaine",2
+"docusate sodiu",2
+"zyflo",2
+"nf pregabalin",2
+"prenatal multi",2
+"cepacol",1
+"emsam selegeline",1
+"inv emricasan",1
+"emricasan",1
+"protopic",1
+"maxair autohaler",1
+"nexium packet",1
+"pkt",1
+"cortroysn",1
+"arava leflunomide",1
+"idelalisib",1
+"actemra",1
+"pralatrexate",1
+"penicillin g k graded challenge",1
+"varenicline",1
+"renagel",1
+"renvela",1
+"diphenhist",1
+"humalog mix kwikpen",1
+"odefsey emtricitab rilpivir tenofo ala",1
+"acidophilus",1
+"nf pegaspargase",1
+"baclo",1
+"influenza a h n vaccine",1
+"pirbuterol",1
+"l citrulline",1
+"l lysine",1
+"rimantadine",1
+"prenatal vitamin nf",1
+"sprycel",1
+"nf dasatinib",1
+"odefsey emtricitabine rilpivirine tenofovir alafenamide",1
+"flunisolide",1
+"diflunisal",1
+"desvenlafaxine pristiq",1
+"ipratropium spray",1
+"ipratropium nasal spray",1
+"inv krn",1
+"multi",1
+"mometasone nasal spray nf",1
+"cocaine",1
+"dexameth",1
+"dexamethas",1
+"dexametha",1
+"vitamin k",1
+"interferon alfa b",1
+"d w w albumin",1
+"lidocaine mpf",1
+"plerixafor",1
+"rabeprazole",1
+"gastrocrom cromolyn",1
+"descovy",1
+"pomalyst pomalidomide",1
+"pomalidomide",1
+"bleomycin test dose",1
+"bleomycin",1
+"nf capreomycin",1
+"cabozantinib",1
+"ruxolinitib",1
+"hydrolatum",1
+"multivit",1
+"concerta",1
+"ziac",1
+"menomune",1
+"inv pembrolizumab",1
+"temodar",1
+"ampyra",1
+"nitazoxanide",1
+"amphotericin b",1
+"meperidine syr",1
+"vasopressin for",1
+"atropine sulfa syr",1
+"orthopedic",1
+"anagrelide",1
+"toviaz fesoterodine",1
+"salin",1
+"perindopril erbumine",1
+"hemorrhoidal h",1
+"lutein",1
+"preservision",1
+"ethyl spray",1
+"hydroxyprogesterone capr bulk",1
+"isibloom",1
+"doravirine",1
+"desoximetasone",1
+"prop",1
+"clobetasol",1
+"toprol xl",1
+"plavix",1
+"cryselle",1
+"exelon rivastigmine",1
+"rivastigminen h",1
+"isosorbid",1
+"pepcid complete",1
+"allo",1
+"rubella virus vaccine",1
+"mirabegron myrbetriq",1
+"cabometyx",1
+"bisaco",1
+"sulfacetamide prednisolone ophth susp",1
+"dimethyl",1
+"gianvi",1
+"cortrosyn",1
+"alrex",1
+"alirocumab",1
+"proair respiclick",1
+"fluticasone propion salmeterol",1
+"avalide",1
+"naloxone nasal spray",1
+"homatropine hbr",1
+"viorelle",1
+"tiger balm",1
+"wellbutrin xl",1
+"levonorgestrel",1
+"norethindrone contraceptive",1
+"klor conm",1
+"anusol hc",1
+"amlactin",1
+"gengraf",1
+"podofilox",1
+"meningococ vac a c y w pf",1
+"sulfacetamide ophth",1
+"phenylephrin ns",1
+"tecfidera",1
+"activated charcoal sorbitol",1
+"vinblastine velban",1
+"fetzima",1
+"intrathecal",1
+"nifedipine bulk",1
+"liraglutide",1
+"didanosine ec",1
+"nelfinavir",1
+"riociguat adempas",1
+"diltiaz",1
+"rapaflo",1
+"papaverine",1
+"rotigotine",1
+"eszopiclone lunesta",1
+"tessalon",1
+"pegaspargase",1
+"dorzolamide timolol",1
+"anastro",1
+"tolcapone",1
+"inv otl",1
+"vraylar",1
+"metrocream",1
+"metro",1
+"premarin",1
+"for irrigation",1
+"dupilumab",1
+"xiidra",1
+"dulera",1
+"capt",1
+"citracal d",1
+"chloroprocaine mpf",1
+"ampicillin graded challenge",1
+"isosorbide monon",1
+"droperidol",1
+"lidocaine bristojet",1
+"zovia e",1
+"pegfilgrastim onpro on body injector",1
+"riluzole",1
+"cevimeline evoxac",1
+"gammagard s d white",1
+"hydromorphone intrathecal",1
+"clindagel",1
+"neupro",1
+"niraparib",1
+"triumeq",1
+"systane balance",1
+"proair hfa albuterol",1
+"multivita",1
+"systane ultra",1
+"camila norethindrone",1
+"morphine intrathecal",1
+"fioricet",1
+"one a day womens prenatal",1
+"anzemet",1
+"apremilast",1
+"novolog mix flexpen",1
+"polysaccharide iron complex",1
+"mitotane",1
+"sprintec",1
+"lapatinib",1
+"ritalin",1
+"c",1
+"nf fenofibrate",1
+"vorinostat",1
+"fluocinolone",1
+"olan",1
+"aromasin",1
+"proparacaine opth",1
+"fluorescein strip",1
+"amphetamine salt combo",1
+"enablex darifenacin",1
+"xopenex hfa",1
+"creatine monohydrate bulk",1
+"slow mag",1
+"colestid",1
+"avelox",1
+"granisetron nf",1
+"bactroban",1
+"enasidenib",1
+"floxin",1
+"alphagan p",1
+"loestrin",1
+"methenamine hippurate",1
+"letairis",1
+"adcirca",1
+"artificial saliva",1
+"factor recombinant",1
+"lidocaine jell",1
+"patiromer sorbitex",1
+"multiple vitamin minerals",1
+"neo",1
+"physostigmine salicylate",1
+"belsomra suvorexant",1
+"teriparatide",1
+"prenatal",1
+"levothyrox",1
+"umeclidinium vilanterol",1
+"proair hfa actuation",1
+"odefsey emtricit rilpiv tenofovir",1
+"prenate dha",1
+"welchol",1
+"prozac",1
+"acetic acid otic",1
+"northera",1
+"interferon beta a",1
+"clonidine day hr",1
+"simbrinza",1
+"rescula",1
+"nevanac",1
+"antithrombin",1
+"nia",1
+"hydromorphone d syr",1
+"morphine rinse",1
+"alum mag hydroxide simeth",1
+"midodrione mf",1
+"lactase enzyme",1
+"enbrel",1
+"morp",1
+"apidra solostar",1
+"bacitracin polymyxin b",1
+"linaclotide linzess",1
+"excedrin migraine",1
+"evoxac cevimeline",1
+"combivent",1
+"ipra",1
+"epclusa",1
+"terconazole vag supp",1
+"famvir",1
+"benadryl extra strength",1
+"levothroid",1
+"tagrisso",1
+"iressa",1
+"bariatric multivitamins",1
+"wellb",1
+"xalatan",1
+"panitumumab",1
+"migraine relief",1
+"phenobarbit",1
+"cellcept",1
+"genteal severe",1
+"isradipine",1
+"alyacen",1
+"cevimeline",1
+"estratest h s",1
+"celexa",1
+"kaletra",1
+"pd",1
+"progest",1
+"dexlansoprazole dexilant",1
+"insul",1
+"trametinib",1
+"dabrafenib",1
+"preservision areds",1
+"tuck",1
+"telaprevir",1
+"saquinavir invirase",1
+"chloroquine",1
+"budesonide formoterol",1
+"brintellix",1
+"alternagel benadryl lidocaine visc",1
+"papain urea",1
+"album",1
+"entocort ec",1
+"nf diltiazem",1
+"mucin",1
+"excedrin pm",1
+"axitinib",1
+"anu",1
+"atomoxetine",1
+"albuter",1
+"lidocaine w amitriptyline paste",1
+"lidocaine epinephrine p f",1
+"revlimid lenalidomide",1
+"latanoprost",1
+"cosopt",1
+"olaparib",1
+"lurasidone nf",1
+"zinc oxide",1
+"myrbetriq mirabegron",1
+"opsumit macitentan",1
+"lamictal lamotrigine",1
+"apidra",1
+"flaxseed oil",1
+"ola",1
+"nf epirubicin",1
+"forteo",1
+"citrucel",1
+"citrucel sugar",1
+"mag hydroxid",1
+"telmisartan",1
+"valganciclovi",1
+"klor con m",1
+"aller tec",1
+"aller tec cetirizine",1
+"dalbavancin",1
+"pylera",1
+"pazopanib",1
+"neutr",1
+"zileuton",1
+"levonorgestrel ethinyl estrad",1
+"cidofovir paste",1
+"meperi",1
+"streptomycin",1
+"venlafax",1
+"probiotic acidophilus biobeads",1
+"oxandrolone",1
+"coenzyme q",1
+"anas",1
+"fleet",1
+"inv evicel fibrin sealant",1
+"genteal eye",1
+"soothe hydration",1
+"fluticasone flovent",1
+"bupro",1
+"arginine l arginine",1
+"multi vitamin hp minerals",1
+"becaplermin gel",1
+"chloroprocaine",1
+"nf levalbuterol",1
+"iron dextran",1
+"kytril",1
+"lansoprazole",1
+"tetanus immune globulin",1
+"pneumococca",1
+"influen",1
+"abciximab",1
+"tecovirimat",1
+"taclonex",1
+"cepacol sore throat benz men",1
+"acitretin",1
+"diclofenac top gel",1
+"terlipressin",1
+"eucerin",1
+"unisom doxylamine",1
+"enablex",1
+"factor a recombinant",1
+"bicarb",1
+"mechlorethamine",1
+"teduglutide",1
+"detrol",1
+"cetir",1
+"coq liquid",1
+"rexulti",1
+"sargramostim",1
+"influenza virus vaccine latex",1
+"netarsudil rhopressa",1
+"fioricet with codeine",1
+"motegrity",1
+"testim",1
+"nf micafungin",1
+"bicar",1
+"nf allopurinol",1
+"fluticasone",1
+"phenobarbital icu alcohol withdrawal loading dose and for pharmacy use only",1
+"sulf",1
+"optivar",1
+"humira pen",1
+"androderm",1
+"testoste",1
+"qvar redihaler",1
+"belumosudil nf",1
+"exe",1
+"sulfacetamide prednisolone ophth oint",1
+"quetiap",1
+"neoral",1
+"icatibant",1
+"cilos",1
+"nf cilostazol",1
+"revlimid",1
+"fluorometholone",1
+"onglyza",1
+"beano",1
+"kineret",1
+"ferrou",1
+"adalimumab",1
+"emla",1
+"ambien brand name",1
+"xanax",1
+"infliximab dyyb inflectra",1
+"albute",1
+"belatacept",1
+"cepa",1
+"avonex",1
+"validol",1
+"uptravi",1
+"non deph",1
+"doxycycline monohydrate",1
+"treprostinil patient own cadd pump",1
+"pirfenidone",1
+"diluent for remodulin",1
+"diluent for regn",1
+"inv regn",1
+"nature throid",1
+"anakinra nf",1
+"phyton",1
+"omega s dha epa fish oil",1
+"meningococcal group b vaccine trumenba",1
+"gammagard liquid white",1
+"super b complex c",1
+"accolate",1
+"betadine",1
+"well",1
+"dilti",1
+"loper",1
+"cipro",1
+"dipivefrin",1
+"savella",1
+"flona",1
+"terconazole vag",1
+"ampicillin sulbact graded challenge",1
+"alka seltzer",1
+"flonase allergy relief",1
+"bupr",1
+"venl",1
+"cosamin ds",1
+"dutasteride",1
+"phenelzine",1
+"maxalt",1
+"tetradecyl",1
+"womens prenatal dha",1
+"one a day womens prenatal dha",1
+"sol",1
+"hydroxocobalamin",1
+"phytonadione vitamin k",1
+"calcitrate iu",1
+"rhopressa",1
+"triamterene hydrochlorothiazid",1
+"pulmozyme",1
+"inv venetoclax venetoclax",1
+"mitomycin",1
+"lunesta",1
+"seve",1
+"kariva",1
+"biktarvy",1
+"colazal",1
+"multivitamin without vit k",1
+"bupivacaine epi p f",1
+"nf testosterone enanthate",1
+"dilantin kapseal",1
+"genteal severe gel",1
+"tetanus diphtheria tox tenivac",1
+"prednis",1
+"xenazine",1
+"codeine guaifenesin",1
+"breo ellipta",1
+"brexpiprazole",1
+"abreva",1
+"olanza",1
+"enemeez",1
+"toujeo solostar",1
+"tujeo solostar",1
+"tujeo solostart",1
+"activated charcoal",1
+"prezcobix",1
+"fulvestrant",1
+"xtandi enzalutamide",1
+"hyoscyam",1
+"phen",1
+"b organic spray",1
+"floradix iron herbs",1
+"tofacitinib",1
+"artificial tears pf systane eye gel",1
+"artificial tears pf systne eye gel",1
+"hep",1
+"phillips colon health",1
+"centrum women",1
+"fleet glycerin",1
+"citracal d slow",1
+"gaviscon extra strength",1
+"mobic",1
+"flonase",1
+"critic aid",1
+"anast",1
+"ambien",1
+"rhinocort aqua",1
+"vsl ds packet",1
+"stiolto respimat",1
+"vincristine",1
+"nifedi",1
+"eye lubricant combination no",1
+"scopolamine ophth",1
+"macitentan",1
+"bromday opth",1
+"aminocaproi",1
+"dipentum",1
+"aranesp polysorbate",1
+"charcoal sorbitol",1
+"luras",1
+"roflumilast daliresp",1
+"covid vaccine",1
+"saw palmmetto",1
+"florajen",1
+"solifenacin",1
+"spiriva with handihaler",1
+"opcon a",1
+"demeclocycline",1
+"asacol",1
+"scopolamine hbr",1
+"etodolac",1
+"mouth",1
+"cefadroxil",1
+"wp thyroid",1
+"anbesol benzocaine",1
+"exjade",1
+"gemtuzumab ozogamicin",1
+"nf econazole",1
+"belsomra",1
+"lexapro",1

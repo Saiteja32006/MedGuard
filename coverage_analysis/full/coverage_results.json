@@ -1,17 +1,13 @@
 {
-  "mode": "full",
+  "mode": "quick",
   "lab_window_hours": 48,
-  "n_prescription_events": 20270721,
-  "n_in_scope": 4266696,
-  "n_evaluable": 3639608,
-  "n_hazard_proxy": 18544729,
-  "n_hazard_proxy_covered": 3453960,
-  "A_applicability": 0.210486,
-  "B_evaluable_given_scope": 0.853027,
-  "C_silent_passthrough": 0.82045,
-  "D_hazard_proxy_coverage": 0.18625,
-  "n_nontherapeutic_excluded": 177845,
-  "A_applicability_therapeutic": 0.201712,
-  "B_evaluable_therapeutic": 0.847638,
-  "C_silent_passthrough_therapeutic": 0.829021
+  "n_prescription_events": 881241,
+  "n_in_scope": 186382,
+  "n_evaluable": 158963,
+  "n_hazard_proxy": 790428,
+  "n_hazard_proxy_covered": 148854,
+  "A_applicability": 0.211499,
+  "B_evaluable_given_scope": 0.852888,
+  "C_silent_passthrough": 0.819615,
+  "D_hazard_proxy_coverage": 0.188321
 }

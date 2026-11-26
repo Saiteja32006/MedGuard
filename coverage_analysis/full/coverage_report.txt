@@ -1,13 +1,13 @@
 MEDGUARD COVERAGE DENOMINATOR — MIMIC-IV (Reviewer oJaU, Experiment 1)
 ==========================================================================
-mode=full  lab_window=48h
+mode=quick  lab_window=48h
 
 NOTE: MIMIC-IV carries no prescribing-error labels. These are coverage
 measurements, not error-detection rates. D is a proxy denominator.
 
-prescription events        20,270,721
-A applicability            21.05%
-B evaluable | in scope     85.30%
-C silent pass-through      82.04%
-D hazard-proxy coverage    18.63%
-in-scope but no lab        627,088
+prescription events        881,241
+A applicability            21.15%
+B evaluable | in scope     85.29%
+C silent pass-through      81.96%
+D hazard-proxy coverage    18.83%
+in-scope but no lab        27,419

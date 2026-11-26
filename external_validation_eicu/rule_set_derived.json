@@ -1,0 +1,557 @@
+{
+  "n_rules": 43,
+  "by_stratum": {
+    "0": 10,
+    "3": 7,
+    "2": 16,
+    "1": 10
+  },
+  "rules": [
+    {
+      "rule_id": "SAFE-NUM-003",
+      "drug": "Gabapentin",
+      "interacting_drug": "",
+      "lab_name": "eGFR (CKD-EPI 2021)",
+      "operator": "<",
+      "threshold": 60,
+      "conflict_condition": "Renal Impairment",
+      "strata": [
+        0
+      ]
+    },
+    {
+      "rule_id": "MH-001",
+      "drug": "Warfarin",
+      "interacting_drug": "Fluconazole",
+      "lab_name": "INR",
+      "operator": ">",
+      "threshold": 3.5,
+      "conflict_condition": "Warfarin Toxicity via Drug Interaction",
+      "strata": [
+        3
+      ]
+    },
+    {
+      "rule_id": "SAFE-NUM-002",
+      "drug": "MetFORMIN XR (Glucophage XR)",
+      "interacting_drug": "",
+      "lab_name": "eGFR (CKD-EPI 2021)",
+      "operator": "<",
+      "threshold": 45,
+      "conflict_condition": "Renal Impairment",
+      "strata": [
+        0
+      ]
+    },
+    {
+      "rule_id": "NUM-008",
+      "drug": "Lisinopril",
+      "interacting_drug": "",
+      "lab_name": "Potassium",
+      "operator": ">",
+      "threshold": 5.5,
+      "conflict_condition": "Hyperkalemia",
+      "strata": [
+        2
+      ]
+    },
+    {
+      "rule_id": "NUM-007",
+      "drug": "Spironolactone",
+      "interacting_drug": "",
+      "lab_name": "Potassium",
+      "operator": ">",
+      "threshold": 5.0,
+      "conflict_condition": "Hyperkalemia",
+      "strata": [
+        2
+      ]
+    },
+    {
+      "rule_id": "SAFE-NUM-008",
+      "drug": "Captopril",
+      "interacting_drug": "",
+      "lab_name": "Potassium",
+      "operator": ">",
+      "threshold": 5.5,
+      "conflict_condition": "Hyperkalemia via Dual K-Retaining Drugs",
+      "strata": [
+        0
+      ]
+    },
+    {
+      "rule_id": "CAT-010",
+      "drug": "Metoprolol Succinate XL",
+      "interacting_drug": "",
+      "lab_name": "",
+      "operator": null,
+      "threshold": null,
+      "conflict_condition": "Severe Bradycardia / AV Block",
+      "strata": [
+        1
+      ]
+    },
+    {
+      "rule_id": "CAT-003",
+      "drug": "CefTRIAXone",
+      "interacting_drug": "",
+      "lab_name": "",
+      "operator": null,
+      "threshold": null,
+      "conflict_condition": "Penicillin Allergy (cross-reactivity)",
+      "strata": [
+        1
+      ]
+    },
+    {
+      "rule_id": "SAFE-NUM-009",
+      "drug": "Heparin Sodium",
+      "interacting_drug": "",
+      "lab_name": "Platelet Count",
+      "operator": "<",
+      "threshold": 100.0,
+      "conflict_condition": "Thrombocytopenia",
+      "strata": [
+        0
+      ]
+    },
+    {
+      "rule_id": "MH-004",
+      "drug": "Digoxin",
+      "interacting_drug": "Furosemide",
+      "lab_name": "Potassium",
+      "operator": "<",
+      "threshold": 3.5,
+      "conflict_condition": "Digoxin Toxicity via Diuretic-Induced Hypokalemia",
+      "strata": [
+        3
+      ]
+    },
+    {
+      "rule_id": "NUM-014",
+      "drug": "Insulin",
+      "interacting_drug": "",
+      "lab_name": "Glucose",
+      "operator": "<",
+      "threshold": 54,
+      "conflict_condition": "Hypoglycemia Risk",
+      "strata": [
+        2
+      ]
+    },
+    {
+      "rule_id": "NUM-016",
+      "drug": "Methotrexate",
+      "interacting_drug": "",
+      "lab_name": "eGFR (CKD-EPI 2021)",
+      "operator": "<",
+      "threshold": 30,
+      "conflict_condition": "Renal Impairment",
+      "strata": [
+        2
+      ]
+    },
+    {
+      "rule_id": "NUM-001",
+      "drug": "MetFORMIN (Glucophage)",
+      "interacting_drug": "",
+      "lab_name": "eGFR (CKD-EPI 2021)",
+      "operator": "<",
+      "threshold": 30,
+      "conflict_condition": "Renal Impairment",
+      "strata": [
+        2
+      ]
+    },
+    {
+      "rule_id": "SAFE-NUM-007",
+      "drug": "Spironolactone",
+      "interacting_drug": "",
+      "lab_name": "Potassium",
+      "operator": ">",
+      "threshold": 5.0,
+      "conflict_condition": "Hyperkalemia",
+      "strata": [
+        0
+      ]
+    },
+    {
+      "rule_id": "CAT-001",
+      "drug": "Piperacillin-Tazobactam",
+      "interacting_drug": "",
+      "lab_name": "",
+      "operator": null,
+      "threshold": null,
+      "conflict_condition": "Penicillin Allergy",
+      "strata": [
+        1
+      ]
+    },
+    {
+      "rule_id": "MH-005",
+      "drug": "Captopril",
+      "interacting_drug": "Eplerenone",
+      "lab_name": "Potassium",
+      "operator": ">",
+      "threshold": 5.5,
+      "conflict_condition": "Hyperkalemia via Dual K-Retaining Drugs",
+      "strata": [
+        3
+      ]
+    },
+    {
+      "rule_id": "CAT-011",
+      "drug": "OxyCODONE (Immediate Release)",
+      "interacting_drug": "",
+      "lab_name": "",
+      "operator": null,
+      "threshold": null,
+      "conflict_condition": "Respiratory Failure / Severe COPD",
+      "strata": [
+        1
+      ]
+    },
+    {
+      "rule_id": "SAFE-NUM-006",
+      "drug": "Digoxin",
+      "interacting_drug": "",
+      "lab_name": "Potassium",
+      "operator": "<",
+      "threshold": 3.5,
+      "conflict_condition": "Digoxin Toxicity via Diuretic-Induced Hypokalemia",
+      "strata": [
+        0
+      ]
+    },
+    {
+      "rule_id": "NUM-009",
+      "drug": "Acetaminophen",
+      "interacting_drug": "",
+      "lab_name": "ALT",
+      "operator": ">",
+      "threshold": 120,
+      "conflict_condition": "Hepatic Impairment",
+      "strata": [
+        2
+      ]
+    },
+    {
+      "rule_id": "NUM-013",
+      "drug": "GlipiZIDE",
+      "interacting_drug": "",
+      "lab_name": "Glucose",
+      "operator": "<",
+      "threshold": 70,
+      "conflict_condition": "Hypoglycemia Risk",
+      "strata": [
+        2
+      ]
+    },
+    {
+      "rule_id": "MH-002",
+      "drug": "Warfarin",
+      "interacting_drug": "MetroNIDAZOLE",
+      "lab_name": "INR",
+      "operator": ">",
+      "threshold": 3.5,
+      "conflict_condition": "Warfarin Toxicity via Drug Interaction",
+      "strata": [
+        3
+      ]
+    },
+    {
+      "rule_id": "NUM-010",
+      "drug": "Atorvastatin",
+      "interacting_drug": "",
+      "lab_name": "ALT",
+      "operator": ">",
+      "threshold": 120,
+      "conflict_condition": "Hepatic Impairment",
+      "strata": [
+        2
+      ]
+    },
+    {
+      "rule_id": "NUM-002",
+      "drug": "MetFORMIN XR (Glucophage XR)",
+      "interacting_drug": "",
+      "lab_name": "eGFR (CKD-EPI 2021)",
+      "operator": "<",
+      "threshold": 45,
+      "conflict_condition": "Renal Impairment",
+      "strata": [
+        2
+      ]
+    },
+    {
+      "rule_id": "MH-003",
+      "drug": "Warfarin",
+      "interacting_drug": "Amiodarone",
+      "lab_name": "INR",
+      "operator": ">",
+      "threshold": 3.5,
+      "conflict_condition": "Warfarin Toxicity via Drug Interaction",
+      "strata": [
+        3
+      ]
+    },
+    {
+      "rule_id": "SAFE-NUM-004",
+      "drug": "Dabigatran Etexilate",
+      "interacting_drug": "",
+      "lab_name": "eGFR (CKD-EPI 2021)",
+      "operator": "<",
+      "threshold": 30,
+      "conflict_condition": "Renal Impairment",
+      "strata": [
+        0
+      ]
+    },
+    {
+      "rule_id": "SAFE-NUM-001",
+      "drug": "MetFORMIN (Glucophage)",
+      "interacting_drug": "",
+      "lab_name": "eGFR (CKD-EPI 2021)",
+      "operator": "<",
+      "threshold": 30,
+      "conflict_condition": "Renal Impairment",
+      "strata": [
+        0
+      ]
+    },
+    {
+      "rule_id": "CAT-008",
+      "drug": "Levofloxacin",
+      "interacting_drug": "",
+      "lab_name": "",
+      "operator": null,
+      "threshold": null,
+      "conflict_condition": "Myasthenia Gravis",
+      "strata": [
+        1
+      ]
+    },
+    {
+      "rule_id": "NUM-011",
+      "drug": "Warfarin",
+      "interacting_drug": "",
+      "lab_name": "INR",
+      "operator": ">",
+      "threshold": 4.0,
+      "conflict_condition": "Bleeding Risk",
+      "strata": [
+        2
+      ]
+    },
+    {
+      "rule_id": "CAT-005",
+      "drug": "Ibuprofen",
+      "interacting_drug": "",
+      "lab_name": "",
+      "operator": null,
+      "threshold": null,
+      "conflict_condition": "Active GI Bleeding",
+      "strata": [
+        1
+      ]
+    },
+    {
+      "rule_id": "CAT-009",
+      "drug": "Aspirin",
+      "interacting_drug": "",
+      "lab_name": "",
+      "operator": null,
+      "threshold": null,
+      "conflict_condition": "Aspirin/Analgesic Allergy",
+      "strata": [
+        1
+      ]
+    },
+    {
+      "rule_id": "MH-008",
+      "drug": "Atorvastatin",
+      "interacting_drug": "Erythromycin 0.5% Ophth Oint",
+      "lab_name": "ALT",
+      "operator": ">",
+      "threshold": 120,
+      "conflict_condition": "Statin Toxicity via CYP3A4 Inhibition",
+      "strata": [
+        3
+      ]
+    },
+    {
+      "rule_id": "NUM-004",
+      "drug": "Dabigatran Etexilate",
+      "interacting_drug": "",
+      "lab_name": "eGFR (CKD-EPI 2021)",
+      "operator": "<",
+      "threshold": 30,
+      "conflict_condition": "Renal Impairment",
+      "strata": [
+        2
+      ]
+    },
+    {
+      "rule_id": "NUM-006",
+      "drug": "Digoxin",
+      "interacting_drug": "",
+      "lab_name": "Potassium",
+      "operator": "<",
+      "threshold": 3.5,
+      "conflict_condition": "Hypokalemia",
+      "strata": [
+        2
+      ]
+    },
+    {
+      "rule_id": "CAT-004",
+      "drug": "MetFORMIN (Glucophage)",
+      "interacting_drug": "",
+      "lab_name": "",
+      "operator": null,
+      "threshold": null,
+      "conflict_condition": "Heart Failure (severe/decompensated)",
+      "strata": [
+        1
+      ]
+    },
+    {
+      "rule_id": "SAFE-NUM-005",
+      "drug": "Rivaroxaban",
+      "interacting_drug": "",
+      "lab_name": "eGFR (CKD-EPI 2021)",
+      "operator": "<",
+      "threshold": 15,
+      "conflict_condition": "Renal Impairment",
+      "strata": [
+        0
+      ]
+    },
+    {
+      "rule_id": "SAFE-NUM-010",
+      "drug": "Methotrexate Sodium P.F.",
+      "interacting_drug": "",
+      "lab_name": "WBC",
+      "operator": "<",
+      "threshold": 3.0,
+      "conflict_condition": "Bone Marrow Suppression",
+      "strata": [
+        0
+      ]
+    },
+    {
+      "rule_id": "NUM-003",
+      "drug": "Gabapentin",
+      "interacting_drug": "",
+      "lab_name": "eGFR (CKD-EPI 2021)",
+      "operator": "<",
+      "threshold": 60,
+      "conflict_condition": "Renal Impairment",
+      "strata": [
+        2
+      ]
+    },
+    {
+      "rule_id": "CAT-012",
+      "drug": "GlipiZIDE",
+      "interacting_drug": "",
+      "lab_name": "",
+      "operator": null,
+      "threshold": null,
+      "conflict_condition": "Sulfonamide Allergy (cross-reactivity)",
+      "strata": [
+        1
+      ]
+    },
+    {
+      "rule_id": "NUM-012",
+      "drug": "Heparin Flush (10 units/ml)",
+      "interacting_drug": "",
+      "lab_name": "Platelet Count",
+      "operator": "<",
+      "threshold": 100.0,
+      "conflict_condition": "Thrombocytopenia",
+      "strata": [
+        2
+      ]
+    },
+    {
+      "rule_id": "NUM-005",
+      "drug": "Rivaroxaban",
+      "interacting_drug": "",
+      "lab_name": "eGFR (CKD-EPI 2021)",
+      "operator": "<",
+      "threshold": 15,
+      "conflict_condition": "Renal Impairment",
+      "strata": [
+        2
+      ]
+    },
+    {
+      "rule_id": "CAT-007",
+      "drug": "Warfarin",
+      "interacting_drug": "",
+      "lab_name": "",
+      "operator": null,
+      "threshold": null,
+      "conflict_condition": "Pregnancy",
+      "strata": [
+        1
+      ]
+    },
+    {
+      "rule_id": "NUM-015",
+      "drug": "Methotrexate",
+      "interacting_drug": "",
+      "lab_name": "WBC",
+      "operator": "<",
+      "threshold": 3.0,
+      "conflict_condition": "Bone Marrow Suppression",
+      "strata": [
+        2
+      ]
+    },
+    {
+      "rule_id": "MH-007",
+      "drug": "Lithium Oral Solution",
+      "interacting_drug": "Ibuprofen",
+      "lab_name": "Creatinine",
+      "operator": ">",
+      "threshold": 1.5,
+      "conflict_condition": "Lithium Toxicity Risk via NSAID Co-administration",
+      "strata": [
+        3
+      ]
+    }
+  ],
+  "expanded_ingredients": [
+    "acetaminophen",
+    "aspirin",
+    "atorvastatin",
+    "captopril",
+    "ceftriaxone",
+    "dabigatran",
+    "dalteparin",
+    "digoxin",
+    "enoxaparin",
+    "etexilate",
+    "fondaparinux",
+    "gabapentin",
+    "glipizide",
+    "heparin",
+    "ibuprofen",
+    "insulin",
+    "levofloxacin",
+    "lisinopril",
+    "lithium",
+    "metformin",
+    "methotrexate",
+    "metoprolol",
+    "oxycodone",
+    "piperacillin",
+    "rivaroxaban",
+    "spironolactone",
+    "tazobactam",
+    "warfarin"
+  ]
+}

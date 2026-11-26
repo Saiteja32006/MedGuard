@@ -1,0 +1,62 @@
+{
+  "dataset": "eICU-CRD v2.0",
+  "n_hospitals_total": 208,
+  "part3_boundaries": {
+    "alt": {
+      "present": true,
+      "n": 430929,
+      "median": 29.0,
+      "frac_near_threshold": 0.023784,
+      "per_hosp_min": 0.0,
+      "per_hosp_max": 0.079051
+    },
+    "creatinine": {
+      "present": true,
+      "n": 1275796,
+      "median": 1.0,
+      "frac_near_threshold": 0.081928,
+      "per_hosp_min": 0.018519,
+      "per_hosp_max": 0.153333
+    },
+    "glucose": {
+      "present": true,
+      "n": 4488463,
+      "median": 134.0,
+      "frac_near_threshold": 0.030348,
+      "per_hosp_min": 0.005141,
+      "per_hosp_max": 0.124378
+    },
+    "inr": {
+      "present": true,
+      "n": 401425,
+      "median": 1.3,
+      "frac_near_threshold": 0.038779,
+      "per_hosp_min": 0.0,
+      "per_hosp_max": 0.11465
+    },
+    "platelet count": {
+      "present": true,
+      "n": 1139619,
+      "median": 197.0,
+      "frac_near_threshold": 0.054655,
+      "per_hosp_min": 0.005682,
+      "per_hosp_max": 0.141431
+    },
+    "potassium": {
+      "present": true,
+      "n": 1492987,
+      "median": 4.0,
+      "frac_near_threshold": 0.551504,
+      "per_hosp_min": 0.451078,
+      "per_hosp_max": 0.625
+    },
+    "wbc": {
+      "present": true,
+      "n": 1134339,
+      "median": 10.1,
+      "frac_near_threshold": 0.009502,
+      "per_hosp_min": 0.0,
+      "per_hosp_max": 0.024453
+    }
+  }
+}

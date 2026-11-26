@@ -1,0 +1,13 @@
+{
+  "mode": "quick",
+  "lab_window_hours": 48,
+  "n_prescription_events": 881241,
+  "n_in_scope": 186382,
+  "n_evaluable": 158963,
+  "n_hazard_proxy": 790428,
+  "n_hazard_proxy_covered": 148854,
+  "A_applicability": 0.211499,
+  "B_evaluable_given_scope": 0.852888,
+  "C_silent_passthrough": 0.819615,
+  "D_hazard_proxy_coverage": 0.188321
+}

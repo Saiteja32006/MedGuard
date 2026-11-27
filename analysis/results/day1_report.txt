@@ -1,0 +1,137 @@
+========================================================================================
+DAY 1 — TRACK A ANALYSIS
+========================================================================================
+cases: 1576
+
+========================================================================================
+A1  DECISION-LEVEL CONFUSION MATRIX   -> Sdyd Q7 'How is success computed?'
+========================================================================================
+
+  tau=0.0028 (v1 fallback)   (test split, n=1261)
+    decision        safe  conflict
+    SAFE             423        86
+    UNCERTAIN          0         0
+    ABSTAIN            0       752
+
+  tau=0.0000 (Eq.7 as written)   (test split, n=1261)
+    decision        safe  conflict
+    SAFE             423        86
+    UNCERTAIN          0         0
+    ABSTAIN            0       752
+
+  SCORING CONVENTION TO STATE IN THE PAPER:
+    ABSTAIN   = positive detection (true positive if conflict present)
+    UNCERTAIN = counted as positive detection (defers to human review)
+    SAFE      = negative prediction
+    Macro-F1 averages F1(conflict) and F1(safe).
+
+  WHY UNCERTAIN IS ALWAYS 0:
+    v1 set tau = 0.5 * min(positive conflict score), so min_conflict = 2*tau.
+    Every real conflict therefore scores >= 2*tau > tau -> ABSTAIN.
+    Every safe case scores exactly 0 -> SAFE.
+    The band [tau/2, tau) is unreachable BY CONSTRUCTION, not empirically empty.
+
+========================================================================================
+A2  EXTRACTION / KG-LOOKUP FAILURE AUDIT   -> AC-3, oJaU 'never characterized'
+========================================================================================
+  total cases flagged with any problem       : 459
+
+  LAYER 1 — KG lookup returned nothing (paths_checked == 0)
+    cases                                   : 128
+    ...labelled CONFLICT                    : 59
+    ...rescued by the local rule table      : 56
+    ...SILENTLY CLEARED as SAFE             : 3
+
+  LAYER 2 — combination products (hyphenated drug strings)
+    cases                                   : 27
+    ...labelled CONFLICT, cleared as SAFE   : 0
+
+  Failure mode: a failed lookup yields paths_checked=0 -> PathViol=0.
+  If NumDist also fails to match, C=0 and the case clears WITHOUT
+  abstaining -- a silent false clearance, not an abstention.
+
+  HONEST FRAMING FOR THE PAPER: the redundant local THRESHOLD_RULES table
+  in compute_num_dist() rescues most KG lookup failures, which is why the
+  silent-clearance count is small. That redundancy is undocumented in the
+  submission and should be stated -- it is load-bearing for the
+  specificity claim, not an implementation detail.
+
+  Top drug strings that produced NO KG match:
+      91  Dabigatran Etexilate
+       6  Captopril
+       5  Enalapril Maleate
+       4  Heparin Flush (10 units/ml)
+       4  Acetaminophen IV
+       3  Heparin Sodium
+       3  Rosuvastatin Calcium
+       3  Pravastatin
+
+  ROOT CAUSE (state this in the paper): the Cypher uses
+    WHERE toLower(d.name) CONTAINS toLower($drug)
+  so the KG node name must CONTAIN the full prescription string.
+  'Dabigatran Etexilate' does not match the node 'Dabigatran' — the
+  containment runs in the wrong direction for multi-word drug strings.
+
+========================================================================================
+A3  NEAR-BOUNDARY SWEEP   -> Jn3J Q2 'eGFR = 29, 30, 31'
+========================================================================================
+
+  metformin / eGFR  (threshold <30)
+         value  PathViol   NumDist         C   decision
+         28.20     0.667    0.3733    0.5515   ABSTAIN
+         29.40     0.667    0.3467    0.5411   ABSTAIN
+         30.00     0.333    0.3333    0.3333   ABSTAIN
+         30.60     0.333    0.3200    0.3281   ABSTAIN
+         31.80     0.333    0.2933    0.3176   ABSTAIN
+
+  metformin / eGFR  (threshold <45)
+         value  PathViol   NumDist         C   decision
+         42.30     0.333    0.0600    0.2261   ABSTAIN
+         44.10     0.333    0.0200    0.2104   ABSTAIN
+         45.00     0.000    0.0000    0.0000   SAFE
+         45.90     0.000    0.0000    0.0000   SAFE
+         47.70     0.000    0.0000    0.0000   SAFE
+
+  digoxin / Potassium  (threshold <3.5)
+         value  PathViol   NumDist         C   decision
+          3.29     0.200    0.0600    0.1451   ABSTAIN
+          3.43     0.200    0.0200    0.1293   ABSTAIN
+          3.50     0.000    0.0000    0.0000   SAFE
+          3.57     0.000    0.0000    0.0000   SAFE
+          3.71     0.000    0.0000    0.0000   SAFE
+
+  warfarin / INR  (threshold >4.0)
+         value  PathViol   NumDist         C   decision
+          3.76     0.000    0.0000    0.0000   SAFE
+          3.92     0.000    0.0000    0.0000   SAFE
+          4.00     0.000    0.0000    0.0000   SAFE
+          4.08     0.143    0.0200    0.0946   ABSTAIN
+          4.24     0.143    0.0600    0.1103   ABSTAIN
+
+  KEY POINTS FOR THE REBUTTAL:
+   1. The score is a STEP FUNCTION, not a gradient. C changes
+      discontinuously as a value crosses a threshold; between thresholds
+      it varies only through NumDist.
+   2. Where a drug has TWO thresholds (metformin: <30 major, <45
+      moderate) there is an intermediate plateau -- eGFR 30-45 still
+      flags, correctly, as a dose-reduction case. Worth reporting: the
+      system is more clinically granular than the binary labels admit,
+      and this is why it produced a 'false positive' at eGFR 44.6 that
+      was in fact correct.
+   3. Outside every threshold, C is EXACTLY 0. There is no small-but-
+      nonzero region, so nothing can land in the UNCERTAIN band.
+
+========================================================================================
+A4  MEASUREMENT-NOISE ROBUSTNESS   -> Jn3J Q1 'measurement noise'
+========================================================================================
+  draws: 100   assay CV: eGFR 6.5%, creatinine 6.5%, potassium 2%, INR 10%, ALT 10%, glucose 4%, WBC 5%, platelet 5%
+  mean cases whose threshold verdict flips: 52.1 (3.3% of 1576)
+  range: 36 .. 72
+
+  INTERPRETATION (this is the answer to Jn3J):
+    Noise does NOT smear safe scores off zero. A perturbed value either
+    crosses its threshold (rule fires, C jumps to a large value) or does
+    not (C stays exactly 0). Scores are quantized by the rule structure,
+    so tau_hat is unaffected; what changes is which side of the boundary
+    a near-threshold case falls on. The exposure is concentrated entirely
+    in near-boundary cases -- see A3.

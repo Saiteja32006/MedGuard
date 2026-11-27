@@ -1,0 +1,23 @@
+================================================================================================
+MedGuard — v1 reproduction + fixes
+================================================================================================
+cases: 1576   alpha=0.05
+
+VALIDATION — does the reimplementation reproduce v1?
+  float mismatches   : 34/1576 (all 1e-4 rounding)
+  DECISION mismatches: 0/1576   PASS
+TAU DERIVATION
+  v1 (paper)             n_safe= 107 all_zero=True   Eq.7 tau=0.0000   v1 fallback tau=0.0028
+  FIX_DRUGS              n_safe= 107 all_zero=True   Eq.7 tau=0.0000   v1 fallback tau=0.0028
+
+RESULTS  (detection rate per stratum; S0 reported as specificity)
+------------------------------------------------------------------------------------------------
+  v1 (paper) tau=v1      ALL   n= 1576 spec=1.000 macroF1=0.988 missed=  17 uncertain=  0  S1=0.994  S2=0.964  S3=1.000
+  v1 (paper) tau=v1      TEST  n= 1261 spec=1.000 macroF1=0.991 missed=  10 uncertain=  0  S1=0.996  S2=0.973  S3=1.000
+  v1 (paper) tau=Eq7     ALL   n= 1576 spec=1.000 macroF1=0.988 missed=  17 uncertain=  0  S1=0.994  S2=0.964  S3=1.000
+  v1 (paper) tau=Eq7     TEST  n= 1261 spec=1.000 macroF1=0.991 missed=  10 uncertain=  0  S1=0.996  S2=0.973  S3=1.000
+
+  FIX_DRUGS tau=v1       ALL   n= 1576 spec=1.000 macroF1=0.988 missed=  17 uncertain=  0  S1=0.994  S2=0.964  S3=1.000
+  FIX_DRUGS tau=v1       TEST  n= 1261 spec=1.000 macroF1=0.991 missed=  10 uncertain=  0  S1=0.996  S2=0.973  S3=1.000
+  FIX_DRUGS tau=Eq7      ALL   n= 1576 spec=1.000 macroF1=0.988 missed=  17 uncertain=  0  S1=0.994  S2=0.964  S3=1.000
+  FIX_DRUGS tau=Eq7      TEST  n= 1261 spec=1.000 macroF1=0.991 missed=  10 uncertain=  0  S1=0.996  S2=0.973  S3=1.000

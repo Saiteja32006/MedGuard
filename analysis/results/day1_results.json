@@ -1,0 +1,22 @@
+{
+  "A1_0.0028": {
+    "SAFE|conflict": 86,
+    "ABSTAIN|conflict": 752,
+    "SAFE|safe": 423
+  },
+  "A1_0.0": {
+    "SAFE|conflict": 86,
+    "ABSTAIN|conflict": 752,
+    "SAFE|safe": 423
+  },
+  "A2": {
+    "n_problem": 459,
+    "n_silently_cleared": 3
+  },
+  "A4": {
+    "mean_flips": 52.08,
+    "min": 36,
+    "max": 72,
+    "n_draws": 100
+  }
+}

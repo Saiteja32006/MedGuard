@@ -1,13 +1,13 @@
 {
-  "version": "2.0",
+  "version": "4.0 (post unit-bug fix)",
   "created": "2026-04-26T12:19:07.887325",
   "seed": 42,
   "lab_window_hours": 48,
   "total_examples": 1576,
   "strata": {
-    "0_safe": 496,
+    "0_safe": 530,
     "1_categorical": 332,
-    "2_numerical_threshold": 450,
+    "2_numerical_threshold": 416,
     "3_multi_hop_causal": 298
   },
   "splits": {
